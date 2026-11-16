@@ -1,0 +1,294 @@
+{
+  "source_url": "https://www.arizonasbdc.com/locations/",
+  "retrieved": "2026-11-09",
+  "note": "One advising office per county as listed on arizonasbdc.com. Gila County is served by the Maricopa center by appointment. legislative_districts is filled by scraper/match_districts.py.",
+  "centers": [
+    {
+      "id": "awc",
+      "name": "Arizona Western College SBDC",
+      "host": "Arizona Western College",
+      "address": "1351 South Redondo Center Drive, Ste 101",
+      "city": "Yuma",
+      "zip": "85365",
+      "phone": "(928) 317-6151",
+      "counties": [
+        "Yuma",
+        "La Paz"
+      ],
+      "legislative_districts": [
+        23,
+        25,
+        30
+      ],
+      "congressional_districts": [
+        7,
+        9
+      ],
+      "lat": 32.70101,
+      "lon": -114.61199,
+      "home_district": 23,
+      "home_congressional_district": 7
+    },
+    {
+      "id": "cac",
+      "name": "Central Arizona College SBDC",
+      "host": "Central Arizona College",
+      "address": "17945 N. Regent Drive",
+      "city": "Maricopa",
+      "zip": "85138",
+      "phone": "(520) 494-6450",
+      "counties": [
+        "Pinal"
+      ],
+      "legislative_districts": [
+        6,
+        7,
+        10,
+        15,
+        16,
+        17,
+        23
+      ],
+      "congressional_districts": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "lat": 33.04268,
+      "lon": -112.00489,
+      "home_district": 16,
+      "home_congressional_district": 2
+    },
+    {
+      "id": "cochise",
+      "name": "Cochise College SBDC",
+      "host": "Cochise College",
+      "address": "2600 E. Wilcox Dr., Room H101",
+      "city": "Sierra Vista",
+      "zip": "85635",
+      "phone": "(520) 515-5478",
+      "counties": [
+        "Cochise"
+      ],
+      "legislative_districts": [
+        19,
+        21
+      ],
+      "congressional_districts": [
+        6,
+        7
+      ],
+      "lat": 31.55216,
+      "lon": -110.2723,
+      "home_district": 19,
+      "home_congressional_district": 6
+    },
+    {
+      "id": "coconino",
+      "name": "Coconino SBDC",
+      "host": "Coconino Community College",
+      "address": "3000 N. Fourth Street",
+      "city": "Flagstaff",
+      "zip": "86004",
+      "phone": "(928) 526-7644",
+      "counties": [
+        "Coconino"
+      ],
+      "legislative_districts": [
+        6,
+        7
+      ],
+      "congressional_districts": [
+        2
+      ],
+      "lat": 35.21601,
+      "lon": -111.61344,
+      "home_district": 6,
+      "home_congressional_district": 2
+    },
+    {
+      "id": "eac",
+      "name": "Eastern Arizona College SBDC",
+      "host": "Eastern Arizona College",
+      "address": "576 N College Ave.",
+      "city": "Thatcher",
+      "zip": "85552",
+      "phone": "(928) 428-8590",
+      "counties": [
+        "Graham",
+        "Greenlee"
+      ],
+      "legislative_districts": [
+        6,
+        19
+      ],
+      "congressional_districts": [
+        2,
+        6
+      ],
+      "lat": 32.84221,
+      "lon": -109.76111,
+      "home_district": 19,
+      "home_congressional_district": 6
+    },
+    {
+      "id": "maricopa",
+      "name": "Maricopa SBDC",
+      "host": "Maricopa Community Colleges",
+      "address": "108 N. 40th St.",
+      "city": "Phoenix",
+      "zip": "85034",
+      "phone": "(480) 784-0590",
+      "counties": [
+        "Maricopa",
+        "Gila"
+      ],
+      "legislative_districts": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "congressional_districts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "lat": 33.44618,
+      "lon": -111.99553,
+      "home_district": 8,
+      "home_congressional_district": 3
+    },
+    {
+      "id": "mohave",
+      "name": "Mohave SBDC",
+      "host": "Mohave Community College",
+      "address": "309 E Beale Street",
+      "city": "Kingman",
+      "zip": "86401",
+      "phone": "(928) 704-4979",
+      "counties": [
+        "Mohave"
+      ],
+      "legislative_districts": [
+        6,
+        30
+      ],
+      "congressional_districts": [
+        2,
+        9
+      ],
+      "lat": 35.1898,
+      "lon": -114.05431,
+      "home_district": 30,
+      "home_congressional_district": 9
+    },
+    {
+      "id": "npc",
+      "name": "Northland Pioneer College SBDC",
+      "host": "Northland Pioneer College",
+      "address": "1001 W. Deuce of Clubs, Goldwater Bldg Rm 107",
+      "city": "Show Low",
+      "zip": "85901",
+      "phone": "(928) 532-6170",
+      "counties": [
+        "Navajo",
+        "Apache"
+      ],
+      "legislative_districts": [
+        6,
+        7
+      ],
+      "congressional_districts": [
+        2
+      ],
+      "lat": 34.24478,
+      "lon": -110.05294,
+      "home_district": 7,
+      "home_congressional_district": 2
+    },
+    {
+      "id": "pima",
+      "name": "Pima SBDC",
+      "host": "Pima Community College",
+      "address": "1255 N. Stone Ave., Building M, Room 370",
+      "city": "Tucson",
+      "zip": "85709",
+      "phone": "(520) 206-4580",
+      "counties": [
+        "Pima",
+        "Santa Cruz"
+      ],
+      "legislative_districts": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23
+      ],
+      "congressional_districts": [
+        6,
+        7
+      ],
+      "lat": 32.2379,
+      "lon": -110.97187,
+      "home_district": 20,
+      "home_congressional_district": 7
+    },
+    {
+      "id": "yavapai",
+      "name": "Yavapai College SBDC",
+      "host": "Yavapai College",
+      "address": "3800 N. Glassford Hill Rd., 135",
+      "city": "Prescott Valley",
+      "zip": "86314",
+      "phone": "(928) 717-7232",
+      "counties": [
+        "Yavapai"
+      ],
+      "legislative_districts": [
+        1
+      ],
+      "congressional_districts": [
+        2
+      ],
+      "lat": 34.59737,
+      "lon": -112.34142,
+      "home_district": 1,
+      "home_congressional_district": 2
+    }
+  ],
+  "district_methods": {
+    "legislative": "County overlap with the IRC Approved Official Legislative Map; a district counts when at least 1% of its area is in a served county, or it covers at least 2% of a served county.",
+    "congressional": "County overlap with the IRC Approved Official Congressional Map; a district counts when at least 1% of its area is in a served county, or it covers at least 2% of a served county."
+  },
+  "district_method": "County overlap with the IRC Approved Official Legislative Map; a district counts when at least 1% of its area is in a served county, or it covers at least 2% of a served county."
+}

@@ -1,0 +1,1457 @@
+{
+  "committees": [
+    {
+      "name": "Appropriations, Transportation and Technology",
+      "chamber": "S",
+      "focus": "budget",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2378,
+          "role": "Chair"
+        },
+        {
+          "id": 2386,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2371,
+          "role": "Member"
+        },
+        {
+          "id": 2373,
+          "role": "Member"
+        },
+        {
+          "id": 2377,
+          "role": "Member"
+        },
+        {
+          "id": 2379,
+          "role": "Member"
+        },
+        {
+          "id": 2372,
+          "role": "Member"
+        },
+        {
+          "id": 2390,
+          "role": "Member"
+        },
+        {
+          "id": 2398,
+          "role": "Member"
+        },
+        {
+          "id": 2389,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Director Nominations",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2385,
+          "role": "Chair"
+        },
+        {
+          "id": 2396,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2399,
+          "role": "Member"
+        },
+        {
+          "id": 2386,
+          "role": "Member"
+        },
+        {
+          "id": 2384,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Education",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2373,
+          "role": "Chair"
+        },
+        {
+          "id": 2389,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2399,
+          "role": "Member"
+        },
+        {
+          "id": 2376,
+          "role": "Member"
+        },
+        {
+          "id": 2388,
+          "role": "Member"
+        },
+        {
+          "id": 2391,
+          "role": "Member"
+        },
+        {
+          "id": 2392,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Federalism and Family Law",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2372,
+          "role": "Chair"
+        },
+        {
+          "id": 2373,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2375,
+          "role": "Member"
+        },
+        {
+          "id": 2376,
+          "role": "Member"
+        },
+        {
+          "id": 2384,
+          "role": "Member"
+        },
+        {
+          "id": 2387,
+          "role": "Member"
+        },
+        {
+          "id": 2397,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Finance",
+      "chamber": "S",
+      "focus": "tax",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2391,
+          "role": "Chair"
+        },
+        {
+          "id": 2398,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2400,
+          "role": "Member"
+        },
+        {
+          "id": 2399,
+          "role": "Member"
+        },
+        {
+          "id": 2377,
+          "role": "Member"
+        },
+        {
+          "id": 2379,
+          "role": "Member"
+        },
+        {
+          "id": 2385,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Government",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2385,
+          "role": "Chair"
+        },
+        {
+          "id": 2394,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2399,
+          "role": "Member"
+        },
+        {
+          "id": 2376,
+          "role": "Member"
+        },
+        {
+          "id": 2378,
+          "role": "Member"
+        },
+        {
+          "id": 2386,
+          "role": "Member"
+        },
+        {
+          "id": 2390,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Health and Human Services",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2389,
+          "role": "Chair"
+        },
+        {
+          "id": 2396,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2373,
+          "role": "Member"
+        },
+        {
+          "id": 2380,
+          "role": "Member"
+        },
+        {
+          "id": 2381,
+          "role": "Member"
+        },
+        {
+          "id": 2415,
+          "role": "Member"
+        },
+        {
+          "id": 2395,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Judiciary and Elections",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2394,
+          "role": "Chair"
+        },
+        {
+          "id": 2386,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2400,
+          "role": "Member"
+        },
+        {
+          "id": 2372,
+          "role": "Member"
+        },
+        {
+          "id": 2383,
+          "role": "Member"
+        },
+        {
+          "id": 2390,
+          "role": "Member"
+        },
+        {
+          "id": 2384,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Military Affairs and Border Security",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2382,
+          "role": "Chair"
+        },
+        {
+          "id": 2395,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2388,
+          "role": "Member"
+        },
+        {
+          "id": 2381,
+          "role": "Member"
+        },
+        {
+          "id": 2392,
+          "role": "Member"
+        },
+        {
+          "id": 2394,
+          "role": "Member"
+        },
+        {
+          "id": 2415,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Natural Resources",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2396,
+          "role": "Chair"
+        },
+        {
+          "id": 2388,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2375,
+          "role": "Member"
+        },
+        {
+          "id": 2380,
+          "role": "Member"
+        },
+        {
+          "id": 2382,
+          "role": "Member"
+        },
+        {
+          "id": 2383,
+          "role": "Member"
+        },
+        {
+          "id": 2395,
+          "role": "Member"
+        },
+        {
+          "id": 2397,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Public Safety",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2387,
+          "role": "Chair"
+        },
+        {
+          "id": 2378,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2371,
+          "role": "Member"
+        },
+        {
+          "id": 2380,
+          "role": "Member"
+        },
+        {
+          "id": 2382,
+          "role": "Member"
+        },
+        {
+          "id": 2415,
+          "role": "Member"
+        },
+        {
+          "id": 2396,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Regulatory Affairs and Government Efficiency",
+      "chamber": "S",
+      "focus": "regulatory",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2400,
+          "role": "Chair"
+        },
+        {
+          "id": 2375,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2377,
+          "role": "Member"
+        },
+        {
+          "id": 2379,
+          "role": "Member"
+        },
+        {
+          "id": 2398,
+          "role": "Member"
+        },
+        {
+          "id": 2384,
+          "role": "Member"
+        },
+        {
+          "id": 2387,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Rules",
+      "chamber": "S",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2378,
+          "role": "Chair"
+        },
+        {
+          "id": 2386,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2371,
+          "role": "Member"
+        },
+        {
+          "id": 2375,
+          "role": "Member"
+        },
+        {
+          "id": 2380,
+          "role": "Member"
+        },
+        {
+          "id": 2392,
+          "role": "Member"
+        },
+        {
+          "id": 2393,
+          "role": "Member"
+        },
+        {
+          "id": 2396,
+          "role": "Member"
+        },
+        {
+          "id": 2397,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf"
+    },
+    {
+      "name": "Appropriations",
+      "chamber": "H",
+      "focus": "budget",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2319,
+          "role": "Chair"
+        },
+        {
+          "id": 2308,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2343,
+          "role": "Member"
+        },
+        {
+          "id": 2356,
+          "role": "Member"
+        },
+        {
+          "id": 2295,
+          "role": "Member"
+        },
+        {
+          "id": 2304,
+          "role": "Member"
+        },
+        {
+          "id": 2310,
+          "role": "Member"
+        },
+        {
+          "id": 2364,
+          "role": "Member"
+        },
+        {
+          "id": 2326,
+          "role": "Member"
+        },
+        {
+          "id": 2359,
+          "role": "Member"
+        },
+        {
+          "id": 2368,
+          "role": "Member"
+        },
+        {
+          "id": 2334,
+          "role": "Member"
+        },
+        {
+          "id": 2338,
+          "role": "Member"
+        },
+        {
+          "id": 2340,
+          "role": "Member"
+        },
+        {
+          "id": 2365,
+          "role": "Member"
+        },
+        {
+          "id": 2363,
+          "role": "Member"
+        },
+        {
+          "id": 2361,
+          "role": "Member"
+        },
+        {
+          "id": 2344,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Artificial Intelligence & Innovation",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2342,
+          "role": "Chair"
+        },
+        {
+          "id": 2370,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2351,
+          "role": "Member"
+        },
+        {
+          "id": 2367,
+          "role": "Member"
+        },
+        {
+          "id": 2340,
+          "role": "Member"
+        },
+        {
+          "id": 2346,
+          "role": "Member"
+        },
+        {
+          "id": 2344,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Commerce",
+      "chamber": "H",
+      "focus": "commerce",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2361,
+          "role": "Chair"
+        },
+        {
+          "id": 2363,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2293,
+          "role": "Member"
+        },
+        {
+          "id": 2356,
+          "role": "Member"
+        },
+        {
+          "id": 2297,
+          "role": "Member"
+        },
+        {
+          "id": 2351,
+          "role": "Member"
+        },
+        {
+          "id": 2357,
+          "role": "Member"
+        },
+        {
+          "id": 2304,
+          "role": "Member"
+        },
+        {
+          "id": 2316,
+          "role": "Member"
+        },
+        {
+          "id": 2346,
+          "role": "Member"
+        },
+        {
+          "id": 2342,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Education",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2308,
+          "role": "Chair"
+        },
+        {
+          "id": 2331,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2366,
+          "role": "Member"
+        },
+        {
+          "id": 2294,
+          "role": "Member"
+        },
+        {
+          "id": 2369,
+          "role": "Member"
+        },
+        {
+          "id": 2358,
+          "role": "Member"
+        },
+        {
+          "id": 2310,
+          "role": "Member"
+        },
+        {
+          "id": 2314,
+          "role": "Member"
+        },
+        {
+          "id": 2359,
+          "role": "Member"
+        },
+        {
+          "id": 2368,
+          "role": "Member"
+        },
+        {
+          "id": 2353,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Federalism, Military Affairs & Elections",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2306,
+          "role": "Chair"
+        },
+        {
+          "id": 2317,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2358,
+          "role": "Member"
+        },
+        {
+          "id": 2314,
+          "role": "Member"
+        },
+        {
+          "id": 2318,
+          "role": "Member"
+        },
+        {
+          "id": 2355,
+          "role": "Member"
+        },
+        {
+          "id": 2362,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Government",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2356,
+          "role": "Chair"
+        },
+        {
+          "id": 2369,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2306,
+          "role": "Member"
+        },
+        {
+          "id": 2317,
+          "role": "Member"
+        },
+        {
+          "id": 2355,
+          "role": "Member"
+        },
+        {
+          "id": 2338,
+          "role": "Member"
+        },
+        {
+          "id": 2346,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Health & Human Services",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2296,
+          "role": "Chair"
+        },
+        {
+          "id": 2360,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2302,
+          "role": "Member"
+        },
+        {
+          "id": 2308,
+          "role": "Member"
+        },
+        {
+          "id": 2312,
+          "role": "Member"
+        },
+        {
+          "id": 2367,
+          "role": "Member"
+        },
+        {
+          "id": 2347,
+          "role": "Member"
+        },
+        {
+          "id": 2364,
+          "role": "Member"
+        },
+        {
+          "id": 2349,
+          "role": "Member"
+        },
+        {
+          "id": 2322,
+          "role": "Member"
+        },
+        {
+          "id": 2333,
+          "role": "Member"
+        },
+        {
+          "id": 2361,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "International Trade",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2368,
+          "role": "Chair"
+        },
+        {
+          "id": 2331,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2343,
+          "role": "Member"
+        },
+        {
+          "id": 2298,
+          "role": "Member"
+        },
+        {
+          "id": 2351,
+          "role": "Member"
+        },
+        {
+          "id": 2316,
+          "role": "Member"
+        },
+        {
+          "id": 2313,
+          "role": "Member"
+        },
+        {
+          "id": 2340,
+          "role": "Member"
+        },
+        {
+          "id": 2361,
+          "role": "Member"
+        },
+        {
+          "id": 2342,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Judiciary",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2326,
+          "role": "Chair"
+        },
+        {
+          "id": 2362,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2296,
+          "role": "Member"
+        },
+        {
+          "id": 2301,
+          "role": "Member"
+        },
+        {
+          "id": 2304,
+          "role": "Member"
+        },
+        {
+          "id": 2358,
+          "role": "Member"
+        },
+        {
+          "id": 2312,
+          "role": "Member"
+        },
+        {
+          "id": 2417,
+          "role": "Member"
+        },
+        {
+          "id": 2363,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Land, Agriculture & Rural Affairs",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2304,
+          "role": "Chair"
+        },
+        {
+          "id": 2331,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2309,
+          "role": "Member"
+        },
+        {
+          "id": 2317,
+          "role": "Member"
+        },
+        {
+          "id": 2323,
+          "role": "Member"
+        },
+        {
+          "id": 2332,
+          "role": "Member"
+        },
+        {
+          "id": 2334,
+          "role": "Member"
+        },
+        {
+          "id": 2338,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Natural Resources, Energy & Water",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2309,
+          "role": "Chair"
+        },
+        {
+          "id": 2364,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2354,
+          "role": "Member"
+        },
+        {
+          "id": 2302,
+          "role": "Member"
+        },
+        {
+          "id": 2360,
+          "role": "Member"
+        },
+        {
+          "id": 2347,
+          "role": "Member"
+        },
+        {
+          "id": 2323,
+          "role": "Member"
+        },
+        {
+          "id": 2322,
+          "role": "Member"
+        },
+        {
+          "id": 2332,
+          "role": "Member"
+        },
+        {
+          "id": 2370,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Public Safety & Law Enforcement",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2354,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2366,
+          "role": "Member"
+        },
+        {
+          "id": 2343,
+          "role": "Member"
+        },
+        {
+          "id": 2345,
+          "role": "Member"
+        },
+        {
+          "id": 2306,
+          "role": "Member"
+        },
+        {
+          "id": 2318,
+          "role": "Member"
+        },
+        {
+          "id": 2326,
+          "role": "Member"
+        },
+        {
+          "id": 2362,
+          "role": "Member"
+        },
+        {
+          "id": 2417,
+          "role": "Member"
+        },
+        {
+          "id": 2353,
+          "role": "Member"
+        },
+        {
+          "id": 2370,
+          "role": "Member"
+        },
+        {
+          "id": 2341,
+          "role": "Member"
+        },
+        {
+          "id": 2365,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Regulatory Oversight",
+      "chamber": "H",
+      "focus": "regulatory",
+      "chair_vacant": true,
+      "members": [
+        {
+          "id": 2318,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2301,
+          "role": "Member"
+        },
+        {
+          "id": 2313,
+          "role": "Member"
+        },
+        {
+          "id": 2317,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Rules",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2316,
+          "role": "Chair"
+        },
+        {
+          "id": 2297,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2298,
+          "role": "Member"
+        },
+        {
+          "id": 2301,
+          "role": "Member"
+        },
+        {
+          "id": 2303,
+          "role": "Member"
+        },
+        {
+          "id": 2322,
+          "role": "Member"
+        },
+        {
+          "id": 2325,
+          "role": "Member"
+        },
+        {
+          "id": 2344,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Rural Economic Development",
+      "chamber": "H",
+      "focus": "economic development",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2323,
+          "role": "Chair"
+        },
+        {
+          "id": 2364,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2294,
+          "role": "Member"
+        },
+        {
+          "id": 2356,
+          "role": "Member"
+        },
+        {
+          "id": 2313,
+          "role": "Member"
+        },
+        {
+          "id": 2332,
+          "role": "Member"
+        },
+        {
+          "id": 2365,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Science & Technology",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2333,
+          "role": "Chair"
+        },
+        {
+          "id": 2342,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2293,
+          "role": "Member"
+        },
+        {
+          "id": 2351,
+          "role": "Member"
+        },
+        {
+          "id": 2357,
+          "role": "Member"
+        },
+        {
+          "id": 2369,
+          "role": "Member"
+        },
+        {
+          "id": 2360,
+          "role": "Member"
+        },
+        {
+          "id": 2316,
+          "role": "Member"
+        },
+        {
+          "id": 2347,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Transportation & Infrastructure",
+      "chamber": "H",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2294,
+          "role": "Chair"
+        },
+        {
+          "id": 2323,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2296,
+          "role": "Member"
+        },
+        {
+          "id": 2354,
+          "role": "Member"
+        },
+        {
+          "id": 2302,
+          "role": "Member"
+        },
+        {
+          "id": 2313,
+          "role": "Member"
+        },
+        {
+          "id": 2341,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Ways & Means",
+      "chamber": "H",
+      "focus": "tax",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2359,
+          "role": "Chair"
+        },
+        {
+          "id": 2367,
+          "role": "Vice Chair"
+        },
+        {
+          "id": 2295,
+          "role": "Member"
+        },
+        {
+          "id": 2297,
+          "role": "Member"
+        },
+        {
+          "id": 2345,
+          "role": "Member"
+        },
+        {
+          "id": 2319,
+          "role": "Member"
+        },
+        {
+          "id": 2349,
+          "role": "Member"
+        },
+        {
+          "id": 2370,
+          "role": "Member"
+        }
+      ],
+      "source": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF"
+    },
+    {
+      "name": "Joint Legislative Budget Committee",
+      "chamber": "J",
+      "focus": "budget",
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2371,
+          "role": "Member"
+        },
+        {
+          "id": 2379,
+          "role": "Member"
+        },
+        {
+          "id": 2372,
+          "role": "Member"
+        },
+        {
+          "id": 2386,
+          "role": "Member"
+        },
+        {
+          "id": 2390,
+          "role": "Member"
+        },
+        {
+          "id": 2391,
+          "role": "Member"
+        },
+        {
+          "id": 2389,
+          "role": "Member"
+        },
+        {
+          "id": 2378,
+          "role": "Chair"
+        },
+        {
+          "id": 2319,
+          "role": "Member"
+        },
+        {
+          "id": 2343,
+          "role": "Member"
+        },
+        {
+          "id": 2295,
+          "role": "Member"
+        },
+        {
+          "id": 2298,
+          "role": "Member"
+        },
+        {
+          "id": 2308,
+          "role": "Member"
+        },
+        {
+          "id": 2359,
+          "role": "Member"
+        },
+        {
+          "id": 2338,
+          "role": "Member"
+        },
+        {
+          "id": 2363,
+          "role": "Member"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20STATUTORY%20COMMITTEES.pdf"
+    },
+    {
+      "name": "Joint Legislative Audit Committee",
+      "chamber": "J",
+      "focus": null,
+      "chair_vacant": false,
+      "members": [
+        {
+          "id": 2372,
+          "role": "Member"
+        },
+        {
+          "id": 2399,
+          "role": "Member"
+        },
+        {
+          "id": 2388,
+          "role": "Member"
+        },
+        {
+          "id": 2378,
+          "role": "Member"
+        },
+        {
+          "id": 2392,
+          "role": "Member"
+        },
+        {
+          "id": 2393,
+          "role": "Member"
+        },
+        {
+          "id": 2298,
+          "role": "Member"
+        },
+        {
+          "id": 2331,
+          "role": "Member"
+        },
+        {
+          "id": 2338,
+          "role": "Member"
+        },
+        {
+          "id": 2346,
+          "role": "Member"
+        },
+        {
+          "id": 2325,
+          "role": "Member"
+        },
+        {
+          "id": 2308,
+          "role": "Chair"
+        }
+      ],
+      "source": "https://www.azsenate.gov/SenateList/2026%20STATUTORY%20COMMITTEES.pdf"
+    }
+  ]
+}

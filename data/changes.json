@@ -1,0 +1,74 @@
+{
+  "changes": [
+    {
+      "date": "2026-11-09",
+      "kind": "baseline",
+      "member_id": null,
+      "name": null,
+      "chamber": null,
+      "district": null,
+      "party": null,
+      "detail": "First roster snapshot (57th Legislature, 2nd Regular Session). Later scrapes are compared against this."
+    },
+    {
+      "date": "2026-04-17",
+      "kind": "left",
+      "member_id": 2321,
+      "name": "David Marshall, Sr.",
+      "chamber": "H",
+      "district": 7,
+      "party": "R",
+      "detail": "Resigned on 4/17 with no reason given"
+    },
+    {
+      "date": "2026-03-02",
+      "kind": "left",
+      "member_id": 2299,
+      "name": "Joseph Chaplik",
+      "chamber": "H",
+      "district": 3,
+      "party": "R",
+      "detail": "Resigned on 3/2 to run for Congress"
+    },
+    {
+      "date": "2025-03-14",
+      "kind": "left",
+      "member_id": 2374,
+      "name": "Eva Burch",
+      "chamber": "S",
+      "district": 9,
+      "party": "D",
+      "detail": "Resigned 03/14/2025"
+    },
+    {
+      "date": null,
+      "kind": "joined",
+      "member_id": 2419,
+      "name": "Sylvia Allen",
+      "chamber": "H",
+      "district": 7,
+      "party": "R",
+      "detail": "Now holds the LD7 House seat Rep. Marshall vacated. Appointment date isn't on the roster."
+    },
+    {
+      "date": null,
+      "kind": "joined",
+      "member_id": 2417,
+      "name": "Cody Reim",
+      "chamber": "H",
+      "district": 3,
+      "party": "R",
+      "detail": "Now holds the LD3 House seat Rep. Chaplik vacated. Appointment date isn't on the roster."
+    },
+    {
+      "date": null,
+      "kind": "joined",
+      "member_id": 2415,
+      "name": "Kiana Sears",
+      "chamber": "S",
+      "district": 9,
+      "party": "D",
+      "detail": "Now holds the LD9 Senate seat Sen. Burch vacated. Appointment date isn't on the roster."
+    }
+  ]
+}

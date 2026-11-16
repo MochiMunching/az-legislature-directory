@@ -1,0 +1,75 @@
+{
+  "generated": "2026-11-16",
+  "sources": [
+    {
+      "source": "Member roster",
+      "what": "Names, districts, contact details, leadership",
+      "as_of": "2026-11-09",
+      "refresh": "Automatic: weekdays January\u2013June, Mondays otherwise",
+      "url": "https://www.azleg.gov/memberroster/"
+    },
+    {
+      "source": "Committee assignments",
+      "what": "Standing committees, JLBC, chairs",
+      "as_of": "2026-03-20",
+      "refresh": "Manual when new lists are published (usually December or January)",
+      "url": "https://www.azsenate.gov/arizona-state-senate-legislative-lists/"
+    },
+    {
+      "source": "Committee schedule",
+      "what": "Weekly meeting days, times and rooms",
+      "as_of": "2026-03-13",
+      "refresh": "Manual each session",
+      "url": "https://azhouse.gov/legislative-lists/"
+    },
+    {
+      "source": "Roster changes",
+      "what": "Joins, departures, office and committee changes",
+      "as_of": "2026-11-09",
+      "refresh": "Automatic with each roster refresh",
+      "url": null
+    },
+    {
+      "source": "Members-elect",
+      "what": "November 3 winners, new or returning",
+      "as_of": null,
+      "refresh": "Manual from certified results",
+      "url": null
+    },
+    {
+      "source": "Bills and votes",
+      "what": "Tracked bills, sponsors, roll calls",
+      "as_of": null,
+      "refresh": "Automatic when an Open States key is set",
+      "url": "https://open.pluralpolicy.com"
+    },
+    {
+      "source": "ESOP watch",
+      "what": "Bills mentioning employee ownership",
+      "as_of": null,
+      "refresh": "Automatic when an Open States key is set",
+      "url": null
+    },
+    {
+      "source": "SBDC centers",
+      "what": "Locations, counties served, district matches",
+      "as_of": "2026-11-09",
+      "refresh": "Manual if centers change",
+      "url": "https://www.arizonasbdc.com/locations/"
+    },
+    {
+      "source": "District boundaries",
+      "what": "Official 2022 legislative map and 2020 population",
+      "as_of": "2022 maps",
+      "refresh": "Fixed until the next redistricting",
+      "url": "https://redistricting-irc-az.hub.arcgis.com/pages/official-maps"
+    },
+    {
+      "source": "SBDC district results",
+      "what": "Clients and results per district",
+      "as_of": null,
+      "refresh": "Manual from SBDC's client export",
+      "url": null
+    }
+  ]
+}

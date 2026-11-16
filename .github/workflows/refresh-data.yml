@@ -1,0 +1,68 @@
+name: Refresh public data
+
+# Roster daily on weekdays during session (January–June), weekly on Mondays otherwise.
+# Times are 6:17 AM Arizona time (13:17 UTC; Arizona doesn't observe daylight saving).
+on:
+  schedule:
+    - cron: "17 13 * 1-6 1-5"
+    - cron: "17 13 * 7-12 1"
+  workflow_dispatch:
+    inputs:
+      committees:
+        description: "Also collect committee assignments from member pages (slower)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+
+      - name: Roster (and change log)
+        run: |
+          if [ "${{ inputs.committees }}" = "true" ]; then
+            python scraper/scrape_roster.py --committees
+          else
+            python scraper/scrape_roster.py
+          fi
+
+      - name: Members-elect (when the CSV has winners)
+        run: python scraper/members_elect.py
+
+      - name: Bills, votes and ESOP watch (when an Open States key is set)
+        env:
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+        run: |
+          if [ -n "$OPENSTATES_API_KEY" ]; then
+            python scraper/openstates_bills.py
+          else
+            echo "No OPENSTATES_API_KEY secret set; skipping bills."
+          fi
+
+      - name: Source dates and site
+        run: |
+          python scraper/update_sources.py
+          python scraper/build_site.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "data-refresh-bot"
+          git config user.email "data-refresh-bot@users.noreply.github.com"
+          git add data/ index.html
+          git diff --cached --quiet || git commit -m "Refresh public data $(date -u +%F)"
+          git push
+
+# Campaign finance, business research, client matching and drafts stay on your
+# own machine: their output is private and never goes into this public repo.

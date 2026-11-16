@@ -1,0 +1,264 @@
+{
+  "session": "2026 regular session (57th Legislature, 2nd Regular)",
+  "sources": {
+    "S": {
+      "url": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf",
+      "revised": "2026-03-13"
+    },
+    "H": {
+      "url": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20SCHEDULES%20-%20BY%20DAY.PDF",
+      "revised": "2026-02-16"
+    }
+  },
+  "note": "Rooms: SHR = Senate Hearing Room, HHR = House Hearing Room. Schedules for the 2027 session are published in January; agendas for each meeting are posted on azleg.gov.",
+  "meetings": [
+    {
+      "chamber": "S",
+      "committee": "Appropriations, Transportation and Technology",
+      "day": "Tuesday",
+      "time": "1:30 PM",
+      "room": "SHR 109",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Director Nominations",
+      "day": null,
+      "time": null,
+      "room": null,
+      "note": "Day and time announced on the Senate floor"
+    },
+    {
+      "chamber": "S",
+      "committee": "Education",
+      "day": "Wednesday",
+      "time": "1:30 PM",
+      "room": "SHR 1",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Federalism and Family Law",
+      "day": "Monday",
+      "time": "1:30 PM",
+      "room": "SHR 2",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Finance",
+      "day": "Monday",
+      "time": "1:30 PM",
+      "room": "SHR 1",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Government",
+      "day": "Wednesday",
+      "time": "9:00 AM",
+      "room": "SHR 1",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Health and Human Services",
+      "day": "Wednesday",
+      "time": "9:00 AM",
+      "room": "SHR 2",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Judiciary and Elections",
+      "day": "Wednesday",
+      "time": "1:30 PM",
+      "room": "SHR 2",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Military Affairs and Border Security",
+      "day": "Monday",
+      "time": "1:30 PM",
+      "room": "SHR 109",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Natural Resources",
+      "day": "Tuesday",
+      "time": "1:30 PM",
+      "room": "SHR 1",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Public Safety",
+      "day": "Wednesday",
+      "time": "1:30 PM",
+      "room": "SHR 109",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Regulatory Affairs and Government Efficiency",
+      "day": "Wednesday",
+      "time": "9:00 AM",
+      "room": "SHR 109",
+      "note": null
+    },
+    {
+      "chamber": "S",
+      "committee": "Rules",
+      "day": "Monday",
+      "time": "1:00 PM",
+      "room": "Caucus Room 1",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Rules",
+      "day": "Monday",
+      "time": "1:00 PM",
+      "room": "HHR 4",
+      "note": "Also on call"
+    },
+    {
+      "chamber": "H",
+      "committee": "Health & Human Services",
+      "day": "Monday",
+      "time": "2:00 PM",
+      "room": "HHR 4",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Land, Agriculture & Rural Affairs",
+      "day": "Monday",
+      "time": "2:00 PM",
+      "room": "HHR 3",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Public Safety & Law Enforcement",
+      "day": "Monday",
+      "time": "2:00 PM",
+      "room": "HHR 1",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Commerce",
+      "day": "Tuesday",
+      "time": "2:00 PM",
+      "room": "HHR 5",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Education",
+      "day": "Tuesday",
+      "time": "2:00 PM",
+      "room": "HHR 1",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Natural Resources, Energy & Water",
+      "day": "Tuesday",
+      "time": "2:00 PM",
+      "room": "HHR 3",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Regulatory Oversight",
+      "day": "Tuesday",
+      "time": "2:00 PM",
+      "room": "HHR 4",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Government",
+      "day": "Wednesday",
+      "time": "9:00 AM",
+      "room": "HHR 5",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "International Trade",
+      "day": "Wednesday",
+      "time": "9:00 AM",
+      "room": "HHR 1",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Judiciary",
+      "day": "Wednesday",
+      "time": "9:00 AM",
+      "room": "HHR 4",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Ways & Means",
+      "day": "Wednesday",
+      "time": "10:00 AM",
+      "room": "HHR 3",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Appropriations",
+      "day": "Wednesday",
+      "time": "2:00 PM",
+      "room": "HHR 1",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Federalism, Military Affairs & Elections",
+      "day": "Wednesday",
+      "time": "2:00 PM",
+      "room": "HHR 4",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Science & Technology",
+      "day": "Wednesday",
+      "time": "2:00 PM",
+      "room": "HHR 5",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Transportation & Infrastructure",
+      "day": "Wednesday",
+      "time": "2:00 PM",
+      "room": "HHR 3",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Artificial Intelligence & Innovation",
+      "day": "Thursday",
+      "time": "9:00 AM",
+      "room": "HHR 3",
+      "note": null
+    },
+    {
+      "chamber": "H",
+      "committee": "Rural Economic Development",
+      "day": "Thursday",
+      "time": "9:00 AM",
+      "room": "HHR 4",
+      "note": null
+    }
+  ]
+}

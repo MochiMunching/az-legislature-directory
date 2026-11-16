@@ -1,0 +1,1 @@
+Write a plain-language summary of this bill for SBDC staff (under 250 words): what it would do based on its title and actions, its sponsors, where it is in the process, and which small business topics it touches. State clearly that the summary is based on the title and actions only, and that staff should read the bill text before relying on it.

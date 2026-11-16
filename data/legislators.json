@@ -1,0 +1,3418 @@
+{
+  "legislature": 57,
+  "session_id": 130,
+  "session_label": "57th Legislature, Second Regular Session (2026)",
+  "retrieved": "2026-11-09",
+  "source_url": "https://www.azleg.gov/memberroster/",
+  "members": [
+    {
+      "id": 2371,
+      "name": "Lela Alston",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 5,
+      "party": "D",
+      "leadership_title": "Minority Caucus Chair",
+      "email": "lalston@azleg.gov",
+      "room": "Room 315",
+      "phone": "(602) 926-5829",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2371",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2373,
+      "name": "Hildy Angius",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 30,
+      "party": "R",
+      "leadership_title": null,
+      "email": "hangius@azleg.gov",
+      "room": "Room 302",
+      "phone": "(602) 926-5051",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2373",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2400,
+      "name": "Shawnna Bolick",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 2,
+      "party": "R",
+      "leadership_title": null,
+      "email": "sbolick@azleg.gov",
+      "room": "Room 307",
+      "phone": "(602) 926-3314",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2400",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2399,
+      "name": "Flavio Bravo",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 26,
+      "party": "D",
+      "leadership_title": null,
+      "email": "fbravo@azleg.gov",
+      "room": "Room 313",
+      "phone": "(602) 926-4033",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2399",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2374,
+      "name": "Eva Burch",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 9,
+      "party": "D",
+      "leadership_title": null,
+      "email": null,
+      "room": null,
+      "phone": null,
+      "status": "resigned",
+      "status_note": "Resigned 03/14/2025",
+      "committees": [],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2374",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2375,
+      "name": "Frank Carroll",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 28,
+      "party": "R",
+      "leadership_title": "Majority Whip",
+      "email": "fcarroll@azleg.gov",
+      "room": "Room 212",
+      "phone": "(602) 926-3249",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": "regulatory"
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2375",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2376,
+      "name": "Eva Diaz",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 22,
+      "party": "D",
+      "leadership_title": null,
+      "email": "eva.diaz@azleg.gov",
+      "room": "Room 313",
+      "phone": "(602) 926-3473",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2376",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2388,
+      "name": "Timothy \"Tim\" Dunn",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 25,
+      "party": "R",
+      "leadership_title": null,
+      "email": "tdunn@azleg.gov",
+      "room": "Room 310",
+      "phone": "(602) 926-4139",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2388",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2377,
+      "name": "Denise \"Mitzi\" Epstein",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 12,
+      "party": "D",
+      "leadership_title": null,
+      "email": "mepstein@azleg.gov",
+      "room": "Room 315",
+      "phone": "(602) 926-4870",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2377",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2378,
+      "name": "David C. Farnsworth",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 10,
+      "party": "R",
+      "leadership_title": null,
+      "email": "dfarnsworth@azleg.gov",
+      "room": "Room 200",
+      "phone": "(602) 926-3387",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2378",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2379,
+      "name": "Brian Fernandez",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 23,
+      "party": "D",
+      "leadership_title": null,
+      "email": "bfernandez@azleg.gov",
+      "room": "Room 312",
+      "phone": "(602) 926-3098",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2379",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2372,
+      "name": "Mark Finchem",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 1,
+      "party": "R",
+      "leadership_title": null,
+      "email": "mfinchem@azleg.gov",
+      "room": "Room 304",
+      "phone": "(602) 926-3631",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2372",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2380,
+      "name": "Rosanna Gabaldón",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 21,
+      "party": "D",
+      "leadership_title": "Minority Whip",
+      "email": "rgabaldon@azleg.gov",
+      "room": "Room 305",
+      "phone": "(602) 926-3424",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2380",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2381,
+      "name": "Sally Ann Gonzales",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 20,
+      "party": "D",
+      "leadership_title": null,
+      "email": "sgonzales@azleg.gov",
+      "room": "Room 314",
+      "phone": "(602) 926-3278",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2381",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2382,
+      "name": "David Gowan",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 19,
+      "party": "R",
+      "leadership_title": null,
+      "email": "dgowan@azleg.gov",
+      "room": "Room 300",
+      "phone": "(602) 926-5154",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2382",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2383,
+      "name": "Theresa Hatathlie",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 6,
+      "party": "D",
+      "leadership_title": null,
+      "email": "thatathlie@azleg.gov",
+      "room": "Room 311",
+      "phone": "(602) 926-5160",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2383",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2385,
+      "name": "Jake Hoffman",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 15,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jake.hoffman@azleg.gov",
+      "room": "Room 306",
+      "phone": "(602) 926-3292",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2385",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2386,
+      "name": "John Kavanagh",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 3,
+      "party": "R",
+      "leadership_title": "Majority Leader",
+      "email": "jkavanagh@azleg.gov",
+      "room": "Room 212",
+      "phone": "(602) 926-5170",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2386",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2390,
+      "name": "Lauren Kuby",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 8,
+      "party": "D",
+      "leadership_title": null,
+      "email": "lkuby@azleg.gov",
+      "room": "Room 311",
+      "phone": "(602) 926-4124",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2390",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2398,
+      "name": "Venden \"Vince\" Leach",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 17,
+      "party": "R",
+      "leadership_title": null,
+      "email": "vleach@azleg.gov",
+      "room": "Room 303",
+      "phone": "(602) 926-3694",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": "tax"
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2398",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2391,
+      "name": "J.D. Mesnard",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 13,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jmesnard@azleg.gov",
+      "room": "Room 309",
+      "phone": "(602) 926-4481",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": "tax"
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2391",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2392,
+      "name": "Catherine Miranda",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 11,
+      "party": "D",
+      "leadership_title": "Assistant Minority Leader",
+      "email": "cmiranda@azleg.gov",
+      "room": "Room 213",
+      "phone": "(602) 926-3413",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2392",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2384,
+      "name": "Analise Ortiz",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 24,
+      "party": "D",
+      "leadership_title": null,
+      "email": "analise.ortiz@azleg.gov",
+      "room": "Room 308",
+      "phone": "(602) 926-3633",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2384",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2387,
+      "name": "Kevin Payne",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 27,
+      "party": "R",
+      "leadership_title": null,
+      "email": "kpayne@azleg.gov",
+      "room": "Room 302",
+      "phone": "(602) 926-4854",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2387",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2393,
+      "name": "Warren Petersen",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 14,
+      "party": "R",
+      "leadership_title": "President",
+      "email": "wpetersen@azleg.gov",
+      "room": "Room 205",
+      "phone": "(602) 926-4136",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2393",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2394,
+      "name": "Wendy Rogers",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 7,
+      "party": "R",
+      "leadership_title": null,
+      "email": "wrogers@azleg.gov",
+      "room": "Room 304",
+      "phone": "(602) 926-3042",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2394",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2415,
+      "name": "Kiana Sears",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 9,
+      "party": "D",
+      "leadership_title": null,
+      "email": "ksears@azleg.gov",
+      "room": "Room 314",
+      "phone": "(602) 926-3374",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2415",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2395,
+      "name": "Janae Shamp",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 29,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jshamp@azleg.gov",
+      "room": "Room 303",
+      "phone": "(602) 926-3499",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2395",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2396,
+      "name": "Thomas \"T.J.\" Shope",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 16,
+      "party": "R",
+      "leadership_title": "President Pro Tempore",
+      "email": "tshope@azleg.gov",
+      "room": "Room 212",
+      "phone": "(602) 926-3012",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2396",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2397,
+      "name": "Priya Sundareshan",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 18,
+      "party": "D",
+      "leadership_title": "Minority Leader",
+      "email": "psundareshan@azleg.gov",
+      "room": "Room 213",
+      "phone": "(602) 926-3437",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2397",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2389,
+      "name": "Carine Werner",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 4,
+      "party": "R",
+      "leadership_title": null,
+      "email": "cwerner@azleg.gov",
+      "room": "Room 301",
+      "phone": "(602) 926-3673",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2389",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2366,
+      "name": "Anna Abeytia",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 24,
+      "party": "D",
+      "leadership_title": null,
+      "email": "aabeytia@azleg.gov",
+      "room": "Room 121",
+      "phone": "(602) 926-3501",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2366",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2293,
+      "name": "Cesar Aguilar",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 26,
+      "party": "D",
+      "leadership_title": null,
+      "email": "caguilar@azleg.gov",
+      "room": "Room 122",
+      "phone": "(602) 926-3953",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2293",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2419,
+      "name": "Sylvia Allen",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 7,
+      "party": "R",
+      "leadership_title": null,
+      "email": "sallen@azleg.gov",
+      "room": "Room 302",
+      "phone": "(602) 926-3579",
+      "status": "active",
+      "status_note": null,
+      "committees": [],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2419",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2343,
+      "name": "Lorena Austin",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 9,
+      "party": "D",
+      "leadership_title": null,
+      "email": "laustin@azleg.gov",
+      "room": "Room 124",
+      "phone": "(602) 926-3968",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2343",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2294,
+      "name": "Leo Biasiucci",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 30,
+      "party": "R",
+      "leadership_title": null,
+      "email": "lbiasiucci@azleg.gov",
+      "room": "Room 110",
+      "phone": "(602) 926-3018",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rural Economic Development",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "economic development"
+        },
+        {
+          "name": "Transportation & Infrastructure",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2294",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2356,
+      "name": "Walt Blackman",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 7,
+      "party": "R",
+      "leadership_title": null,
+      "email": "wblackman@azleg.gov",
+      "room": "Room 224",
+      "phone": "(602) 926-3244",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "Government",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Rural Economic Development",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "economic development"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2356",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2295,
+      "name": "Seth Blattman",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 9,
+      "party": "D",
+      "leadership_title": null,
+      "email": "sblattman@azleg.gov",
+      "room": "Room 125",
+      "phone": "(602) 926-3996",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2295",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2296,
+      "name": "Selina Bliss",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 1,
+      "party": "R",
+      "leadership_title": null,
+      "email": "sbliss@azleg.gov",
+      "room": "Room 306",
+      "phone": "(602) 926-4018",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Transportation & Infrastructure",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2296",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2298,
+      "name": "Michael Carbone",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 25,
+      "party": "R",
+      "leadership_title": "Majority Leader",
+      "email": "mcarbone@azleg.gov",
+      "room": "Room 208",
+      "phone": "(602) 926-4038",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2298",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2297,
+      "name": "Neal Carter",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 15,
+      "party": "R",
+      "leadership_title": "Speaker Pro Tempore",
+      "email": "ncarter@azleg.gov",
+      "room": "Room 204",
+      "phone": "(602) 926-5761",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "tax"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2297",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2354,
+      "name": "Pamela Carter",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 4,
+      "party": "R",
+      "leadership_title": null,
+      "email": "pcarter@azleg.gov",
+      "room": "Room 304",
+      "phone": "(602) 926-3153",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Transportation & Infrastructure",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2354",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2351,
+      "name": "Junelle Cavero",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 11,
+      "party": "D",
+      "leadership_title": null,
+      "email": "jcavero@azleg.gov",
+      "room": "Room 325",
+      "phone": "(602) 926-3285",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Artificial Intelligence & Innovation",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2351",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2299,
+      "name": "Joseph Chaplik",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 3,
+      "party": "R",
+      "leadership_title": null,
+      "email": null,
+      "room": null,
+      "phone": null,
+      "status": "resigned",
+      "status_note": "Resigned on 3/2 to run for Congress",
+      "committees": [],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2299",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2357,
+      "name": "Janeen Connolly",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 8,
+      "party": "D",
+      "leadership_title": null,
+      "email": "jconnolly@azleg.gov",
+      "room": "Room 118",
+      "phone": "(602) 926-3300",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2357",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2301,
+      "name": "Lupe Contreras",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 22,
+      "party": "D",
+      "leadership_title": null,
+      "email": "lcontreras@azleg.gov",
+      "room": "Room 331",
+      "phone": "(602) 926-5284",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Oversight",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "regulatory"
+        },
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2301",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2302,
+      "name": "Patty Contreras",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 12,
+      "party": "D",
+      "leadership_title": null,
+      "email": "pcontreras@azleg.gov",
+      "room": "Room 126",
+      "phone": "(602) 926-4057",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Transportation & Infrastructure",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2302",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2345,
+      "name": "Quantá Crews",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 26,
+      "party": "D",
+      "leadership_title": "Minority Whip",
+      "email": "qcrews@azleg.gov",
+      "room": "Room 321",
+      "phone": "(602) 926-3256",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "tax"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2345",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2303,
+      "name": "Oscar De Los Santos",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 11,
+      "party": "D",
+      "leadership_title": "Minority Leader",
+      "email": "odelossantos@azleg.gov",
+      "room": "Room 320",
+      "phone": "(602) 926-4098",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2303",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2304,
+      "name": "Lupe Diaz",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 19,
+      "party": "R",
+      "leadership_title": null,
+      "email": "ldiaz@azleg.gov",
+      "room": "Room 313",
+      "phone": "(602) 926-4852",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2304",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2369,
+      "name": "Lisa Fink",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 27,
+      "party": "R",
+      "leadership_title": null,
+      "email": "lfink@azleg.gov",
+      "room": "Room 345",
+      "phone": "(602) 926-3516",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2369",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2358,
+      "name": "Brian Garcia",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 8,
+      "party": "D",
+      "leadership_title": null,
+      "email": "bgarcia@azleg.gov",
+      "room": "Room 335",
+      "phone": "(602) 926-3329",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Federalism, Military Affairs & Elections",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2358",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2306,
+      "name": "John Gillette",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 30,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jgillette@azleg.gov",
+      "room": "Room 130",
+      "phone": "(602) 926-4100",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism, Military Affairs & Elections",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2306",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2308,
+      "name": "Matt Gress",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 4,
+      "party": "R",
+      "leadership_title": null,
+      "email": "mgress@azleg.gov",
+      "room": "Room 205",
+      "phone": "(602) 926-4105",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2308",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2309,
+      "name": "Gail Griffin",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 19,
+      "party": "R",
+      "leadership_title": null,
+      "email": "ggriffin@azleg.gov",
+      "room": "Room 225",
+      "phone": "(602) 926-5895",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2309",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2310,
+      "name": "Nancy Gutierrez",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 18,
+      "party": "D",
+      "leadership_title": "Assistant Minority Leader",
+      "email": "ngutierrez@azleg.gov",
+      "room": "Room 330",
+      "phone": "(602) 926-4134",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2310",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2360,
+      "name": "Ralph Heap",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 10,
+      "party": "R",
+      "leadership_title": null,
+      "email": "rheap@azleg.gov",
+      "room": "Room 309",
+      "phone": "(602) 926-3381",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2360",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2316,
+      "name": "Laurin Hendrix",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 14,
+      "party": "R",
+      "leadership_title": null,
+      "email": "lhendrix@azleg.gov",
+      "room": "Room 114",
+      "phone": "(602) 926-4209",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2316",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2312,
+      "name": "Alma Hernandez",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 20,
+      "party": "D",
+      "leadership_title": null,
+      "email": "ahernandez@azleg.gov",
+      "room": "Room 338",
+      "phone": "(602) 926-3136",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2312",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2313,
+      "name": "Consuelo Hernandez",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 21,
+      "party": "D",
+      "leadership_title": null,
+      "email": "chernandez@azleg.gov",
+      "room": "Room 117",
+      "phone": "(602) 926-3523",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Oversight",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "regulatory"
+        },
+        {
+          "name": "Rural Economic Development",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "economic development"
+        },
+        {
+          "name": "Transportation & Infrastructure",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2313",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2314,
+      "name": "Lydia Hernandez",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 24,
+      "party": "D",
+      "leadership_title": null,
+      "email": "lhernandez@azleg.gov",
+      "room": "Room 334",
+      "phone": "(602) 926-3553",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Federalism, Military Affairs & Elections",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2314",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2317,
+      "name": "Rachel Keshel",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 17,
+      "party": "R",
+      "leadership_title": null,
+      "email": "rkeshel@azleg.gov",
+      "room": "Room 303",
+      "phone": "(602) 926-3558",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism, Military Affairs & Elections",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Oversight",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2317",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2318,
+      "name": "Alexander Kolodin",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 3,
+      "party": "R",
+      "leadership_title": null,
+      "email": "akolodin@azleg.gov",
+      "room": "Room 323",
+      "phone": "(602) 926-3560",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism, Military Affairs & Elections",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Oversight",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2318",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2367,
+      "name": "Nick Kupper",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 25,
+      "party": "R",
+      "leadership_title": null,
+      "email": "nkupper@azleg.gov",
+      "room": "Room 312",
+      "phone": "(602) 926-3512",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Artificial Intelligence & Innovation",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": "tax"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2367",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2347,
+      "name": "Sarah Liguori",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 5,
+      "party": "D",
+      "leadership_title": null,
+      "email": "sliguori@azleg.gov",
+      "room": "Room 115",
+      "phone": "(602) 926-3264",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2347",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2319,
+      "name": "David Livingston",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 28,
+      "party": "R",
+      "leadership_title": null,
+      "email": "dlivingston@azleg.gov",
+      "room": "Room 222",
+      "phone": "(602) 926-4178",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2319",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2364,
+      "name": "Chris Lopez",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 16,
+      "party": "R",
+      "leadership_title": null,
+      "email": "clopez@azleg.gov",
+      "room": "Room 310",
+      "phone": "(602) 926-3445",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Rural Economic Development",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": "economic development"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2364",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2349,
+      "name": "Elda Luna-Nájera",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 22,
+      "party": "D",
+      "leadership_title": null,
+      "email": "eluna-najera@azleg.gov",
+      "room": "Room 332",
+      "phone": "(602) 926-3881",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "tax"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2349",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2355,
+      "name": "Aaron Márquez",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 5,
+      "party": "D",
+      "leadership_title": null,
+      "email": "amarquez@azleg.gov",
+      "room": "Room 123",
+      "phone": "(602) 926-3179",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism, Military Affairs & Elections",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2355",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2321,
+      "name": "David Marshall, Sr.",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 7,
+      "party": "R",
+      "leadership_title": null,
+      "email": null,
+      "room": null,
+      "phone": null,
+      "status": "resigned",
+      "status_note": "Resigned on 4/17 with no reason given",
+      "committees": [],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2321",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2323,
+      "name": "Teresa Martinez",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 16,
+      "party": "R",
+      "leadership_title": null,
+      "email": "tmartinez@azleg.gov",
+      "room": "Room 129",
+      "phone": "(602) 926-3158",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rural Economic Development",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": "economic development"
+        },
+        {
+          "name": "Transportation & Infrastructure",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2323",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2322,
+      "name": "Christopher Mathis",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 18,
+      "party": "D",
+      "leadership_title": null,
+      "email": "cmathis@azleg.gov",
+      "room": "Room 337",
+      "phone": "(602) 926-3138",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2322",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2325,
+      "name": "Steve Montenegro",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 29,
+      "party": "R",
+      "leadership_title": "Speaker",
+      "email": "smontenegro@azleg.gov",
+      "room": "Room 223",
+      "phone": "(602) 926-3635",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2325",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2326,
+      "name": "Quang H Nguyen",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 1,
+      "party": "R",
+      "leadership_title": null,
+      "email": "qnguyen@azleg.gov",
+      "room": "Room 226",
+      "phone": "(602) 926-3258",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2326",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2359,
+      "name": "Justin Olson",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 10,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jolson@azleg.gov",
+      "room": "Room 113",
+      "phone": "(602) 926-3376",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": "tax"
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2359",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2331,
+      "name": "Michele Peña",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 23,
+      "party": "R",
+      "leadership_title": null,
+      "email": "mpena@azleg.gov",
+      "room": "Room 341",
+      "phone": "(602) 926-3696",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2331",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2332,
+      "name": "Mae Peshlakai",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 6,
+      "party": "D",
+      "leadership_title": null,
+      "email": "mpeshlakai@azleg.gov",
+      "room": "Room 116",
+      "phone": "(602) 926-3708",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rural Economic Development",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "economic development"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2332",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2333,
+      "name": "Beverly Pingerelli",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 28,
+      "party": "R",
+      "leadership_title": null,
+      "email": "bpingerelli@azleg.gov",
+      "room": "Room 131",
+      "phone": "(602) 926-3396",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2333",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2362,
+      "name": "Khyl Powell",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 14,
+      "party": "R",
+      "leadership_title": null,
+      "email": "kpowell@azleg.gov",
+      "room": "Room 342",
+      "phone": "(602) 926-3415",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism, Military Affairs & Elections",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2362",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2417,
+      "name": "Cody Reim",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 3,
+      "party": "R",
+      "leadership_title": null,
+      "email": "creim@azleg.gov",
+      "room": "Room 318",
+      "phone": "(602) 926-3436",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2417",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2368,
+      "name": "Tony Rivero",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 27,
+      "party": "R",
+      "leadership_title": null,
+      "email": "trivero@azleg.gov",
+      "room": "Room 112",
+      "phone": "(602) 926-3528",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2368",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2334,
+      "name": "Mariana Sandoval",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 23,
+      "party": "D",
+      "leadership_title": null,
+      "email": "msandoval@azleg.gov",
+      "room": "Room 326",
+      "phone": "(602) 926-3740",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2334",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2353,
+      "name": "Stephanie Simacek",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 2,
+      "party": "D",
+      "leadership_title": null,
+      "email": "ssimacek@azleg.gov",
+      "room": "Room 120",
+      "phone": "(602) 926-3083",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2353",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2338,
+      "name": "Stephanie Stahl Hamilton",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 21,
+      "party": "D",
+      "leadership_title": null,
+      "email": "sstahlhamilton@azleg.gov",
+      "room": "Room 333",
+      "phone": "(602) 926-3279",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Government",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Land, Agriculture & Rural Affairs",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2338",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2370,
+      "name": "James Taylor",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 29,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jtaylor@azleg.gov",
+      "room": "Room 344",
+      "phone": "(602) 926-3564",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Artificial Intelligence & Innovation",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources, Energy & Water",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Ways & Means",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "tax"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2370",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2340,
+      "name": "Stacey Travers",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 12,
+      "party": "D",
+      "leadership_title": "Minority Whip",
+      "email": "stravers@azleg.gov",
+      "room": "Room 322",
+      "phone": "(602) 926-3917",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Artificial Intelligence & Innovation",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2340",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2341,
+      "name": "Myron Tsosie",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 6,
+      "party": "D",
+      "leadership_title": null,
+      "email": "mtsosie@azleg.gov",
+      "room": "Room 339",
+      "phone": "(602) 926-3157",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Transportation & Infrastructure",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2341",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2346,
+      "name": "Betty J Villegas",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 20,
+      "party": "D",
+      "leadership_title": null,
+      "email": "bvillegas@azleg.gov",
+      "room": "Room 324",
+      "phone": "(602) 926-3027",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Artificial Intelligence & Innovation",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "Government",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2346",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2365,
+      "name": "Kevin Volk",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 17,
+      "party": "D",
+      "leadership_title": null,
+      "email": "kvolk@azleg.gov",
+      "room": "Room 119",
+      "phone": "(602) 926-3498",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Public Safety & Law Enforcement",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rural Economic Development",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "economic development"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2365",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2363,
+      "name": "Michael Way",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 15,
+      "party": "R",
+      "leadership_title": null,
+      "email": "mway@azleg.gov",
+      "room": "Room 308",
+      "phone": "(602) 926-3433",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": "commerce"
+        },
+        {
+          "name": "Judiciary",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2363",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2361,
+      "name": "Jeff Weninger",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 13,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jweninger@azleg.gov",
+      "room": "Room 316",
+      "phone": "(602) 926-3392",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": "commerce"
+        },
+        {
+          "name": "Health & Human Services",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2361",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2344,
+      "name": "Julie Willoughby",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 13,
+      "party": "R",
+      "leadership_title": "Majority Whip",
+      "email": "jwilloughby@azleg.gov",
+      "room": "Room 207",
+      "phone": "(602) 926-4153",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Artificial Intelligence & Innovation",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2344",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2342,
+      "name": "Justin Wilmeth",
+      "chamber": "H",
+      "chamber_name": "House",
+      "district": 2,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jwilmeth@azleg.gov",
+      "room": "Room 111",
+      "phone": "(602) 926-5044",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Artificial Intelligence & Innovation",
+          "chamber": "H",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Commerce",
+          "chamber": "H",
+          "role": "Member",
+          "focus": "commerce"
+        },
+        {
+          "name": "International Trade",
+          "chamber": "H",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Science & Technology",
+          "chamber": "H",
+          "role": "Vice Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2342",
+      "source": "azleg.gov/memberroster"
+    }
+  ],
+  "committee_sources": {
+    "S": "https://www.azsenate.gov/SenateList/2026%20COMMITTEE%20ASSIGNMENTS.pdf",
+    "H": "https://azhouse.gov/HouseLists/57TH%202R%20STANDING%20COMMITTEE%20ASSIGNMENTS%20-%20BY%20COMMITTEE%20(REVISED%203.20.26).PDF",
+    "J": "https://www.azsenate.gov/SenateList/2026%20STATUTORY%20COMMITTEES.pdf"
+  }
+}

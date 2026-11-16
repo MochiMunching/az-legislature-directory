@@ -1,0 +1,274 @@
+{
+  "level": "legislative",
+  "method": "County overlap with the IRC Approved Official Legislative Map; a district counts when at least 1% of its area is in a served county, or it covers at least 2% of a served county.",
+  "districts": {
+    "1": [
+      {
+        "center": "yavapai",
+        "share_of_district": 0.995
+      }
+    ],
+    "2": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "3": [
+      {
+        "center": "maricopa",
+        "share_of_district": 0.992
+      }
+    ],
+    "4": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "5": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "6": [
+      {
+        "center": "npc",
+        "share_of_district": 0.487
+      },
+      {
+        "center": "coconino",
+        "share_of_district": 0.39
+      },
+      {
+        "center": "maricopa",
+        "share_of_district": 0.048
+      },
+      {
+        "center": "eac",
+        "share_of_district": 0.044
+      },
+      {
+        "center": "mohave",
+        "share_of_district": 0.025
+      },
+      {
+        "center": "cac",
+        "share_of_district": 0.005
+      }
+    ],
+    "7": [
+      {
+        "center": "coconino",
+        "share_of_district": 0.327
+      },
+      {
+        "center": "maricopa",
+        "share_of_district": 0.273
+      },
+      {
+        "center": "npc",
+        "share_of_district": 0.217
+      },
+      {
+        "center": "cac",
+        "share_of_district": 0.181
+      }
+    ],
+    "8": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "9": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "10": [
+      {
+        "center": "maricopa",
+        "share_of_district": 0.963
+      },
+      {
+        "center": "cac",
+        "share_of_district": 0.037
+      }
+    ],
+    "11": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "12": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "13": [
+      {
+        "center": "maricopa",
+        "share_of_district": 0.995
+      }
+    ],
+    "14": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "15": [
+      {
+        "center": "cac",
+        "share_of_district": 0.676
+      },
+      {
+        "center": "maricopa",
+        "share_of_district": 0.324
+      }
+    ],
+    "16": [
+      {
+        "center": "cac",
+        "share_of_district": 0.809
+      },
+      {
+        "center": "pima",
+        "share_of_district": 0.163
+      },
+      {
+        "center": "maricopa",
+        "share_of_district": 0.028
+      }
+    ],
+    "17": [
+      {
+        "center": "pima",
+        "share_of_district": 0.829
+      },
+      {
+        "center": "cac",
+        "share_of_district": 0.169
+      }
+    ],
+    "18": [
+      {
+        "center": "pima",
+        "share_of_district": 1.0
+      }
+    ],
+    "19": [
+      {
+        "center": "cochise",
+        "share_of_district": 0.502
+      },
+      {
+        "center": "eac",
+        "share_of_district": 0.405
+      },
+      {
+        "center": "pima",
+        "share_of_district": 0.093
+      }
+    ],
+    "20": [
+      {
+        "center": "pima",
+        "share_of_district": 1.0
+      }
+    ],
+    "21": [
+      {
+        "center": "pima",
+        "share_of_district": 0.864
+      },
+      {
+        "center": "cochise",
+        "share_of_district": 0.134
+      }
+    ],
+    "22": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "23": [
+      {
+        "center": "pima",
+        "share_of_district": 0.512
+      },
+      {
+        "center": "maricopa",
+        "share_of_district": 0.236
+      },
+      {
+        "center": "awc",
+        "share_of_district": 0.214
+      },
+      {
+        "center": "cac",
+        "share_of_district": 0.037
+      }
+    ],
+    "24": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "25": [
+      {
+        "center": "awc",
+        "share_of_district": 0.58
+      },
+      {
+        "center": "maricopa",
+        "share_of_district": 0.419
+      }
+    ],
+    "26": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "27": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "28": [
+      {
+        "center": "maricopa",
+        "share_of_district": 0.997
+      }
+    ],
+    "29": [
+      {
+        "center": "maricopa",
+        "share_of_district": 1.0
+      }
+    ],
+    "30": [
+      {
+        "center": "mohave",
+        "share_of_district": 0.696
+      },
+      {
+        "center": "awc",
+        "share_of_district": 0.251
+      },
+      {
+        "center": "maricopa",
+        "share_of_district": 0.05
+      }
+    ]
+  }
+}
