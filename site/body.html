@@ -735,9 +735,12 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
       return;
     }
     const counts = ["new", "switching", "returning"].map((s) => `${el.filter((e) => e.status === s).length} ${s}`).join(" · ");
-    $("incoming").innerHTML = `<p class="section-note">${counts}</p><div class="elect">${el.map((e) => `<div class="elect-row">
+    const status = state.elect?.results_status;
+    const statusNote = status && status !== "Certified results"
+      ? `<p class="section-note"><strong style="color:var(--fg)">${esc(status)}</strong></p>` : "";
+    $("incoming").innerHTML = `${statusNote}<p class="section-note">${counts}</p><div class="elect">${el.map((e) => `<div class="elect-row">
       <span class="ld">LD ${e.district}</span>
-      <span><strong>${esc(e.name)}</strong> <span class="muted">${e.chamber === "S" ? "Senate" : "House"}${e.party ? " · " + esc(e.party) : ""}</span><br><span class="muted" style="font-size:12px">${esc(e.briefing)}</span></span>
+      <span><strong>${esc(e.name)}</strong> <span class="muted">${e.chamber === "S" ? "Senate" : "House"}${e.party ? " · " + esc(e.party) : ""}</span><br><span class="muted" style="font-size:12px">${esc(e.briefing)}${e.notes ? " · " + esc(e.notes) : ""}</span></span>
       <span class="kind ${esc(e.status)}">${esc(e.status)}</span></div>`).join("")}</div>`;
   }
 

@@ -14,6 +14,12 @@ across once results are certified. Then run:
 
     python scraper/members_elect.py
 
+Before certification you can load unofficial results, labelled as such on the site:
+
+    python scraper/members_elect.py --status "Unofficial results as of Nov 13, 2026 ..."
+
+Run it again without --status once the CSV holds certified results.
+
 Each winner is compared with the current roster:
   returning      same person, same chamber
   switching      same person, moving between House and Senate
@@ -21,6 +27,7 @@ Each winner is compared with the current roster:
 It also lists current members who don't appear among the winners, so you can
 see every seat that will change hands in January.
 """
+import argparse
 import csv
 import json
 import re
@@ -46,6 +53,9 @@ def key(name):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--status", help="label shown on the site, e.g. that results are unofficial and as of when")
+    args = ap.parse_args()
     roster = json.loads(ROSTER.read_text(encoding="utf-8"))
     current = [m for m in roster["members"] if m["status"] == "active"]
     by_key = {key(m["name"]): m for m in current}
@@ -81,7 +91,8 @@ def main():
     OUT.write_text(json.dumps({
         "election": "2026-11-03 general election",
         "updated": date.today().isoformat(),
-        "source": "data/members_elect.csv (from Secretary of State certified results)",
+        "source": "data/members_elect.csv (from Secretary of State results)",
+        "results_status": args.status or "Certified results",
         "members_elect": sorted(elect, key=lambda e: (e["district"], e["chamber"] != "S", e["name"])),
         "departing": departing,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
