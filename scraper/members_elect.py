@@ -18,7 +18,10 @@ Before certification you can load unofficial results, labelled as such on the si
 
     python scraper/members_elect.py --status "Unofficial results as of Nov 13, 2026 ..."
 
-Run it again without --status once the CSV holds certified results.
+The label is kept on later runs (including the daily GitHub refresh). Once the CSV
+holds certified results, clear it with:
+
+    python scraper/members_elect.py --certified
 
 Each winner is compared with the current roster:
   returning      same person, same chamber
@@ -55,7 +58,10 @@ def key(name):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--status", help="label shown on the site, e.g. that results are unofficial and as of when")
+    ap.add_argument("--certified", action="store_true", help="results are certified: drop any unofficial label")
     args = ap.parse_args()
+    previous = json.loads(OUT.read_text(encoding="utf-8")).get("results_status") if OUT.exists() else None
+    results_status = "Certified results" if args.certified else (args.status or previous or "Certified results")
     roster = json.loads(ROSTER.read_text(encoding="utf-8"))
     current = [m for m in roster["members"] if m["status"] == "active"]
     by_key = {key(m["name"]): m for m in current}
@@ -92,7 +98,7 @@ def main():
         "election": "2026-11-03 general election",
         "updated": date.today().isoformat(),
         "source": "data/members_elect.csv (from Secretary of State results)",
-        "results_status": args.status or "Certified results",
+        "results_status": results_status,
         "members_elect": sorted(elect, key=lambda e: (e["district"], e["chamber"] != "S", e["name"])),
         "departing": departing,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
