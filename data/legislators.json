@@ -1,1221 +1,10 @@
 {
   "legislature": 57,
   "session_id": 130,
-  "session_label": "57th Legislature, Second Regular Session (2026)",
-  "retrieved": "2026-11-09",
+  "session_label": "",
+  "retrieved": "2026-11-16",
   "source_url": "https://www.azleg.gov/memberroster/",
   "members": [
-    {
-      "id": 2371,
-      "name": "Lela Alston",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 5,
-      "party": "D",
-      "leadership_title": "Minority Caucus Chair",
-      "email": "lalston@azleg.gov",
-      "room": "Room 315",
-      "phone": "(602) 926-5829",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Public Safety",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": "budget"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2371",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2373,
-      "name": "Hildy Angius",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 30,
-      "party": "R",
-      "leadership_title": null,
-      "email": "hangius@azleg.gov",
-      "room": "Room 302",
-      "phone": "(602) 926-5051",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Education",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Federalism and Family Law",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Health and Human Services",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2373",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2400,
-      "name": "Shawnna Bolick",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 2,
-      "party": "R",
-      "leadership_title": null,
-      "email": "sbolick@azleg.gov",
-      "room": "Room 307",
-      "phone": "(602) 926-3314",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Finance",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "tax"
-        },
-        {
-          "name": "Judiciary and Elections",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Regulatory Affairs and Government Efficiency",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": "regulatory"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2400",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2399,
-      "name": "Flavio Bravo",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 26,
-      "party": "D",
-      "leadership_title": null,
-      "email": "fbravo@azleg.gov",
-      "room": "Room 313",
-      "phone": "(602) 926-4033",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Director Nominations",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Education",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Finance",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "tax"
-        },
-        {
-          "name": "Government",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Audit Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2399",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2374,
-      "name": "Eva Burch",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 9,
-      "party": "D",
-      "leadership_title": null,
-      "email": null,
-      "room": null,
-      "phone": null,
-      "status": "resigned",
-      "status_note": "Resigned 03/14/2025",
-      "committees": [],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2374",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2375,
-      "name": "Frank Carroll",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 28,
-      "party": "R",
-      "leadership_title": "Majority Whip",
-      "email": "fcarroll@azleg.gov",
-      "room": "Room 212",
-      "phone": "(602) 926-3249",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Federalism and Family Law",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Regulatory Affairs and Government Efficiency",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": "regulatory"
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2375",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2376,
-      "name": "Eva Diaz",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 22,
-      "party": "D",
-      "leadership_title": null,
-      "email": "eva.diaz@azleg.gov",
-      "room": "Room 313",
-      "phone": "(602) 926-3473",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Education",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Federalism and Family Law",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Government",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2376",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2388,
-      "name": "Timothy \"Tim\" Dunn",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 25,
-      "party": "R",
-      "leadership_title": null,
-      "email": "tdunn@azleg.gov",
-      "room": "Room 310",
-      "phone": "(602) 926-4139",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Education",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Military Affairs and Border Security",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Audit Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2388",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2377,
-      "name": "Denise \"Mitzi\" Epstein",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 12,
-      "party": "D",
-      "leadership_title": null,
-      "email": "mepstein@azleg.gov",
-      "room": "Room 315",
-      "phone": "(602) 926-4870",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Finance",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "tax"
-        },
-        {
-          "name": "Regulatory Affairs and Government Efficiency",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "regulatory"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2377",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2378,
-      "name": "David C. Farnsworth",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 10,
-      "party": "R",
-      "leadership_title": null,
-      "email": "dfarnsworth@azleg.gov",
-      "room": "Room 200",
-      "phone": "(602) 926-3387",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": "budget"
-        },
-        {
-          "name": "Government",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Public Safety",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Chair",
-          "focus": "budget"
-        },
-        {
-          "name": "Joint Legislative Audit Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2378",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2379,
-      "name": "Brian Fernandez",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 23,
-      "party": "D",
-      "leadership_title": null,
-      "email": "bfernandez@azleg.gov",
-      "room": "Room 312",
-      "phone": "(602) 926-3098",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Finance",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "tax"
-        },
-        {
-          "name": "Regulatory Affairs and Government Efficiency",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "regulatory"
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": "budget"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2379",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2372,
-      "name": "Mark Finchem",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 1,
-      "party": "R",
-      "leadership_title": null,
-      "email": "mfinchem@azleg.gov",
-      "room": "Room 304",
-      "phone": "(602) 926-3631",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Federalism and Family Law",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Judiciary and Elections",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Joint Legislative Audit Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2372",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2380,
-      "name": "Rosanna Gabaldón",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 21,
-      "party": "D",
-      "leadership_title": "Minority Whip",
-      "email": "rgabaldon@azleg.gov",
-      "room": "Room 305",
-      "phone": "(602) 926-3424",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Health and Human Services",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Public Safety",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2380",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2381,
-      "name": "Sally Ann Gonzales",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 20,
-      "party": "D",
-      "leadership_title": null,
-      "email": "sgonzales@azleg.gov",
-      "room": "Room 314",
-      "phone": "(602) 926-3278",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Health and Human Services",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Military Affairs and Border Security",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2381",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2382,
-      "name": "David Gowan",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 19,
-      "party": "R",
-      "leadership_title": null,
-      "email": "dgowan@azleg.gov",
-      "room": "Room 300",
-      "phone": "(602) 926-5154",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Military Affairs and Border Security",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Public Safety",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2382",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2383,
-      "name": "Theresa Hatathlie",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 6,
-      "party": "D",
-      "leadership_title": null,
-      "email": "thatathlie@azleg.gov",
-      "room": "Room 311",
-      "phone": "(602) 926-5160",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Judiciary and Elections",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2383",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2385,
-      "name": "Jake Hoffman",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 15,
-      "party": "R",
-      "leadership_title": null,
-      "email": "jake.hoffman@azleg.gov",
-      "room": "Room 306",
-      "phone": "(602) 926-3292",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Director Nominations",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Finance",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "tax"
-        },
-        {
-          "name": "Government",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2385",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2386,
-      "name": "John Kavanagh",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 3,
-      "party": "R",
-      "leadership_title": "Majority Leader",
-      "email": "jkavanagh@azleg.gov",
-      "room": "Room 212",
-      "phone": "(602) 926-5170",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": "budget"
-        },
-        {
-          "name": "Director Nominations",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Government",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Judiciary and Elections",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": "budget"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2386",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2390,
-      "name": "Lauren Kuby",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 8,
-      "party": "D",
-      "leadership_title": null,
-      "email": "lkuby@azleg.gov",
-      "room": "Room 311",
-      "phone": "(602) 926-4124",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Government",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Judiciary and Elections",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": "budget"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2390",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2398,
-      "name": "Venden \"Vince\" Leach",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 17,
-      "party": "R",
-      "leadership_title": null,
-      "email": "vleach@azleg.gov",
-      "room": "Room 303",
-      "phone": "(602) 926-3694",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Finance",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": "tax"
-        },
-        {
-          "name": "Regulatory Affairs and Government Efficiency",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "regulatory"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2398",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2391,
-      "name": "J.D. Mesnard",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 13,
-      "party": "R",
-      "leadership_title": null,
-      "email": "jmesnard@azleg.gov",
-      "room": "Room 309",
-      "phone": "(602) 926-4481",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Education",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Finance",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": "tax"
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": "budget"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2391",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2392,
-      "name": "Catherine Miranda",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 11,
-      "party": "D",
-      "leadership_title": "Assistant Minority Leader",
-      "email": "cmiranda@azleg.gov",
-      "room": "Room 213",
-      "phone": "(602) 926-3413",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Education",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Military Affairs and Border Security",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Audit Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2392",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2384,
-      "name": "Analise Ortiz",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 24,
-      "party": "D",
-      "leadership_title": null,
-      "email": "analise.ortiz@azleg.gov",
-      "room": "Room 308",
-      "phone": "(602) 926-3633",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Director Nominations",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Federalism and Family Law",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Judiciary and Elections",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Regulatory Affairs and Government Efficiency",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "regulatory"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2384",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2387,
-      "name": "Kevin Payne",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 27,
-      "party": "R",
-      "leadership_title": null,
-      "email": "kpayne@azleg.gov",
-      "room": "Room 302",
-      "phone": "(602) 926-4854",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Federalism and Family Law",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Public Safety",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Regulatory Affairs and Government Efficiency",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "regulatory"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2387",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2393,
-      "name": "Warren Petersen",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 14,
-      "party": "R",
-      "leadership_title": "President",
-      "email": "wpetersen@azleg.gov",
-      "room": "Room 205",
-      "phone": "(602) 926-4136",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Audit Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2393",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2394,
-      "name": "Wendy Rogers",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 7,
-      "party": "R",
-      "leadership_title": null,
-      "email": "wrogers@azleg.gov",
-      "room": "Room 304",
-      "phone": "(602) 926-3042",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Government",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Judiciary and Elections",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Military Affairs and Border Security",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2394",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2415,
-      "name": "Kiana Sears",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 9,
-      "party": "D",
-      "leadership_title": null,
-      "email": "ksears@azleg.gov",
-      "room": "Room 314",
-      "phone": "(602) 926-3374",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Health and Human Services",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Military Affairs and Border Security",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Public Safety",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2415",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2395,
-      "name": "Janae Shamp",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 29,
-      "party": "R",
-      "leadership_title": null,
-      "email": "jshamp@azleg.gov",
-      "room": "Room 303",
-      "phone": "(602) 926-3499",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Health and Human Services",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Military Affairs and Border Security",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2395",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2396,
-      "name": "Thomas \"T.J.\" Shope",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 16,
-      "party": "R",
-      "leadership_title": "President Pro Tempore",
-      "email": "tshope@azleg.gov",
-      "room": "Room 212",
-      "phone": "(602) 926-3012",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Director Nominations",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Health and Human Services",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Public Safety",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2396",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2397,
-      "name": "Priya Sundareshan",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 18,
-      "party": "D",
-      "leadership_title": "Minority Leader",
-      "email": "psundareshan@azleg.gov",
-      "room": "Room 213",
-      "phone": "(602) 926-3437",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Federalism and Family Law",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Natural Resources",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        },
-        {
-          "name": "Rules",
-          "chamber": "S",
-          "role": "Member",
-          "focus": null
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2397",
-      "source": "azleg.gov/memberroster"
-    },
-    {
-      "id": 2389,
-      "name": "Carine Werner",
-      "chamber": "S",
-      "chamber_name": "Senate",
-      "district": 4,
-      "party": "R",
-      "leadership_title": null,
-      "email": "cwerner@azleg.gov",
-      "room": "Room 301",
-      "phone": "(602) 926-3673",
-      "status": "active",
-      "status_note": null,
-      "committees": [
-        {
-          "name": "Appropriations, Transportation and Technology",
-          "chamber": "S",
-          "role": "Member",
-          "focus": "budget"
-        },
-        {
-          "name": "Education",
-          "chamber": "S",
-          "role": "Vice Chair",
-          "focus": null
-        },
-        {
-          "name": "Health and Human Services",
-          "chamber": "S",
-          "role": "Chair",
-          "focus": null
-        },
-        {
-          "name": "Joint Legislative Budget Committee",
-          "chamber": "J",
-          "role": "Member",
-          "focus": "budget"
-        }
-      ],
-      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2389",
-      "source": "azleg.gov/memberroster"
-    },
     {
       "id": 2366,
       "name": "Anna Abeytia",
@@ -3407,6 +2196,1217 @@
         }
       ],
       "profile_url": "https://www.azleg.gov/House/House-member/?legislature=57&session=130&legislator=2342",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2371,
+      "name": "Lela Alston",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 5,
+      "party": "D",
+      "leadership_title": "Minority Caucus Chair",
+      "email": "lalston@azleg.gov",
+      "room": "Room 315",
+      "phone": "(602) 926-5829",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2371",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2373,
+      "name": "Hildy Angius",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 30,
+      "party": "R",
+      "leadership_title": null,
+      "email": "hangius@azleg.gov",
+      "room": "Room 302",
+      "phone": "(602) 926-5051",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2373",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2400,
+      "name": "Shawnna Bolick",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 2,
+      "party": "R",
+      "leadership_title": null,
+      "email": "sbolick@azleg.gov",
+      "room": "Room 307",
+      "phone": "(602) 926-3314",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2400",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2399,
+      "name": "Flavio Bravo",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 26,
+      "party": "D",
+      "leadership_title": null,
+      "email": "fbravo@azleg.gov",
+      "room": "Room 313",
+      "phone": "(602) 926-4033",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2399",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2374,
+      "name": "Eva Burch",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 9,
+      "party": "D",
+      "leadership_title": null,
+      "email": null,
+      "room": null,
+      "phone": null,
+      "status": "resigned",
+      "status_note": "Resigned 03/14/2025",
+      "committees": [],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2374",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2375,
+      "name": "Frank Carroll",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 28,
+      "party": "R",
+      "leadership_title": "Majority Whip",
+      "email": "fcarroll@azleg.gov",
+      "room": "Room 212",
+      "phone": "(602) 926-3249",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": "regulatory"
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2375",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2376,
+      "name": "Eva Diaz",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 22,
+      "party": "D",
+      "leadership_title": null,
+      "email": "eva.diaz@azleg.gov",
+      "room": "Room 313",
+      "phone": "(602) 926-3473",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2376",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2388,
+      "name": "Timothy \"Tim\" Dunn",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 25,
+      "party": "R",
+      "leadership_title": null,
+      "email": "tdunn@azleg.gov",
+      "room": "Room 310",
+      "phone": "(602) 926-4139",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2388",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2377,
+      "name": "Denise “Mitzi” Epstein",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 12,
+      "party": "D",
+      "leadership_title": null,
+      "email": "mepstein@azleg.gov",
+      "room": "Room 315",
+      "phone": "(602) 926-4870",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2377",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2378,
+      "name": "David C. Farnsworth",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 10,
+      "party": "R",
+      "leadership_title": null,
+      "email": "dfarnsworth@azleg.gov",
+      "room": "Room 200",
+      "phone": "(602) 926-3387",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2378",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2379,
+      "name": "Brian Fernandez",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 23,
+      "party": "D",
+      "leadership_title": null,
+      "email": "bfernandez@azleg.gov",
+      "room": "Room 312",
+      "phone": "(602) 926-3098",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2379",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2372,
+      "name": "Mark Finchem",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 1,
+      "party": "R",
+      "leadership_title": null,
+      "email": "mfinchem@azleg.gov",
+      "room": "Room 304",
+      "phone": "(602) 926-3631",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2372",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2380,
+      "name": "Rosanna Gabaldón",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 21,
+      "party": "D",
+      "leadership_title": "Minority Whip",
+      "email": "rgabaldon@azleg.gov",
+      "room": "Room 305",
+      "phone": "(602) 926-3424",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2380",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2381,
+      "name": "Sally Ann Gonzales",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 20,
+      "party": "D",
+      "leadership_title": null,
+      "email": "sgonzales@azleg.gov",
+      "room": "Room 314",
+      "phone": "(602) 926-3278",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2381",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2382,
+      "name": "David Gowan",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 19,
+      "party": "R",
+      "leadership_title": null,
+      "email": "dgowan@azleg.gov",
+      "room": "Room 300",
+      "phone": "(602) 926-5154",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2382",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2383,
+      "name": "Theresa Hatathlie",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 6,
+      "party": "D",
+      "leadership_title": null,
+      "email": "thatathlie@azleg.gov",
+      "room": "Room 311",
+      "phone": "(602) 926-5160",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2383",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2385,
+      "name": "Jake Hoffman",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 15,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jake.hoffman@azleg.gov",
+      "room": "Room 306",
+      "phone": "(602) 926-3292",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "tax"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2385",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2386,
+      "name": "John Kavanagh",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 3,
+      "party": "R",
+      "leadership_title": "Majority Leader",
+      "email": "jkavanagh@azleg.gov",
+      "room": "Room 212",
+      "phone": "(602) 926-5170",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": "budget"
+        },
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2386",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2390,
+      "name": "Lauren Kuby",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 8,
+      "party": "D",
+      "leadership_title": null,
+      "email": "lkuby@azleg.gov",
+      "room": "Room 311",
+      "phone": "(602) 926-4124",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2390",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2398,
+      "name": "Venden \"Vince\" Leach",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 17,
+      "party": "R",
+      "leadership_title": null,
+      "email": "vleach@azleg.gov",
+      "room": "Room 303",
+      "phone": "(602) 926-3694",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": "tax"
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2398",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2391,
+      "name": "J.D. Mesnard",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 13,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jmesnard@azleg.gov",
+      "room": "Room 309",
+      "phone": "(602) 926-4481",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Finance",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": "tax"
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2391",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2392,
+      "name": "Catherine Miranda",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 11,
+      "party": "D",
+      "leadership_title": "Assistant Minority Leader",
+      "email": "cmiranda@azleg.gov",
+      "room": "Room 213",
+      "phone": "(602) 926-3413",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2392",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2384,
+      "name": "Analise Ortiz",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 24,
+      "party": "D",
+      "leadership_title": null,
+      "email": "analise.ortiz@azleg.gov",
+      "room": "Room 308",
+      "phone": "(602) 926-3633",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2384",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2387,
+      "name": "Kevin Payne",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 27,
+      "party": "R",
+      "leadership_title": null,
+      "email": "kpayne@azleg.gov",
+      "room": "Room 302",
+      "phone": "(602) 926-4854",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Regulatory Affairs and Government Efficiency",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "regulatory"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2387",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2393,
+      "name": "Warren Petersen",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 14,
+      "party": "R",
+      "leadership_title": "President",
+      "email": "wpetersen@azleg.gov",
+      "room": "Room 205",
+      "phone": "(602) 926-4136",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Audit Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2393",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2394,
+      "name": "Wendy Rogers",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 7,
+      "party": "R",
+      "leadership_title": null,
+      "email": "wrogers@azleg.gov",
+      "room": "Room 304",
+      "phone": "(602) 926-3042",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Government",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Judiciary and Elections",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2394",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2415,
+      "name": "Kiana Sears",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 9,
+      "party": "D",
+      "leadership_title": null,
+      "email": "ksears@azleg.gov",
+      "room": "Room 314",
+      "phone": "(602) 926-3374",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2415",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2395,
+      "name": "Janae Shamp",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 29,
+      "party": "R",
+      "leadership_title": null,
+      "email": "jshamp@azleg.gov",
+      "room": "Room 303",
+      "phone": "(602) 926-3499",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Military Affairs and Border Security",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2395",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2396,
+      "name": "Thomas \"T.J.\" Shope",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 16,
+      "party": "R",
+      "leadership_title": "President Pro Tempore",
+      "email": "tshope@azleg.gov",
+      "room": "Room 212",
+      "phone": "(602) 926-3012",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Director Nominations",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Public Safety",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2396",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2397,
+      "name": "Priya Sundareshan",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 18,
+      "party": "D",
+      "leadership_title": "Minority Leader",
+      "email": "psundareshan@azleg.gov",
+      "room": "Room 213",
+      "phone": "(602) 926-3437",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Federalism and Family Law",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Natural Resources",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        },
+        {
+          "name": "Rules",
+          "chamber": "S",
+          "role": "Member",
+          "focus": null
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2397",
+      "source": "azleg.gov/memberroster"
+    },
+    {
+      "id": 2389,
+      "name": "Carine Werner",
+      "chamber": "S",
+      "chamber_name": "Senate",
+      "district": 4,
+      "party": "R",
+      "leadership_title": null,
+      "email": "cwerner@azleg.gov",
+      "room": "Room 301",
+      "phone": "(602) 926-3673",
+      "status": "active",
+      "status_note": null,
+      "committees": [
+        {
+          "name": "Appropriations, Transportation and Technology",
+          "chamber": "S",
+          "role": "Member",
+          "focus": "budget"
+        },
+        {
+          "name": "Education",
+          "chamber": "S",
+          "role": "Vice Chair",
+          "focus": null
+        },
+        {
+          "name": "Health and Human Services",
+          "chamber": "S",
+          "role": "Chair",
+          "focus": null
+        },
+        {
+          "name": "Joint Legislative Budget Committee",
+          "chamber": "J",
+          "role": "Member",
+          "focus": "budget"
+        }
+      ],
+      "profile_url": "https://www.azleg.gov/Senate/Senate-member/?legislature=57&session=130&legislator=2389",
       "source": "azleg.gov/memberroster"
     }
   ],

@@ -86,5 +86,9 @@ the Actions tab. Private scripts are never run there.
 - Voting records aren't on the azleg.gov roster; they come from Open States.
 - Campaign finance shows who funds a campaign, not how a legislator votes.
   Business ties come only from legislators' own financial disclosures.
-- APIs that don't document every response field (Spotlight, Open States) are
-  read defensively. Check the first run's output against the source websites.
+- Spotlight field names were checked against live responses in November 2026.
+  Legislators often have a separate committee for each race, so the script sums
+  every matching committee and lists them in `private/spotlight_committees.csv`.
+  Open States fields are still read defensively; check its first run.
+- azleg.gov (Sucuri) and Spotlight (Cloudflare) sit behind firewalls. The scripts
+  send browser-style headers and say so plainly if a firewall blocks them.

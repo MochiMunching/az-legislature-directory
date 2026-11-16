@@ -1,6 +1,17 @@
 {
   "changes": [
     {
+      "date": "2026-11-16",
+      "kind": "updated",
+      "member_id": 2377,
+      "name": "Denise “Mitzi” Epstein",
+      "chamber": "S",
+      "district": 12,
+      "party": "D",
+      "detail": "Name: Denise \"Mitzi\" Epstein → Denise “Mitzi” Epstein",
+      "field": "name"
+    },
+    {
       "date": "2026-11-09",
       "kind": "baseline",
       "member_id": null,

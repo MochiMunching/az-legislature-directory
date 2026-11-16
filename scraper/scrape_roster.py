@@ -27,12 +27,28 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import roster_changes  # noqa: E402
 
 ROSTER_URL = "https://www.azleg.gov/memberroster/"
-HEADERS = {"User-Agent": "AZ-SBDC-legislative-directory/0.1 (research prototype)"}
+# azleg.gov sits behind the Sucuri firewall, which can block or challenge scripts
+# that send an unusual User-Agent. Send ordinary browser headers; requests stay slow.
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/130.0 Safari/537.36 (AZ SBDC legislative research)",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+FIREWALL_MARKERS = ("sucuri", "cloudproxy", "access denied", "attention required", "cf-chl", "just a moment")
 OUT = Path(__file__).resolve().parent.parent / "data" / "legislators.json"
 
 
 def get(url):
-    r = requests.get(url, headers=HEADERS, timeout=30)
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+    except requests.RequestException as e:
+        sys.exit(f"Couldn't reach {url}: {e}")
+    blocked = r.status_code in (403, 429, 503) or (
+        "<table" not in r.text.lower() and any(k in r.text.lower() for k in FIREWALL_MARKERS))
+    if blocked:
+        sys.exit(f"{url} returned HTTP {r.status_code} and looks like a firewall page, not the roster.\n"
+                 f"The site may be blocking this network or script. First 300 characters:\n{r.text[:300]}")
     r.raise_for_status()
     return BeautifulSoup(r.text, "html.parser")
 
@@ -138,7 +154,8 @@ def main():
     soup = get(ROSTER_URL)
     members = [m for m in (parse_row(tr) for tr in soup.select("table tr")) if m]
     if not members:
-        sys.exit("No rows parsed. The roster page layout may have changed.")
+        title = clean(soup.title.get_text()) if soup.title else "(no title)"
+        sys.exit(f"No rows parsed (page title: {title}). The roster page layout may have changed.")
 
     legislature = max(m["_legislature"] for m in members)
     session = max(m["_session"] for m in members)

@@ -7,11 +7,17 @@ API (https://spotlightv2.arizona.vote/Reporting/Api). No key needed.
     python scraper/spotlight_finance.py --candidates    # also list 2026 legislative candidates
 
 What it does
-  1. Finds each legislator's candidate committee with the API's name search.
-     Matches are saved to private/spotlight_committees.csv. If one is wrong,
-     put the right committee id in the override_id column and rerun.
-  2. Pulls that committee's transactions per election cycle and summarizes them.
-     Only totals and categories are kept. No donor names are stored.
+  1. Finds each legislator's candidate committees with the API's name search.
+     Candidates usually register a new committee for each race, so a member
+     can have several (e.g. a 2020 Senate committee and a 2024 one). Every
+     committee whose candidate name matches and whose office is a legislative
+     seat (or blank) is kept. Matches are saved to private/spotlight_committees.csv.
+     If one is wrong, put the right committee id(s) in the override_id column
+     (separate several with ";") and rerun.
+  2. Pulls each committee's transactions per election cycle and sums them.
+     The API's committee feed also lists other groups' spending about the
+     committee; those rows are dropped. Only totals and categories are kept.
+     No donor names are stored.
   3. With --candidates, lists everyone with a 2026 State Senate or State House
      candidate committee in data/candidates_2026.csv, marked new or current,
      to help fill data/members_elect.csv once results are certified.
@@ -21,9 +27,10 @@ Output (private, not committed): private/campaign_finance.json
 Contributions show who funds a campaign. They don't show how a legislator votes,
 so briefs should present them as context only.
 
-The API documents its endpoints but not every response field, so field names
-are read defensively. Check the first run's output against a committee page on
-the Spotlight site before relying on it.
+Field names were checked against live responses on 2026-11-16
+(transactionTypeDispositionName = Income/Expense, transactionGroupNumber =
+contributor entity group, committeeId = the committee that filed the row).
+Spot-check one legislator against the Spotlight site before relying on totals.
 """
 import argparse
 import csv
@@ -39,7 +46,11 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 PRIVATE = ROOT / "private"
 BASE = "https://spotlightv2.arizona.vote/api"
-UA = {"User-Agent": "AZ-SBDC-legislative-directory/0.1 (research prototype)"}
+# Spotlight sits behind Cloudflare, which can block scripts that send an unusual
+# User-Agent. A standard browser string avoids that; the request rate stays low.
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/130.0 Safari/537.36 (AZ SBDC legislative research)",
+      "Accept": "application/json"}
 GROUPS = {1: "Candidate", 2: "PAC", 3: "Party", 4: "Organization", 5: "Independent expenditure",
           6: "Proposition", 7: "Individual", 8: "Business"}
 BUSINESS_ROLE = re.compile(r"\b(owner|self[- ]employed|proprietor|founder|co-?founder|president|ceo|principal|"
@@ -68,7 +79,14 @@ class Spotlight:
     def get(self, path, **params):
         key = (path, tuple(sorted(params.items())))
         if key not in self.cache:
-            r = self.s.get(BASE + path, params=params, timeout=60)
+            try:
+                r = self.s.get(BASE + path, params=params, timeout=90)
+            except requests.RequestException as e:
+                sys.exit(f"Couldn't reach Spotlight ({BASE + path}): {e}")
+            ctype = r.headers.get("content-type", "")
+            if r.status_code in (403, 429, 503) or "json" not in ctype:
+                sys.exit(f"Spotlight returned HTTP {r.status_code} ({ctype or 'no content type'}) for {r.url}\n"
+                         f"This usually means its firewall blocked the script. First 200 characters:\n{r.text[:200]}")
             r.raise_for_status()
             self.cache[key] = r.json()
             time.sleep(self.delay)
@@ -78,9 +96,9 @@ class Spotlight:
         page = 1
         while True:
             doc = self.get(path, page=page, pageSize=500, **params)
-            rows = pick(doc, "data", default=doc if isinstance(doc, list) else [])
+            rows = pick(doc, "data", default=doc if isinstance(doc, list) else []) or []
             yield from rows
-            total = pick(doc, "totalCount", default=len(rows))
+            total = int(pick(doc, "totalCount", default=len(rows)) or 0)
             if not rows or page * 500 >= total:
                 break
             page += 1
@@ -93,57 +111,66 @@ def name_parts(name):
     return parts[0].lower(), parts[-1].lower()
 
 
-def find_committee(api, member):
+LEGISLATIVE_OFFICE = re.compile(r"state senat|state rep|legislat", re.I)
+
+
+def find_committees(api, member):
+    """All candidate committees that look like this member's legislative campaigns.
+
+    Returns (list of committee ids, note). Search results are labelled
+    "Candidate Name - Committee Name Address", e.g. "Frank Carroll - Vote Frank
+    Carroll Po Box ...". The first name is checked loosely (first three letters)
+    so Tim/Timothy and Bob/Robert-style variants mostly still match."""
     first, last = name_parts(member["name"])
     res = api.get("/entities/search", name=last)
-    rows = pick(res, "data", default=res if isinstance(res, list) else [])
-    cands, last_only = [], []
+    rows = pick(res, "data", default=res if isinstance(res, list) else []) or []
+    ids = []
     for r in rows:
-        if int(pick(r, "entityGroupNumber", "entityGroup", default=0) or 0) != 1:
+        if int(pick(r, "entityGroupNumber", default=0) or 0) != 1:
             continue
-        label = str(pick(r, "name", "entityName", "committeeName", "candidateName", default="")).lower()
-        if last not in label:
+        label = str(pick(r, "name", default="")).lower()
+        if last not in label or first[:3] not in label:
             continue
-        if first[:3] in label:
-            office = str(pick(r, "office", "officeName", default="")).lower()
-            score = 2 if (("senat" in office) == (member["chamber"] == "S") and office) else 1
-            cands.append((score, r))
-        else:
-            last_only.append(r)
-    if not cands:
-        if len(last_only) == 1:
-            return pick(last_only[0], "entityId", "id"), "last name only; verify in spotlight_committees.csv"
-        return None, "no match" if not last_only else f"{len(last_only)} last-name-only matches; set override_id"
-    cands.sort(key=lambda x: -x[0])
-    best = cands[0][1]
-    note = "single match" if len(cands) == 1 else f"{len(cands)} candidate committees found; picked the best office match"
-    return pick(best, "entityId", "id"), note
+        cid = pick(r, "entityId", "id")
+        detail = pick(api.get(f"/committees/{cid}"), "committee", default={}) or {}
+        office = str(pick(detail, "officeName", default="") or "")
+        if office and not LEGISLATIVE_OFFICE.search(office):
+            continue  # same name, different race (city council, corporation commission, ...)
+        ids.append(cid)
+    if not ids:
+        return [], "no match; set override_id"
+    return ids, f"{len(ids)} committee(s) by name search; verify in spotlight_committees.csv"
 
 
-def summarize(transactions, member_district=None):
+def own_transactions(api, committee_id, cycle_id):
+    """Rows the committee itself filed, without others' spending about it."""
+    for t in api.paged(f"/committees/{committee_id}/transactions", cycleId=cycle_id):
+        if str(pick(t, "committeeId", default=committee_id)) == str(committee_id):
+            yield t
+
+
+def summarize(transactions):
     out = {"receipts": 0.0, "contributions": 0, "expenses": 0.0, "by_source": {}, "in_state": 0.0,
            "out_of_state": 0.0, "business_community": 0.0}
     for t in transactions:
-        amt = float(pick(t, "amount", "transactionAmount", default=0) or 0)
-        kind = str(pick(t, "transactionType", "type", "category", default="")).lower()
-        is_expense = bool(pick(t, "isExpense", default=False)) or "expen" in kind
-        if is_expense:
+        amt = float(pick(t, "amount", default=0) or 0)
+        kind = str(pick(t, "transactionTypeDispositionName", default="")).lower()
+        if kind.startswith("expense"):
             out["expenses"] += abs(amt)
             continue
-        if amt <= 0:
-            continue
+        if not kind.startswith("income") or amt <= 0:
+            continue  # loans, refunds and reversals aren't counted as money raised
         out["receipts"] += amt
         out["contributions"] += 1
-        g = pick(t, "contributorEntityGroupNumber", "entityGroupNumber", "contributorGroup")
-        src = GROUPS.get(int(g), "Other") if str(g or "").isdigit() else (
-            "Individual" if pick(t, "occupation", "contributorOccupation") else "Other")
+        g = pick(t, "transactionGroupNumber")
+        src = GROUPS.get(int(g), "Other") if str(g or "").isdigit() else "Other"
         out["by_source"][src] = out["by_source"].get(src, 0.0) + amt
-        st = str(pick(t, "state", "contributorState", default="")).upper()
+        st = str(pick(t, "state", default="")).upper()
         if st == "AZ":
             out["in_state"] += amt
-        elif st:
+        elif len(st) == 2:
             out["out_of_state"] += amt
-        occ = " ".join(str(pick(t, f, default="")) for f in ("occupation", "contributorOccupation", "employer", "contributorEmployer"))
+        occ = " ".join(str(pick(t, f, default="")) for f in ("occupation", "employer"))
         if src in ("Business", "Organization") or (src == "Individual" and BUSINESS_ROLE.search(occ)):
             out["business_community"] += amt
     r = out["receipts"] or 1
@@ -160,14 +187,17 @@ def summarize(transactions, member_district=None):
 
 
 def cycles(api, years):
+    """Regular election cycles only; recall and special cycles share years with them."""
     doc = api.get("/cycles")
-    rows = pick(doc, "data", default=doc if isinstance(doc, list) else [])
+    rows = pick(doc, "data", default=doc if isinstance(doc, list) else []) or []
     found = {}
     for r in rows:
-        label = str(pick(r, "name", "cycleName", "year", default=""))
+        name = str(pick(r, "cycleName", "name", default="")).strip()
         cid = pick(r, "cycleId", "id")
+        if pick(r, "isSpecialCycle", default=False) or pick(r, "isRecallCycle", default=False):
+            continue
         for y in years:
-            if str(y) in label and cid is not None:
+            if name == str(y) and cid is not None:
                 found[y] = cid
     return found
 
@@ -176,7 +206,8 @@ def load_overrides(path):
     if not path.exists():
         return {}
     with path.open(encoding="utf-8") as f:
-        return {int(r["member_id"]): r["override_id"].strip() for r in csv.DictReader(f) if r.get("override_id", "").strip()}
+        return {int(r["member_id"]): [x.strip() for x in r["override_id"].split(";") if x.strip()]
+                for r in csv.DictReader(f) if r.get("override_id", "").strip()}
 
 
 def list_candidates(api, cycle_id, roster):
@@ -228,20 +259,30 @@ def main():
     overrides = load_overrides(PRIVATE / "spotlight_committees.csv")
     matches, results = [], {}
     for i, m in enumerate(members, 1):
-        cid, note = (overrides[m["id"]], "manual override") if m["id"] in overrides else find_committee(api, m)
+        ids, note = (overrides[m["id"]], "manual override") if m["id"] in overrides else find_committees(api, m)
         matches.append({"member_id": m["id"], "name": m["name"], "chamber": m["chamber"], "district": m["district"],
-                        "committee_id": cid or "", "match_note": note, "override_id": overrides.get(m["id"], "")})
-        if not cid:
+                        "committee_ids": ";".join(str(x) for x in ids), "match_note": note,
+                        "override_id": ";".join(overrides.get(m["id"], []))})
+        if not ids:
             print(f"  [{i}/{len(members)}] {m['name']}: no committee found")
             continue
         per_cycle = {}
         for y, c in cyc.items():
-            tx = list(api.paged(f"/committees/{cid}/transactions", cycleId=c))
+            tx, used = [], []
+            for cid in ids:
+                rows = list(own_transactions(api, cid, c))
+                if rows:
+                    tx += rows
+                    used.append(str(cid))
             if tx:
-                per_cycle[str(y)] = summarize(tx)
-        results[m["id"]] = {"name": m["name"], "committee_id": cid, "match_note": note, "cycles": per_cycle}
-        print(f"  [{i}/{len(members)}] {m['name']}: committee {cid}, {len(per_cycle)} cycle(s)")
+                per_cycle[str(y)] = {**summarize(tx), "committees": used}
+        results[m["id"]] = {"name": m["name"], "committee_id": "; ".join(str(x) for x in ids),
+                            "match_note": note, "cycles": per_cycle}
+        print(f"  [{i}/{len(members)}] {m['name']}: {len(ids)} committee(s), data in {len(per_cycle)} cycle(s)"
+              + "".join(f"; {y}: ${v['receipts']:,.0f} raised" for y, v in sorted(per_cycle.items())))
 
+    if not matches:
+        sys.exit("No active legislators in data/legislators.json.")
     with (PRIVATE / "spotlight_committees.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(matches[0].keys()))
         w.writeheader()
@@ -252,6 +293,7 @@ def main():
         "method": {
             "business_community": "Contributions from entities the API classes as businesses or organizations, plus individuals whose occupation or employer names an owner, founder, executive or self-employed role.",
             "in_state": "Based on the contributor's state as reported. District-level location isn't available from the API.",
+            "scope": "Income rows filed by the legislator's own candidate committees in each cycle, summed across committees. Expenses and others' independent expenditures are excluded from receipts.",
         },
         "legislators": results,
     }, indent=2), encoding="utf-8")

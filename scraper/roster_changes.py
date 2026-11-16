@@ -80,7 +80,7 @@ def append(records):
     doc = json.loads(CHANGES.read_text(encoding="utf-8")) if CHANGES.exists() else {"changes": []}
     seen = {(c["date"], c["kind"], c["member_id"], c["detail"]) for c in doc["changes"]}
     fresh = [r for r in records if (r["date"], r["kind"], r["member_id"], r["detail"]) not in seen]
-    doc["changes"] = sorted(doc["changes"] + fresh, key=lambda c: c["date"], reverse=True)
+    doc["changes"] = sorted(doc["changes"] + fresh, key=lambda c: c.get("date") or "", reverse=True)  # undated entries sort last
     CHANGES.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")
     return fresh
 

@@ -1,6 +1,6 @@
 name: Refresh public data
 
-# Roster daily on weekdays during session (January–June), weekly on Mondays otherwise.
+# Roster daily on weekdays during session (Januaryâ€“June), weekly on Mondays otherwise.
 # Times are 6:17 AM Arizona time (13:17 UTC; Arizona doesn't observe daylight saving).
 on:
   schedule:
@@ -30,7 +30,10 @@ jobs:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
 
+      # If azleg.gov blocks GitHub's servers, keep going with the last roster
+      # so the rest of the site still refreshes. Check this step's log if it's yellow.
       - name: Roster (and change log)
+        continue-on-error: true
         run: |
           if [ "${{ inputs.committees }}" = "true" ]; then
             python scraper/scrape_roster.py --committees
