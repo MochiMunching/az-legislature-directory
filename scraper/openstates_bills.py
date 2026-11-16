@@ -10,6 +10,8 @@ from https://open.pluralpolicy.com, profile page).
 How the bill list works
   --discover searches the session for small business, tax, regulatory, workforce
   and ESOP keywords and adds new matches to data/bill_list.csv with track blank.
+  Each bill gets a first-pass priority from scraper/triage_bills.py (title,
+  matched terms and outcome): 1 review first, 2 review, 3 context, - set aside.
   SBDC staff review that file and set track=yes on the bills that matter.
   Only track=yes bills get votes pulled. The keyword list finds candidates;
   SBDC decides what counts.
@@ -32,11 +34,15 @@ from pathlib import Path
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import triage_bills  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://v3.openstates.org"
 JURISDICTION = "ocd-jurisdiction/country:us/state:az/government"
 BILL_LIST = ROOT / "data" / "bill_list.csv"
-LIST_FIELDS = ["session", "identifier", "title", "topic", "track", "openstates_id", "found_by", "notes"]
+LIST_FIELDS = ["session", "identifier", "title", "priority", "category", "status", "why", "track", "topic",
+               "matched_terms", "openstates_id", "found_by", "notes"]
 
 TOPICS = {
     "small business": ["small business", "microbusiness", "entrepreneur"],
@@ -155,23 +161,39 @@ def write_list(rows):
             w.writerow({k: r.get(k, "") for k in LIST_FIELDS})
 
 
+def write_sorted(rows):
+    order = {"1": 0, "2": 1, "3": 2, "-": 3}
+    rows.sort(key=lambda r: (r["session"], order.get(r.get("priority") or "-", 3), r.get("category") or "", r["identifier"]))
+    write_list(rows)
+
+
 def discover(api, session):
     rows = read_list()
-    have = {(r["session"], r["identifier"]) for r in rows}
+    by_key = {(r["session"], r["identifier"]): r for r in rows}
     added = 0
     for topic, terms in TOPICS.items():
         for term in terms:
             for b in api.paged("/bills", {"jurisdiction": JURISDICTION, "session": session, "q": f'"{term}"'}):
                 key = (session, b.get("identifier"))
-                if key in have:
-                    continue
-                have.add(key)
-                rows.append({"session": session, "identifier": b.get("identifier"), "title": b.get("title"),
-                             "topic": topic, "track": "", "openstates_id": b.get("id"), "found_by": term})
-                added += 1
-    rows.sort(key=lambda r: (r["session"], r["identifier"]))
-    write_list(rows)
-    print(f"{added} new candidate bills added to {BILL_LIST.relative_to(ROOT)}. Set track=yes on the ones SBDC wants followed.")
+                row = by_key.get(key)
+                if row is None:
+                    row = {"session": session, "identifier": b.get("identifier"), "title": b.get("title"),
+                           "topic": topic, "track": "", "openstates_id": b.get("id"), "found_by": term}
+                    rows.append(row)
+                    by_key[key] = row
+                    added += 1
+                matched = [t for t in (row.get("matched_terms") or "").split("; ") if t]
+                if term not in matched:
+                    row["matched_terms"] = "; ".join(matched + [term])
+                row["status"] = triage_bills.STATUS[triage_bills.status_code(b)]
+    for r in rows:
+        triage_bills.triage_row(r)
+    write_sorted(rows)
+    from collections import Counter
+    pr = Counter(r.get("priority") for r in rows if r["session"] == session)
+    print(f"{added} new candidate bills added to {BILL_LIST.relative_to(ROOT)}; "
+          f"priority 1: {pr['1']}, 2: {pr['2']}, 3: {pr['3']}, set aside: {pr['-']}. "
+          "Set track=yes on the ones SBDC wants followed.")
 
 
 def summarize_bill(b, by_name, by_seat):
