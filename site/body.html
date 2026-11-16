@@ -234,6 +234,8 @@ table.narrow { min-width: 620px; }
 .bill-id:hover { text-decoration: underline; }
 .bill-title { font-weight: 600; flex: 1 1 280px; min-width: 0; }
 .bill-meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.bill-tag { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.bill.light { padding: 10px 14px; gap: 4px; }
 .sponsors { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; }
 .sponsors b { font-weight: 600; }
 .rc { border-top: 1px solid var(--line); padding-top: 8px; display: grid; gap: 6px; }
@@ -424,7 +426,17 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
   </section>
 
   <section id="view-bills" role="tabpanel" aria-labelledby="tab-bills" hidden>
-    <h3 class="sub">Tracked bills</h3>
+    <h3 class="sub">Bills</h3>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Priority">
+        <button data-prio="1" aria-pressed="true">Review first</button>
+        <button data-prio="2" aria-pressed="false">Review</button>
+        <button data-prio="3" aria-pressed="false">Context</button>
+      </div>
+      <select id="billCat" aria-label="Category"><option value="">All categories</option></select>
+      <select id="billOutcome" aria-label="Outcome"><option value="">All outcomes</option></select>
+      <span class="count" id="billCount"></span>
+    </div>
     <p class="section-note" id="billsNote"></p>
     <div id="billsBox"></div>
     <h3 class="sub" style="margin-top:28px">Employee ownership (ESOP) watch</h3>
@@ -735,12 +747,9 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
       return;
     }
     const counts = ["new", "switching", "returning"].map((s) => `${el.filter((e) => e.status === s).length} ${s}`).join(" · ");
-    const status = state.elect?.results_status;
-    const statusNote = status && status !== "Certified results"
-      ? `<p class="section-note"><strong style="color:var(--fg)">${esc(status)}</strong></p>` : "";
-    $("incoming").innerHTML = `${statusNote}<p class="section-note">${counts}</p><div class="elect">${el.map((e) => `<div class="elect-row">
+    $("incoming").innerHTML = `<p class="section-note">${counts}</p><div class="elect">${el.map((e) => `<div class="elect-row">
       <span class="ld">LD ${e.district}</span>
-      <span><strong>${esc(e.name)}</strong> <span class="muted">${e.chamber === "S" ? "Senate" : "House"}${e.party ? " · " + esc(e.party) : ""}</span><br><span class="muted" style="font-size:12px">${esc(e.briefing)}${e.notes ? " · " + esc(e.notes) : ""}</span></span>
+      <span><strong>${esc(e.name)}</strong> <span class="muted">${e.chamber === "S" ? "Senate" : "House"}${e.party ? " · " + esc(e.party) : ""}</span><br><span class="muted" style="font-size:12px">${esc(e.briefing)}</span></span>
       <span class="kind ${esc(e.status)}">${esc(e.status)}</span></div>`).join("")}</div>`;
   }
 
@@ -838,7 +847,8 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     return `<article class="bill">
       <div class="bill-head">${b.url ? `<a class="bill-id" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.identifier)}</a>` : `<span class="bill-id">${esc(b.identifier)}</span>`}
         <span class="bill-title">${esc(b.title)}</span></div>
-      <div class="bill-meta">${b.topic ? `<span class="focus" style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)">${esc(b.topic)}</span>` : ""}
+      <div class="bill-meta">${b.category ? `<span class="bill-tag">${esc(b.category)}</span>` : b.topic ? `<span class="bill-tag">${esc(b.topic)}</span>` : ""}
+        ${b.status ? `<span>${esc(b.status)}</span>` : ""}
         ${b.matched_term ? `<span>Matched “${esc(b.matched_term)}”</span>` : ""}
         <span>Latest: ${esc(b.latest_action?.date || "")} ${esc(b.latest_action?.description || "—")}</span></div>
       ${sp.length ? `<div class="sponsors"><span class="muted">Sponsors:</span>${sp.map((s) => `<span>${s.primary ? "<b>" : ""}${esc(s.name)}${s.primary ? "</b>" : ""}${s.member_id ? ` <span class="chip ${esc(partyOf(s.member_id))}">${esc(partyOf(s.member_id))}</span>` : ""}</span>`).join("")}</div>` : ""}
@@ -852,14 +862,47 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
       }).join("")}
     </article>`;
   }
+  const billView = { prio: "1", cat: "", outcome: "" };
+  function lightBillCard(r) {
+    return `<article class="bill light">
+      <div class="bill-head"><span class="bill-id">${esc(r.identifier)}</span><span class="bill-title">${esc(r.title)}</span></div>
+      <div class="bill-meta">${r.category ? `<span class="bill-tag">${esc(r.category)}</span>` : ""}<span>${esc(r.status || "")}</span>
+        <span>${esc(r.why || "")}</span><span>Not tracked, so votes aren't pulled</span></div>
+    </article>`;
+  }
+  function fillBillFilters() {
+    const T = state.triage?.bills || [];
+    const uniq = (k) => [...new Set(T.map((r) => r[k]).filter(Boolean))].sort();
+    $("billCat").innerHTML = `<option value="">All categories</option>` + uniq("category").map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+    $("billOutcome").innerHTML = `<option value="">All outcomes</option>` + uniq("status").map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+    const label = { 1: "Review first", 2: "Review", 3: "Context" };
+    document.querySelectorAll("[data-prio]").forEach((b) => {
+      const n = T.filter((r) => r.priority === b.dataset.prio).length;
+      b.textContent = `${label[b.dataset.prio]} (${n})`;
+    });
+  }
   function renderBills() {
-    const B = state.bills, E = state.esop;
-    $("billsNote").textContent = B ? `${B.bills.length} bills SBDC is following in the ${B.session} session. Votes are the public roll-call record from Open States, retrieved ${B.retrieved}.` : "";
-    $("billsBox").innerHTML = B?.bills?.length ? `<div class="bill-list">${B.bills.map((b) => billCard(b, true)).join("")}</div>`
-      : `<div class="empty-card"><strong style="color:var(--fg)">No bills tracked yet</strong>
+    const B = state.bills, E = state.esop, T = state.triage;
+    const tracked = Object.fromEntries((B?.bills || []).map((b) => [b.identifier, b]));
+    if (T?.bills?.length) {
+      const rows = T.bills.filter((r) => r.priority === billView.prio && (!billView.cat || r.category === billView.cat)
+        && (!billView.outcome || r.status === billView.outcome));
+      rows.sort((a, c) => (tracked[c.identifier] ? 1 : 0) - (tracked[a.identifier] ? 1 : 0) || a.identifier.localeCompare(c.identifier, undefined, { numeric: true }));
+      const nTracked = rows.filter((r) => tracked[r.identifier]).length;
+      $("billCount").textContent = `${rows.length} bills · ${nTracked} tracked`;
+      $("billsNote").textContent = `Bills from the ${T.session} session sorted by a first-pass review priority from the bill titles, matched search terms and outcome. ` +
+        `Tracked bills show sponsors and the public roll-call record from Open States${B ? `, retrieved ${B.retrieved}` : ""}. SBDC decides which bills to track.`;
+      $("billsBox").innerHTML = rows.length ? `<div class="bill-list">${rows.map((r) => tracked[r.identifier] ? billCard(tracked[r.identifier], true) : lightBillCard(r)).join("")}</div>`
+        : `<div class="empty-card"><span>No bills match these filters.</span></div>`;
+    } else {
+      $("billCount").textContent = "";
+      $("billsNote").textContent = B ? `${B.bills.length} bills SBDC is following in the ${B.session} session. Votes are the public roll-call record from Open States, retrieved ${B.retrieved}.` : "";
+      $("billsBox").innerHTML = B?.bills?.length ? `<div class="bill-list">${B.bills.map((b) => billCard(b, true)).join("")}</div>`
+        : `<div class="empty-card"><strong style="color:var(--fg)">No bills tracked yet</strong>
          <span>1. Get a free API key from your profile at open.pluralpolicy.com and set it as <code>OPENSTATES_API_KEY</code>.</span>
          <span>2. Run <code>python scraper/openstates_bills.py --discover</code>. It searches the session for small business, tax, regulatory, workforce and ESOP bills and lists them in <code>data/bill_list.csv</code>.</span>
          <span>3. SBDC marks the bills that matter with <code>track=yes</code>. Then run <code>python scraper/openstates_bills.py</code> to pull sponsors, actions and roll-call votes.</span></div>`;
+    }
     $("esopBox").innerHTML = E?.bills?.length ? `<div class="bill-list">${E.bills.map((b) => billCard(b, false)).join("")}</div>`
       : `<div class="empty-card"><span>${E ? `No bills matched the employee-ownership terms in the ${esc(E.session)} session as of ${esc(E.retrieved)}.` : "The watch list fills in the first time <code>openstates_bills.py</code> runs."}</span></div>`;
   }
@@ -970,6 +1013,13 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     $("mapPanel").addEventListener("click", (e) => { const b = e.target.closest("[data-show-ld]"); if (b) goDistrict(b.dataset.showLd); });
     $("shade").addEventListener("change", renderMap);
     $("addrForm").addEventListener("submit", lookupAddress);
+    document.querySelectorAll("[data-prio]").forEach((b) => b.addEventListener("click", () => {
+      billView.prio = b.dataset.prio;
+      document.querySelectorAll("[data-prio]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      renderBills();
+    }));
+    $("billCat").addEventListener("change", (e) => { billView.cat = e.target.value; renderBills(); });
+    $("billOutcome").addEventListener("change", (e) => { billView.outcome = e.target.value; renderBills(); });
     $("view-bills").addEventListener("click", (e) => {
       const b = e.target.closest("[data-rc]"); if (!b) return;
       const grid = b.closest(".rc").querySelector(".rc-grid"); grid.hidden = !grid.hidden;
@@ -983,9 +1033,9 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
 
   }
 
-  function init([data, committees, centers, districtCenters, schedule, changes, elect, geo, impact, bills, esop, sources]) {
+  function init([data, committees, centers, districtCenters, schedule, changes, elect, geo, impact, bills, esop, sources, triage]) {
     state.sources = sources;
-    state.bills = bills; state.esop = esop;
+    state.bills = bills; state.esop = esop; state.triage = triage;
     state.geo = geo; state.impact = impact;
     state.pop = Object.fromEntries((geo?.features || []).map((f) => [f.properties.district, f.properties.population]));
     state.schedule = schedule; state.changes = changes; state.elect = elect;
@@ -997,7 +1047,7 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     $("sourceLine").innerHTML = `Source: <a href="${esc(data.source_url)}" target="_blank" rel="noopener">azleg.gov member roster</a>, retrieved ${esc(data.retrieved)}`;
     $("district").innerHTML += Array.from({ length: 30 }, (_, i) => `<option value="${i + 1}">LD ${i + 1}</option>`).join("");
     fillCommitteeSelect();
-    renderComposition(); renderTable(); renderFormer(); renderDistricts(); renderPower(); renderCenters(); renderCalendar(); renderUpdates(); renderMap(); renderBills(); renderSources(); renderLeadership();
+    renderComposition(); renderTable(); renderFormer(); renderDistricts(); renderPower(); renderCenters(); renderCalendar(); renderUpdates(); renderMap(); fillBillFilters(); renderBills(); renderSources(); renderLeadership();
     wire(); showView();
   }
 
@@ -1017,6 +1067,7 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     getJSON("data/bills.json", true),
     getJSON("data/esop_watch.json", true),
     getJSON("data/sources.json", true),
+    getJSON("data/bill_triage.json", true),
   ]).then(init).catch(() => {
     $("rows").innerHTML = `<tr><td colspan="8" class="empty">Couldn't load data/legislators.json. Check that the file is in the repo's data folder, then reload.</td></tr>`;
   });

@@ -236,6 +236,17 @@ def fetch_bill(api, row):
     return api.get(f"/bills/az/{row['session']}/{ident}", params)
 
 
+def write_triage(session, today=None):
+    """Public list of priority 1-3 bills (titles, outcome, category) for the site's filters."""
+    rows = [r for r in read_list() if r["session"] == session and (r.get("priority") or "-") in ("1", "2", "3")]
+    out = [{"identifier": r["identifier"], "title": r["title"], "priority": r["priority"], "category": r.get("category"),
+            "status": r.get("status"), "why": r.get("why"),
+            "tracked": (r.get("track") or "").strip().lower() in ("yes", "y", "true", "1")} for r in rows]
+    (ROOT / "data" / "bill_triage.json").write_text(json.dumps({
+        "source": "data/bill_list.csv (Open States search + scraper/triage_bills.py)", "session": session,
+        "updated": today or date.today().isoformat(), "bills": out}, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--discover", action="store_true", help="search for candidate bills by topic keyword")
@@ -251,6 +262,7 @@ def main():
 
     if args.discover:
         discover(api, session)
+        write_triage(session)
         return
 
     roster = json.loads((ROOT / "data" / "legislators.json").read_text(encoding="utf-8"))["members"]
@@ -265,6 +277,7 @@ def main():
             print(f"  ! {r['identifier']}: {e}")
             continue
         b["topic"], b["notes"] = r.get("topic"), r.get("notes")
+        b.update({k: r.get(k) for k in ("priority", "category", "status", "why")})
         bills.append(b)
         print(f"  {b['identifier']}: {len(b['sponsors'])} sponsors, {len(b['roll_calls'])} roll calls")
 
@@ -290,6 +303,7 @@ def main():
 
     today = date.today().isoformat()
     meta = {"source": "Open States API v3", "retrieved": today, "session": session}
+    write_triage(session, today)
     (ROOT / "data" / "bills.json").write_text(json.dumps({**meta, "bills": bills}, indent=2, ensure_ascii=False), encoding="utf-8")
     (ROOT / "data" / "votes.json").write_text(json.dumps({**meta, "unmatched_voters": unmatched, "members": votes}, indent=2, ensure_ascii=False), encoding="utf-8")
     (ROOT / "data" / "esop_watch.json").write_text(json.dumps({**meta, "terms": ESOP_TERMS, "bills": esop}, indent=2, ensure_ascii=False), encoding="utf-8")

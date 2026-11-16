@@ -1,0 +1,1663 @@
+{
+  "source": "data/bill_list.csv (Open States search + scraper/triage_bills.py)",
+  "session": "57th-2nd-regular",
+  "updated": "2026-11-16",
+  "bills": [
+    {
+      "identifier": "HB 2289",
+      "title": "truth in taxation; bonds; notices",
+      "priority": "1",
+      "category": "business tax",
+      "status": "vetoed",
+      "why": "business tax; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2786",
+      "title": "TPT; exemption; textbook rental",
+      "priority": "1",
+      "category": "business tax",
+      "status": "signed into law",
+      "why": "business tax; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2918",
+      "title": "renewable energy equipment; valuation; depreciation",
+      "priority": "1",
+      "category": "business tax",
+      "status": "passed at least one chamber",
+      "why": "business tax; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 4165",
+      "title": "revenue; 2026-2027",
+      "priority": "1",
+      "category": "business tax",
+      "status": "signed into law",
+      "why": "business tax; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 4168",
+      "title": "taxation; omnibus; 2026-2027",
+      "priority": "1",
+      "category": "business tax",
+      "status": "signed into law",
+      "why": "business tax; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1106",
+      "title": "internal revenue code; conformity; deductions",
+      "priority": "1",
+      "category": "business tax",
+      "status": "vetoed",
+      "why": "business tax; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1430",
+      "title": "tax corrections act of 2026",
+      "priority": "1",
+      "category": "business tax",
+      "status": "signed into law",
+      "why": "business tax; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2254",
+      "title": "special plate; small business advocate",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2290",
+      "title": "TPT; sourcing; business location; receipt",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2388",
+      "title": "appropriation; commerce authority; nuclear; study",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2692",
+      "title": "procurement; professionals; construction services",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2696",
+      "title": "commerce authority; gas; prices; prioritization",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2746",
+      "title": "trade offices study committee",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2747",
+      "title": "income tax; subtraction; small businesses",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2752",
+      "title": "commerce authority; trade offices",
+      "priority": "1",
+      "category": "core small business",
+      "status": "signed into law",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2753",
+      "title": "board of directors; commerce authority",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2754",
+      "title": "commerce authority; board of directors",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2768",
+      "title": "interchange fees; payment card transactions",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2824",
+      "title": "capital improvement; financing program",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2858",
+      "title": "state contracting; businesses",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2939",
+      "title": "qualified facilities; tax credit; amount",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2950",
+      "title": "tourism improvement areas; municipalities; counties",
+      "priority": "1",
+      "category": "core small business",
+      "status": "signed into law",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2988",
+      "title": "municipal tax increment financing; infrastructure",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 4007",
+      "title": "municipal tax increment financing",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 4130",
+      "title": "growth zones; housing and economic",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 4157",
+      "title": "commerce; 2026-2027",
+      "priority": "1",
+      "category": "core small business",
+      "status": "signed into law",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1301",
+      "title": "business relocation; notice; penalty",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1371",
+      "title": "commerce authority; qualified facility; definition",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1429",
+      "title": "board of directors; commerce authority.",
+      "priority": "1",
+      "category": "core small business",
+      "status": "vetoed",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1616",
+      "title": "business entities; licensees; exemptions",
+      "priority": "1",
+      "category": "core small business",
+      "status": "passed at least one chamber",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1799",
+      "title": "commerce authority; tax incentives; certification",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1850",
+      "title": "commerce; 2026-2027.",
+      "priority": "1",
+      "category": "core small business",
+      "status": "died in committee",
+      "why": "directly about small business, commerce or state contracting",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2118",
+      "title": "mobile food vendors; licensure",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "vetoed",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2305",
+      "title": "private towing carriers; regulation; rates",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "vetoed",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2429",
+      "title": "vacation rentals; short-term rentals; occupancy",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "passed at least one chamber",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2476",
+      "title": "certified public accountants; certification; alternative.",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "passed at least one chamber",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2591",
+      "title": "apprenticeships; registration; certificate",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "passed at least one chamber",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2926",
+      "title": "housing; contractors; bonds; taxes",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "passed at least one chamber",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2946",
+      "title": "municipalities; counties; development fees",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 4001",
+      "title": "alternative nicotine products; regulation.",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1181",
+      "title": "certified public accountants; certification; alternative",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1252",
+      "title": "uniform assignment; benefit of creditors",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1419",
+      "title": "solar energy; inspection; contractors",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1478",
+      "title": "liquor; policies; procedures",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1501",
+      "title": "agencies; statutory authority",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "passed at least one chamber",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1515",
+      "title": "industrial commission; revisions",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "passed at least one chamber",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1563",
+      "title": "barbering and cosmetology board; continuation",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1566",
+      "title": "malicious delay; enforcement; penalty",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "signed into law",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1641",
+      "title": "marijuana producers; licensure",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "passed at least one chamber",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1787",
+      "title": "exactions; individualized determinations; appeal",
+      "priority": "1",
+      "category": "licensing & regulation",
+      "status": "vetoed",
+      "why": "licensing & regulation; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2812",
+      "title": "accumulated sick leave; payments",
+      "priority": "1",
+      "category": "workforce",
+      "status": "passed at least one chamber",
+      "why": "workforce; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1461",
+      "title": "allied health care workforce; appropriation",
+      "priority": "1",
+      "category": "workforce",
+      "status": "passed at least one chamber",
+      "why": "workforce; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "SB 1488",
+      "title": "appropriation; coal-impacted workforce; study",
+      "priority": "1",
+      "category": "workforce",
+      "status": "passed at least one chamber",
+      "why": "workforce; moved in 2026",
+      "tracked": true
+    },
+    {
+      "identifier": "HB 2152",
+      "title": "TPT; exemption; fencing; watering; materials",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2153",
+      "title": "internal revenue code; conformity; deductions.",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2259",
+      "title": "TPT; distribution; HURF",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2269",
+      "title": "TPT; exemption; utilities; repeal",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2487",
+      "title": "corporate income tax; disclosure; database",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2568",
+      "title": "TPT; online lodging marketplace; reporting",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2639",
+      "title": "TPT; luxury item classification",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2678",
+      "title": "TPT; diapers; feminine hygiene; exemption",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2694",
+      "title": "tax credit; health reimbursement arrangement",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2702",
+      "title": "data centers; TPT distribution; solar",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2785",
+      "title": "conformity; internal revenue code; deductions",
+      "priority": "2",
+      "category": "business tax",
+      "status": "sent to governor (superseded budget draft)",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2826",
+      "title": "TPT; prime contracting; exemption; irrigation",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2836",
+      "title": "tax credit; fraud prevention organizations",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2839",
+      "title": "municipal tax; exemption; food",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2924",
+      "title": "TPT; exemption; fire apparatus",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2984",
+      "title": "sales tax credit; tribal taxes",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4030",
+      "title": "rates; fees; taxes; increase; moratorium",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4032",
+      "title": "alternative nicotine; vapor products; tax.",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4116",
+      "title": "TPT; use tax; exemption; batteries",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4152",
+      "title": "2026-2027; taxation; omnibus.",
+      "priority": "2",
+      "category": "business tax",
+      "status": "sent to governor (superseded budget draft)",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HCR 2018",
+      "title": "municipal tax; exemption; food",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HCR 2052",
+      "title": "rates; fees; taxes; increases; moratorium",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1466",
+      "title": "tax expenditures; credits; review schedule",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1539",
+      "title": "animal breeders; dogs; cats; taxes",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1638",
+      "title": "conformity; internal revenue code; deductions.",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1744",
+      "title": "TPT; exemption; fire trucks; ambulance",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1745",
+      "title": "local excise taxes; rate limit",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1845",
+      "title": "taxation omnibus",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1858",
+      "title": "revenue; 2026-2027.",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1861",
+      "title": "taxation; omnibus; 2026-2027.",
+      "priority": "2",
+      "category": "business tax",
+      "status": "died in committee",
+      "why": "business tax; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1847",
+      "title": "general appropriations act; 2026-2027.",
+      "priority": "2",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "the enacted state budget: check the Commerce Authority and SBDC funding lines",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2234",
+      "title": "municipal licensing; approvals; administrative review",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2294",
+      "title": "occupational licenses; apprenticeships",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2296",
+      "title": "prohibited agreements; public works contracts",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2339",
+      "title": "solar devices; sellers; marketers; licensure",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2362",
+      "title": "property classification; short-term rentals",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2430",
+      "title": "short-term rentals; online lodging marketplace",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2566",
+      "title": "vacation rentals; short-term rentals; regulation",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2869",
+      "title": "electricians; certification",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4002",
+      "title": "vacation rentals; short-term rentals; notice",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4047",
+      "title": "medical spas; licensure; regulation",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4066",
+      "title": "municipal development fees; proportional fees",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4072",
+      "title": "tattooing; body piercing; registration",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4090",
+      "title": "liquor licenses; issuance; prohibition",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4102",
+      "title": "administrative procedures; revisions",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1241",
+      "title": "municipalities; counties; private permitting providers",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1261",
+      "title": "short-term rentals; vacation rentals; occupancy",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1303",
+      "title": "electricians; registration; requirements",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1427",
+      "title": "e-verify program; license; penalties; employment",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1469",
+      "title": "municipal self-certification; approvals; population",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1481",
+      "title": "elevator contractors; mechanics; certification",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1518",
+      "title": "barbering and cosmetology board; revision",
+      "priority": "2",
+      "category": "licensing & regulation",
+      "status": "died in committee",
+      "why": "licensing & regulation; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2216",
+      "title": "high schools; trade diploma program",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2293",
+      "title": "public policy; wage contracts; repeal",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2450",
+      "title": "contracts; public works; employees; apprenticeships.",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2461",
+      "title": "employer surcharge; workforce development",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2690",
+      "title": "unemployment benefits; requirements; disqualifications; determinations.",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2699",
+      "title": "contracts; public works; employees; apprenticeships",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2891",
+      "title": "appropriation; tribal housing; workforce development",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2936",
+      "title": "public policy; wage contracts; repeal.",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2937",
+      "title": "nuclear power plant; employees; requirements",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4022",
+      "title": "public works employment; wages; regulation",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4106",
+      "title": "one Arizona fellowship program",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1324",
+      "title": "unlawful employment practices; damages",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1403",
+      "title": "workforce Arizona council; report",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1465",
+      "title": "employment; labor relations; occupations; leave",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1528",
+      "title": "contracts; public works; employees; apprenticeships..",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1721",
+      "title": "prevailing wage contracts; agreements",
+      "priority": "2",
+      "category": "workforce",
+      "status": "died in committee",
+      "why": "workforce; died early; may return in 2027",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2004",
+      "title": "income tax credit; family support",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2011",
+      "title": "individual income tax; subtraction; adoption",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2071",
+      "title": "appropriation; Apache Junction; rural development",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2330",
+      "title": "line siting; factors; total environment",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2337",
+      "title": "zoning; use permits; votes; requirements",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2340",
+      "title": "certificate; environmental compatibility; factors",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2341",
+      "title": "line siting; factors; offtakers",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2375",
+      "title": "housing; zoning; historic neighborhoods",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2451",
+      "title": "Arizona space commission; strategic plan",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2452",
+      "title": "comprehensive plans; data centers; nuclear",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2456",
+      "title": "small modular reactors; zoning; co-location",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2467",
+      "title": "data centers; incentives repeal; requirements",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2493",
+      "title": "small modular reactors; manufacturing; zoning",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2494",
+      "title": "certificate; environmental compatibility; zoning; exemption",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2531",
+      "title": "income tax; subtractions; standard deduction",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2544",
+      "title": "utilities; restrictions; prohibitions; preemption; repeal",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2601",
+      "title": "Interstate 11; environmental; engineering; study",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2607",
+      "title": "veteran housing; reintegration; appropriation",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2610",
+      "title": "utility relocation; funding; bonds",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2631",
+      "title": "data centers; tax relief; repeal",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2644",
+      "title": "affordable housing; tax credits",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2647",
+      "title": "child care; assistance; eligibility.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2715",
+      "title": "local planning; residential housing; repeal",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2795",
+      "title": "small modular reactors; zoning; approval",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2804",
+      "title": "rural affordable housing; tax credits",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2820",
+      "title": "data centers; incentives; repeal; requirements",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2856",
+      "title": "early childhood education; child care",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2935",
+      "title": "income tax; subtraction; down payment",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2987",
+      "title": "income tax credit; historic preservation",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 2990",
+      "title": "rural groundwater management areas; establishment",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4037",
+      "title": "individual income tax; credit; education",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4097",
+      "title": "large customer energy supply",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4099",
+      "title": "child care; state lottery fund",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4135",
+      "title": "income tax; credit; child care",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4138",
+      "title": "2026-2027; general appropriations act.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "sent to governor (superseded budget draft)",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4154",
+      "title": "general appropriations act; 2026-2027",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4159",
+      "title": "environment; 2026-2027",
+      "priority": "3",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4161",
+      "title": "higher education; 2026-2027",
+      "priority": "3",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4162",
+      "title": "human services; 2026-2027",
+      "priority": "3",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "HB 4166",
+      "title": "state budget implementation; 2026-2027",
+      "priority": "3",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1203",
+      "title": "income tax; subtractions; standard deduction.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1232",
+      "title": "military compatibility permit zoning",
+      "priority": "3",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1363",
+      "title": "marijuana; rural opportunity initiative",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1418",
+      "title": "corporation commission; small modular reactors",
+      "priority": "3",
+      "category": "indirect",
+      "status": "vetoed",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1463",
+      "title": "data centers; tax relief; repeal..",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1467",
+      "title": "data centers; tax relief; repeal.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1473",
+      "title": "assisted living homes; occupancy; zoning",
+      "priority": "3",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1597",
+      "title": "child care; waiting list; appropriation",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1601",
+      "title": "zoning; housing; historic neighborhoods",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1618",
+      "title": "military affairs commission",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1619",
+      "title": "municipal zoning; maximum density; residential",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1620",
+      "title": "Arizona space commission; board; membership",
+      "priority": "3",
+      "category": "indirect",
+      "status": "signed into law",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1633",
+      "title": "income tax; subtraction; primary residence",
+      "priority": "3",
+      "category": "indirect",
+      "status": "passed at least one chamber",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1680",
+      "title": "grazing; agriculture; county zoning",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1727",
+      "title": "child care; assistance; eligibility",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1742",
+      "title": "rural groundwater management areas; establishment.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1779",
+      "title": "mandatory inclusionary zoning; prohibition",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1800",
+      "title": "income tax; additional rate; schools",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1831",
+      "title": "2026-2027; general appropriations act",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1852",
+      "title": "environment; 2026-2027.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1854",
+      "title": "higher education; 2026-2027.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1855",
+      "title": "human services; 2026-2027.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    },
+    {
+      "identifier": "SB 1859",
+      "title": "state budget implementation; 2026-2027.",
+      "priority": "3",
+      "category": "indirect",
+      "status": "died in committee",
+      "why": "indirect: budget, housing, energy or general tax context",
+      "tracked": false
+    }
+  ]
+}
