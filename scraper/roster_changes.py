@@ -26,6 +26,17 @@ TRACKED = {
 }
 
 
+QUOTES = str.maketrans({"\u201c": '"', "\u201d": '"', "\u2018": "'", "\u2019": "'"})
+
+
+def same(a, b):
+    """Equal, ignoring curly vs straight quotes (azleg.gov switches between them)."""
+    a, b = a or None, b or None
+    if isinstance(a, str) and isinstance(b, str):
+        return a.translate(QUOTES).strip() == b.translate(QUOTES).strip()
+    return a == b
+
+
 def committee_set(m):
     return {(c["chamber"], c["name"], c["role"]) for c in m.get("committees") or []}
 
@@ -58,7 +69,7 @@ def diff(old, new, when=None):
         for field, label in TRACKED.items():
             if field == "status":
                 continue
-            if (o.get(field) or None) != (m.get(field) or None):
+            if not same(o.get(field), m.get(field)):
                 rec("updated", m, f"{label}: {o.get(field) or '—'} → {m.get(field) or '—'}", field=field)
         # Committee changes only when both snapshots carry committee data
         if o.get("committees") and m.get("committees"):

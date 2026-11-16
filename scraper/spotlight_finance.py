@@ -38,6 +38,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 from datetime import date
 from pathlib import Path
 
@@ -104,11 +105,26 @@ class Spotlight:
             page += 1
 
 
+def plain(text):
+    """Lowercase without accents: Spotlight labels drop them (Gabaldón -> gabaldon)."""
+    return unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode().lower()
+
+
 def name_parts(name):
-    n = re.sub(r'"[^"]*"', " ", name)
+    n = re.sub(r'["\u201c\u201d][^"\u201c\u201d]*["\u201c\u201d]', " ", name)
     n = re.sub(r",?\s+(Sr|Jr)\.?$", "", n)
     parts = [p for p in re.split(r"\s+", n.strip()) if len(p.rstrip(".")) > 1]
     return parts[0].lower(), parts[-1].lower()
+
+
+def name_keys(name):
+    """(first-name prefixes, last name) for matching search labels.
+    Includes a quoted nickname, so Denise "Mitzi" Epstein also matches "Mitzi"."""
+    first, last = name_parts(name)
+    firsts = {plain(first).replace(".", "")[:3]}
+    for nick in re.findall(r'["\u201c]([^"\u201d]+)["\u201d]', name):
+        firsts.add(plain(nick).replace(".", "").strip()[:3])
+    return {f for f in firsts if f}, plain(last)
 
 
 LEGISLATIVE_OFFICE = re.compile(r"state senat|state rep|legislat", re.I)
@@ -121,15 +137,17 @@ def find_committees(api, member):
     "Candidate Name - Committee Name Address", e.g. "Frank Carroll - Vote Frank
     Carroll Po Box ...". The first name is checked loosely (first three letters)
     so Tim/Timothy and Bob/Robert-style variants mostly still match."""
-    first, last = name_parts(member["name"])
+    firsts, last = name_keys(member["name"])
     res = api.get("/entities/search", name=last)
     rows = pick(res, "data", default=res if isinstance(res, list) else []) or []
     ids = []
     for r in rows:
         if int(pick(r, "entityGroupNumber", default=0) or 0) != 1:
             continue
-        label = str(pick(r, "name", default="")).lower()
-        if last not in label or first[:3] not in label:
+        # Labels look like "Frank Carroll - Vote Frank Carroll Po Box ..."; match the
+        # candidate part only, so an address ("Ste 2-142") can't satisfy "Steve".
+        who = plain(str(pick(r, "name", default="")).split(" - ")[0]).replace(".", "")
+        if last not in who or not any(re.search(r"\b" + re.escape(f), who) for f in firsts):
             continue
         cid = pick(r, "entityId", "id")
         detail = pick(api.get(f"/committees/{cid}"), "committee", default={}) or {}
