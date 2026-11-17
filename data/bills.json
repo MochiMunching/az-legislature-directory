@@ -618,6 +618,99 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2289/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 01/20/2026 Ways & Means",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2289_011526_WM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 01/22/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2289_012126_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/04/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2289_030326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/08/2026 Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2289_040826_VETOEDBYTHEGOVERNOR.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/12/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2289FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/10/2026 FIN As Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2289FIN_ASVETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Governor's Letter",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542109",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/03 - Floor Amend to Bill - Olson",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817251&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Bill - Olson - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539677",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2289H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2289h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2289P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2289p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -1245,6 +1338,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2786/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 01/26/2026 Ways & Means",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2786_012226_WM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 01/30/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2786_012826_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/19/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2786_021826_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/27/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2786_062926_SIGNEDBYTHEGOVERNOR.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/05/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2786FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0258.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0258.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/19/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2786H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/19/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2786h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2786P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2786p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -2057,6 +2229,78 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2918/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/15/2026 Natural Resources, Energy & Water",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2918_021326_NREW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2918_021826_CAUCUS&COW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 05/19/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2918_021826_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/19/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2918FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Floor Amend to Engrossed Bill - Gress",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817461&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Engrossed Bill - Gress - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539671",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2918H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2918h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2918P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2918p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -2710,6 +2954,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4165/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/09/2026 Appropriations",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4165_060926_APPROP.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/10/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4165_0601026_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/12/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4165_061126_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 08/03/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4165_061726_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/23/2026 ATT As Enacted",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.4165-1858ATT_ASENACTED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0137.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0137.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (06/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4165H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (06/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4165h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4165P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4165p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -3363,6 +3686,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4168/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/09/2026 Appropriations",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4168_060926_APPROP.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/10/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4168_061026_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/11/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4168_061126_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 08/03/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4168_061726_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/23/2026 ATT As Enacted",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.4168-1861ATT_ASENACTED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0140.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0140.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (06/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4168H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (06/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4168h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4168P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4168p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -3975,6 +4377,71 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1106/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "FISCAL NOTE: As Introduced",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/532220",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 01/12/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1106FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 01/13/2026 FIN Revised",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1106FIN_REVISED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 01/20/2026 FIN As Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1106-2153FIN_VETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Governor's Letter",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/534205",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (01/15/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1106S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (01/15/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1106s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1106P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1106p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -4771,6 +5238,127 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1430/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/27/2026 Ways & Means",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1430_022326_WM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/04/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1430_030426_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/25/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1430_032326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/21/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1430_041426_SIGNEDBYTHEGOVERNOR.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 01/29/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1430FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/30/2026 FIN As Passed House",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1430FIN_ASPASSEDHOUSE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/23 - Amended by WM - Olson",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=819814&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Ways & Means (539591)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539591",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Ways & Means",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539858",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0030.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0030.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1430H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1430h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/19/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1430S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/19/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1430s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1430P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1430p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -4815,6 +5403,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2254/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2254P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2254p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -5238,6 +5842,57 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2290/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/16/2026 Ways & Means",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2290_021126_WM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/19/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2290_021826_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/04/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2290_030326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2290H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2290h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2290P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2290p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -5656,6 +6311,99 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2388/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/03/2026 Rural Economic Development",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2388_020226_RED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/09/2026 Appropriations",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2388_020926_APPROP.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/12/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2388_021126_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/11/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2388_021126_HOUSEENGROSSED(1).DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/10 - Amended by APPROP - Livingston",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=818781&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/10 - SUB Floor Amend to APPROP - Carbone",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=818781&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Appropriations (536604)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536604",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - SUB Floor Amend to APPROP - Carbone - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540229",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Appropriations",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536998",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2388H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2388h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2388P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2388p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "economic development",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -6064,6 +6812,57 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2692/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/16/2026 Appropriations",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2692_021226_APPROP.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2692_021226_CAUCUS&COW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/05/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2692_030526_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2692H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2692h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2692P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2692p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -6693,6 +7492,127 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2696/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 01/30/2026 Natural Resources, Energy & Water",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2696_013026_NREW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/09/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2696_020426_CAUCUS&COW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 05/19/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2696_020426_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/20/2026 NR",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2696NR.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/30/2026 NR As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2696NR_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/09/2026 NR As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2696NR_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 06/09 - Shope flr amend (ref NR)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=822275&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Natural Resources (541333)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541333",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Natural Resources (541332)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541332",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Shope flr amend (ref NR) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/543479",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Natural Resources",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541572",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (06/10/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2696S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (06/10/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2696s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2696H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2696h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2696P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2696p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "economic development",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -7117,6 +8037,71 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2746/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/09/2026 International Trade",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2746_020526_IT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2746_021826_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/27/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2746_022526_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/25 - Floor Amend to Bill - Austin",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816241&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Bill - Austin - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538988",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2746H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2746h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2746P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2746p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "economic development",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -7161,6 +8146,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2747/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2747P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2747p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -8123,6 +9124,148 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2752/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/09/2026 International Trade",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2752_020526_IT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/12/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2752_021126_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/24/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2752_022326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/16/2026 Senate Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2752_041026_SENATEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/17/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2752_060526_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/13/2026 ATT",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2752ATT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/15/2026 ATT As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2752ATT_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 04/15 - Epstein flr amend (ref Bill)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821311&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - J.D. Mesnard Floor Amendment",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542543",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Epstein flr amend (ref Bill) failed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542292",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540634",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Epstein flr amend (ref Bill) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542471",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0110.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0110.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2752S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2752s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/23/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2752H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/23/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2752h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2752P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2752p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -8542,6 +9685,78 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2753/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/09/2026 International Trade",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2753_020526_IT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/12/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2753_021126_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/27/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2753_022326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/23 - Amended by IT - Rivero",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=815157&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - International Trade (536786)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536786",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - International Trade",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536925",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2753H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2753h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2753P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2753p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -8966,6 +10181,71 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2754/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/02/2026 International Trade",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2754_012926_IT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/06/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2754_020426_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/27/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2754_022326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/23 - Floor Amend to Bill - Rivero",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=815321&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Bill - Rivero - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538447",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2754H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2754h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2754P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2754p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -9010,6 +10290,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2768/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2768P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2768p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -9091,6 +10387,36 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2824/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/11/2026 Rural Economic Development",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2824_020926_RED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/12/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2824_021226_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2824P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2824p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -9142,6 +10468,50 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2858/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/10/2026 Government",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2858_020626_GOV.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/13/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2858_021126_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Government (536756)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536756",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Government",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536928",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2858P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2858p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -9610,6 +10980,92 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2939/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "FISCAL NOTE: House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/fiscal/HB2939.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/11/2026 Rural Economic Development",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2939_020626_RED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/12/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2939_021226_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/25/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2939_021226_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/12/2026 FIN-ATT",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2939FIN-ATT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/19/2026 FIN-ATT Revised",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2939FIN-ATT_REVISED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Floor Amend to Engrossed Bill - Martinez",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=815827&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Engrossed Bill - Martinez - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538572",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2939H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2939h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2939P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2939p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -10866,6 +12322,155 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2950/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/11/2026 Rural Economic Development",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2950_020626_RED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2950_022026_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/10/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2950_030926_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/27/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2950_072126_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/19/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2950FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/21/2026 FIN As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2950FIN_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/09 - Floor Amend to Bill - Wilmeth",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=818265&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/09 - Floor Amend to Bill - Kolodin",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=818265&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Floor Amend to Engrossed Bill - Wilmeth",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=819101&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 04/21 - Shope flr amend (ref Bill)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821596&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Shope flr amend (ref Bill) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542695",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Engrossed Bill - Wilmeth - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540329",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Bill - Wilmeth - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540131",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0206.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0206.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (06/09/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2950S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (06/09/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2950s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2950H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2950h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2950P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2950p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "economic development",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -10916,6 +12521,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2988/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2988P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2988p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -11032,6 +12653,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4007/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4007P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4007p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -11446,6 +13083,92 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4130/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/17/2026 Government",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4130_021626_GOV SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/23/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4130_022026_CAUCUSCOW SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/13/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4130_031126_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/04 - Amended by GOV - Blackman",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817772&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/04 - Floor Amend to GOV - Blackman",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817772&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Government - Strike Everything (537494)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537494",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Government - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537979",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to GOV - Blackman - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539783",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/10/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4130H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/10/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4130h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4130P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4130p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -12099,6 +13822,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4157/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/09/2026 Appropriations",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4157_060926_APPROP.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/10/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4157_060926_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 08/03/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4157_073026_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 08/03/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4157_073026_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/19/2026 ATT As Enacted",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.4157-1850ATT_ASENACTED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0129.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0129.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (06/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4157H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (06/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4157h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4157P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4157p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -12143,6 +13945,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1301/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1301P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1301p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "economic development",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -12187,6 +14005,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1371/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1371P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1371p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -12999,6 +14833,162 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1429/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/23/2026 Federalism, Military Affairs & Elections",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1429_031926_FMAE_SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/26/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1429_032626_CAUCUSCOW_SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/14/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1429_032626_HOUSEENGROSSED_SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/25/2026 Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1429_041426_VETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/05/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1429FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/10/2026 FIN As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1429FIN_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 05/06/2026 JUDE As Passed House",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1429JUDE_ASPASSEDHOUSE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/24/2026 JUDE As Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1429JUDE_ASVETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Governor's Letter",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/544140",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 04/14 - Amended by FMAE - Gillette",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821207&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 04/14 - Floor Amend to FMAE - Kolodin",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821207&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Finance (536378)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536378",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Federalism, Military Affairs & Elections - Strike Everything (541098)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541098",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Finance",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536760",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to FMAE - Kolodin - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542303",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Federalism, Military Affairs & Elections - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541529",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1429H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1429h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/24/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1429S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/24/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1429s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1429P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1429p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -13252,6 +15242,57 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1616/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/16/2026 Judiciary",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1616_031226_JUD.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/16/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1616RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Judiciary - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540458",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1616S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1616s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1616P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1616p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -13296,6 +15337,22 @@
       ],
       "roll_calls": [],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1799/",
+      "documents": [
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1799P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1799p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "economic development",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -13371,6 +15428,50 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1850/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/09/2026 ATT",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1850ATT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/19/2026 ATT As Enacted",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1850-4157ATT_ASENACTED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1850S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1850s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1850P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1850p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -14333,6 +16434,162 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2118/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 01/17/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2118_011226_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/01/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2118_013026_COM_SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/04/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2118_02426_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/24/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2118_022326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/20/2026 Senate Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2118_022326_SENATEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/08/2026 Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2118_070826_VETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/23/2026 GOV",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2118GOV.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/30/2026 GOV As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2118GOV_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 07/02/2026 GOV As Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2118GOV_ASVETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Governor's Letter",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/544073",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/23 - Amended by COM - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=815348&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Government (541416)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541416",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/535403",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce (535772)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/535772",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Government",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541561",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536048",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/20/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2118S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/20/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2118s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/24/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2118H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/24/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2118h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2118P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2118p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -15496,6 +17753,183 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2305/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/02/2026 Transportation & Infrastructure",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2305_011526_TI.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/13/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2305_021226_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/27/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2305_022526_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/12/2026 Senate Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2305_061226_SENATEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/25/2026 Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2305_062426_VETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/27/2026 ATT",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2305ATT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/02/2026 ATT As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2305ATT_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/11/2026 ATT As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2305ATT_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 06/24/2026 ATT As Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2305ATT_ASVETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Governor's Letter",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/544080",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/25 - Amended by TI - Biasiucci",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816226&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/25 - SUB Floor Amend to TI - Biasiucci",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816226&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 06/11 - Gowan flr amend (ref ATT)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=822771&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology (541881)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541881",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Transportation & Infrastructure (536783)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536783",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Gowan flr amend (ref ATT) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/543696",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541925",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Transportation & Infrastructure",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536997",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - SUB Floor Amend to TI - Biasiucci - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538953",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (06/12/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2305S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (06/12/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2305s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2305H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2305h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2305P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2305p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -16299,6 +18733,106 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2429/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/15/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2429_021326_COM_SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/19/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2429_021326_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/16/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2429_031626_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/04 - Amended by COM - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817753&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/04 - Floor Amend to COM - Bliss",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817753&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Floor Amend to Engrossed Bill - Bliss",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=819021&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce - Strike Everything (537193)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537193",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Engrossed Bill - Bliss - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540328",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to COM - Bliss - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539768",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538013",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2429H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2429h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2429P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2429p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -16723,6 +19257,57 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2476/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/01/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2476_013026_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/05/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2476_020426_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/24/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2476_020426_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/23/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2476H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/23/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2476h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2476P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2476p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -17142,6 +19727,78 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2591/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/15/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2591_021326_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/19/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2591_021826_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/25/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2591_021826_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/25 - Amended by COM - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816254&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce (537305)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537305",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537950",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2591H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2591h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2591P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2591p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "workforce",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -17561,6 +20218,78 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2926/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/04/2026 Rural Economic Development",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2926_020226_RED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/13/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2926_020226_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/25/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2926_020226_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 02/24 - Amended by RED - Martinez",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=815887&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Rural Economic Development (536898)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536898",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Rural Economic Development",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537176",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2926H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2926h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2926P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2926p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -18894,6 +21623,204 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2946/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/18/2026 Rural Economic Development",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2946_021626_RED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2946_022026_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/03/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2946_030326_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/12/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2946_030326_HOUSEENGROSSED(1).DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/15/2026 Senate Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2946_030326_SENATEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/21/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2946_072126_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/23/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2946RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/27/2026 RAGE As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2946RAGE_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/14/2026 RAGE As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2946RAGE_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/02 - Amended by RED - Martinez",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817031&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/02 - Floor Amend to RED - POWELL",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817031&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Floor Amend to Engrossed Bill - Powell",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=818778&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 04/14 - Bolick flr amend (ref RAGE)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821213&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency (541406)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541406",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Rural Economic Development (537815)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537815",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541669",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Bolick flr amend (ref RAGE) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542296",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Rural Economic Development",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538321",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to RED - POWELL - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539435",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Engrossed Bill - Powell - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540224",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0121.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0121.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/14/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2946S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/14/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2946s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2946H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2946h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2946P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2946p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -19850,6 +22777,211 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4001/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "FISCAL NOTE: As Amended by Senate RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/fiscal/HB4001R.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "FISCAL NOTE: House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/fiscal/HB4001.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/15/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4001_020426_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4001_021926_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/16/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4001_031226_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 06/02/2026 Senate Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4001_052626_SENATEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/08/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB4001_062926_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/23/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.4001RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/27/2026 RAGE As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.4001RAGE_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/21/2026 RAGE As Passed Committee Revised",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.4001RAGE_ASPASSEDCOMMITTEE_REVISED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 05/26/2026 RAGE As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.4001RAGE_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/11 - Amended by COM - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=819023&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 03/11 - Floor Amend to COM - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=819023&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 05/26 - Bolick flr amend (ref RAGE)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=822124&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency (541421)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541421",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency (541408)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541408",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce (537497)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537497",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541677",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Boilick flr amend (ref RAGE) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/543313",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to COM - Weninger - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540343",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537974",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0124.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0124.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (05/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4001S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (05/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4001s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4001H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (03/16/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4001h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4001P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4001p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -20461,6 +23593,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1181/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/06/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1181_030526_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/11/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1181_031026_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/26/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1181_032626_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 05/18/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1181_041726_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/02/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1181RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0017.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0017.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1181S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1181s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1181P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1181p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -21072,6 +24283,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1252/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/09/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1252_030526_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/11/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1252_031026_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/02/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1252_040226_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/15/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1252_041526_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 01/22/2026 FIN",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1252FIN.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0029.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0029.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/12/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1252S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/12/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1252s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1252P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1252p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -22083,6 +25373,169 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1419/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/13/2026 Natural Resources, Energy & Water",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1419_031326_NREW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/23/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1419_032326_CAUCUS&COW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 08/06/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1419_041026_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/06/2026 NR",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1419NR.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/02/2026 NR As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1419NR_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 05/11/2026 NR As Passed House",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1419NR_ASPASSEDHOUSE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 03/02 - Carroll flr amend (ref Bill)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816915&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 03/02 - Sundareshan flr amend (ref Bill)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816915&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 04/28 - Amended by NREW - Griffin",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821715&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 04/28 - SUB Floor Amend to NREW - Griffin",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821715&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Sundareshan flr amend (ref Bill) failed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539293",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Natural Resources, Energy & Water (540566)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540566",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Carroll flr amend (ref Bill) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539294",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - SUB Floor Amend to NREW - Griffin - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542901",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Natural Resources, Energy & Water",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540776",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0175.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0175.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1419H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1419h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/02/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1419S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/02/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1419s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1419P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1419p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -22892,6 +26345,141 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1478/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/13/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1478_031126_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/06/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1478_031826_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/07/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1478_040726_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/14/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1478_071426_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/09/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1478RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/12/2026 RAGE As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1478RAGE_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 05/05/2026 RAGE As Passed House",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1478RAGE_ASPASSEDHOUSE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 04/07 - Floor Amend to Bill - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=820870&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency (536794)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536794",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537013",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Bill - Weninger - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542086",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0070.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0070.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1478H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1478h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1478S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/25/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1478s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1478P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1478p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -23161,6 +26749,78 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1501/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/09/2026 Government",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1501_030626_GOV.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/24/2026 Government",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1501_032226_GOV SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/30/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1501_032526_CAUCUSCOW SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/16/2026 GOV",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1501GOV.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Government - Strike Everything (541247)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541247",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Government - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541532",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1501S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1501s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1501P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1501p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "small business",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -23460,6 +27120,120 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1515/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/21/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1515_031926_COM_SE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/25/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1515_032526_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/28/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1515_042826_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/16/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1515RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/19/2026 RAGE As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1515RAGE_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 04/27 - Amended by COM - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821670&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency (537755)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537755",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce - Strike Everything (540991)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540991",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Regulatory Affairs and Government Efficiency",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537864",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Commerce - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541436",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1515H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1515h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1515S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/03/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1515s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1515P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1515p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -24071,6 +27845,106 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1563/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/22/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1563_032126_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/25/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1563_032526_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 05/19/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1563_051926_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/14/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1563_071426_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/09/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1563RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/03/2026 RAGE As Passed ADD COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1563RAGE_ASPASSEDADDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Dunn flr amend (ref Senate Engrossed Bill)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=817401&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Dunn flr amend (ref Senate Engrossed Bill) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539654",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0234.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0234.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1563S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1563s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1563P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1563p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "workforce",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -24896,6 +28770,197 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1566/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/12/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1566_031126_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1566_031826_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 05/04/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1566_031826_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 07/15/2026 Signed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1566_071426_SIGNED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/16/2026 GOV",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1566GOV.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/20/2026 GOV As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1566GOV_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/26/2026 GOV As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1566GOV_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/02/2026 GOV As Passed ADD COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1566GOV_ASPASSEDADDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 05/07/2026 GOV As Passed House",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1566GOV_ASPASSEDHOUSE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 02/25 - Petersen #1 flr amend (ref GOV)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816112&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 02/25 - Petersen #2 flr amend (ref GOV)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816112&itemId=2",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "Petersen flr amend (ref Senate Engrossed Bill)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=816994&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "document",
+          "note": "House COW 04/14 - Floor Amend to Bill - Weninger",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=821210&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Government (537772)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537772",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Petersen flr amend (ref Senate Engrossed Bill) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539323",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Petersen #2 flr amend (ref GOV) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538876",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Petersen #1 flr amend (ref GOV) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538875",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Government",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/537820",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Floor Amend to Bill - Weninger - passed",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542304",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0071.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Chaptered Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0071.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1566H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (05/05/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1566h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/02/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1566S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/02/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1566s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1566P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1566p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -25172,6 +29237,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1641/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "FISCAL NOTE: Senate Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/fiscal/SB1641.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/22/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1641_031926_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/25/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1641_032526_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/16/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1641RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/11/2026 RAGE As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1641RAGE_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 03/11 - Payne flr amend (ref Bill)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=819061&itemId=0",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Payne flr amend (ref Bill) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540337",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1641S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1641s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1641P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1641p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "tax",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -25799,6 +29943,99 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1787/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/12/2026 Commerce",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1787_031126_COM.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/20/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1787_031826_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 04/01/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1787_040126_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 05/21/2026 Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1787_052126_VETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/16/2026 RAGE",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1787RAGE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/26/2026 RAGE As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1787RAGE_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/10/2026 RAGE As Vetoed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1787RAGE_ASVETOED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Governor's Letter",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/542111",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Petersen flr amend (ref Bill) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/539158",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1787S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (02/26/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1787s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1787P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1787p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "regulatory",
       "notes": "starter set (priority 1, signed or vetoed); SBDC to confirm",
       "priority": "1",
@@ -26412,6 +30649,120 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2812/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "FISCAL NOTE: House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/fiscal/HB2812.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/10/2026 Government",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2812_020626_GOV.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 02/13/2026 Caucus & COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2812_021126_CAUCUSCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/02/2026 House Engrossed",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2812_022526_HOUSEENGROSSED.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/27/2026 ATT Striker Memo",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2812ATT_STRIKERMEMO.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/06/2026 ATT Striker Memo As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2812ATT_STRIKERMEMO_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 04/09/2026 ATT As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2812ATT_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology - Strike Everything (541706)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541706",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541882",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology - Strike Everything",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541969",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/09/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2812S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (04/09/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2812s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/23/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2812H.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "House Engrossed Version (02/23/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2812h.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2812P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/hb2812p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "economic development",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -26725,6 +31076,78 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1461/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "HOUSE SUMMARY: 03/27/2026 Appropriations",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.SB1461_032626_APPROP.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/20/2026 ATT",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1461ATT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/25/2026 ATT As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1461ATT_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology (538390)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538390",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "HOUSE - Appropriations",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/541857",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538782",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/19/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1461S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/19/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1461s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1461P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1461p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "workforce",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
@@ -27048,6 +31471,85 @@
         }
       ],
       "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1488/",
+      "documents": [
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/06/2026 NR-ATT",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1488NR-ATT.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 02/24/2026 NR-ATT As Passed Committee",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1488NR-ATT_ASPASSEDCOMMITTEE.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "SENATE FACT SHEET: 03/11/2026 NR-ATT As Passed COW",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.1488NR-ATT_ASPASSEDCOW.DOCX.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "document",
+          "note": "Senate COW 03/11 - Hatathlie flr amend (ref ATT)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetCalendarBillAmendmentPdf/?calendarBillId=819060&itemId=1",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology (538391)",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538391",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Hatathlie flr amend (ref ATT) adopted",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540336",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "SENATE - Appropriations, Transportation and Technology",
+          "date": "",
+          "url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/538783",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1488S.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Senate Engrossed Version (03/11/2026)",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1488s.pdf",
+          "media_type": "application/pdf"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1488P.htm",
+          "media_type": "text/html"
+        },
+        {
+          "kind": "version",
+          "note": "Introduced Version",
+          "date": "",
+          "url": "https://www.azleg.gov/legtext/57leg/2r/bills/sb1488p.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
       "topic": "workforce",
       "notes": "priority 1; SBDC to confirm",
       "priority": "1",
