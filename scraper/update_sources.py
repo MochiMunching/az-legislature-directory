@@ -1,7 +1,7 @@
 """
 Write data/sources.json: when each public data source was last refreshed.
 Runs at the end of every scheduled refresh; the site shows it on the Updates tab.
-Also rebuilds data/updates_feed.json (scraper/capitol_updates.py) for the
+Also collects bill fact sheets (scraper/bill_docs.py) and rebuilds data/updates_feed.json (scraper/capitol_updates.py) for the
 "Latest from the Capitol" section, so the workflow file doesn't need a new step.
 
     python scraper/update_sources.py
@@ -21,6 +21,15 @@ def load(name):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
 
 
+def refresh_bill_docs():
+    """Collect official fact sheets for tracked bills (data/bill_docs.json). Never stops the refresh."""
+    try:
+        import bill_docs
+        bill_docs.main()
+    except Exception as e:
+        print(f"Bill fact sheets skipped: {type(e).__name__}: {e}")
+
+
 def refresh_updates_feed():
     """Rebuild data/updates_feed.json. Never stops the rest of the refresh."""
     try:
@@ -31,6 +40,12 @@ def refresh_updates_feed():
 
 
 def main():
+    refresh_bill_docs()
+    try:
+        import bill_summaries
+        bill_summaries.main()
+    except Exception as e:
+        print(f"Bill summaries skipped: {type(e).__name__}: {e}")
     refresh_updates_feed()
     feed = load("updates_feed.json")
     leg, sch, cen, chg = load("legislators.json"), load("schedule.json"), load("centers.json"), load("changes.json")

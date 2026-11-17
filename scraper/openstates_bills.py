@@ -225,11 +225,24 @@ def summarize_bill(b, by_name, by_seat):
                      "classification": a.get("classification") or []} for a in acts][-12:],
         "sponsors": sponsors, "roll_calls": sorted(rolls, key=lambda r: r["date"]),
         "url": b.get("openstates_url"),
+        # Fact sheets, summaries and bill text on azleg.gov (used by bill_docs.py for summaries).
+        "documents": doc_links(b),
     }
 
 
+def doc_links(b):
+    out = []
+    for kind in ("documents", "versions"):
+        for d in b.get(kind) or []:
+            for link in d.get("links") or []:
+                if link.get("url"):
+                    out.append({"kind": kind[:-1], "note": d.get("note"), "date": (d.get("date") or "")[:10],
+                                "url": link["url"], "media_type": link.get("media_type")})
+    return out
+
+
 def fetch_bill(api, row):
-    params = [("include", i) for i in ("sponsorships", "votes", "actions")]
+    params = [("include", i) for i in ("sponsorships", "votes", "actions", "documents", "versions")]
     if row.get("openstates_id"):
         return api.get(f"/bills/{row['openstates_id']}", params)
     ident = row["identifier"].replace(" ", "")
