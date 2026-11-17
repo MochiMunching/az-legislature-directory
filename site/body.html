@@ -46,7 +46,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .wrap {
-  max-width: 1180px; margin: 0 auto;
+  max-width: 1380px; margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
@@ -78,16 +78,26 @@ h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; font-weight: 800; lett
 .notice { background: var(--warn-bg); color: var(--warn-fg); border-radius: 6px; padding: 12px 14px; font-size: 14px; margin-top: 20px; }
 .notice strong { font-weight: 600; }
 
-/* Tabs */
-.tabs { display: flex; gap: 4px; margin-top: 24px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+/* Layout: vertical tabs on the left, content on the right */
+.layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; align-items: start; margin-top: 24px; }
+.tabs { display: flex; flex-direction: column; gap: 2px; position: sticky; top: 16px; padding-right: 12px; border-right: 1px solid var(--line); }
 .tab {
-  background: none; border: 0; padding: 10px 14px; cursor: pointer; font-weight: 600; color: var(--muted);
-  border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap;
+  background: none; border: 0; padding: 9px 12px; cursor: pointer; font-weight: 600; color: var(--muted); text-align: left;
+  border-left: 3px solid transparent; border-radius: 0 6px 6px 0; white-space: nowrap;
 }
-.tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
-.tab:hover { color: var(--fg); }
+.tab[aria-selected="true"] { color: var(--fg); border-left-color: var(--accent); background: var(--surface); }
+.tab:hover { color: var(--fg); background: var(--surface); }
 
-main { padding-block: 20px 48px; }
+main { padding-block: 0 48px; min-width: 0; }
+
+/* Narrow screens: tabs go back to a scrollable row above the content */
+@media (max-width: 860px) {
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .tabs { flex-direction: row; gap: 4px; position: static; padding-right: 0; border-right: 0; border-bottom: 1px solid var(--line); overflow-x: auto; }
+  .tab { border-left: 0; border-radius: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 10px 14px; }
+  .tab[aria-selected="true"] { border-left-color: transparent; border-bottom-color: var(--accent); background: none; }
+  .tab:hover { background: none; }
+}
 
 /* Toolbar */
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
@@ -327,8 +337,10 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     <strong>Roster reflects the current 57th Legislature.</strong>
     Members-elect from the November 3 election appear on azleg.gov when the 58th Legislature convenes on January 11, 2027. Rerun the scraper then and this page updates.
   </div>
+</div>
 
-  <nav class="tabs" role="tablist" aria-label="Views">
+<div class="wrap layout">
+  <nav class="tabs" role="tablist" aria-label="Views" aria-orientation="vertical">
     <button class="tab" role="tab" id="tab-members" data-view="members">All members</button>
     <button class="tab" role="tab" id="tab-districts" data-view="districts">By district</button>
     <button class="tab" role="tab" id="tab-map" data-view="map">District map</button>
@@ -339,9 +351,8 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     <button class="tab" role="tab" id="tab-updates" data-view="updates">Updates</button>
     <button class="tab" role="tab" id="tab-leadership" data-view="leadership">Leadership</button>
   </nav>
-</div>
 
-<main class="wrap">
+<main>
   <section id="view-members" role="tabpanel" aria-labelledby="tab-members">
     <div class="toolbar">
       <label class="search">
@@ -480,6 +491,7 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     <div class="lead-cols" id="leadCols"></div>
   </section>
 </main>
+</div>
 
 <footer>
   <div class="wrap">
