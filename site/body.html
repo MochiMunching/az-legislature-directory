@@ -285,6 +285,7 @@ table.narrow { min-width: 620px; }
 .rc-head .tally { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 .rc-head button { border: 0; background: none; color: var(--accent); cursor: pointer; padding: 0; font-weight: 600; font-size: 13px; }
 .rc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 4px 16px; font-size: 13px; }
+.rc-grid[hidden] { display: none; }
 .rc-grid .rv { display: grid; grid-template-columns: 34px minmax(0, 1fr) 22px; align-items: center; gap: 6px; min-height: 22px; }
 .rc-grid .rv .nm { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .rc-grid .rv .chip { justify-self: end; }
