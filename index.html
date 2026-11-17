@@ -123,6 +123,27 @@ select { padding: 9px 30px 9px 10px; border: 1px solid var(--line); border-radiu
 .btn:hover { background: var(--accent-soft); }
 .count { font-family: var(--font-mono); font-size: 13px; color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
 
+/* Voting records */
+.vr-link { border: 1px solid var(--line); background: var(--surface); border-radius: 4px; font-size: 11px; padding: 1px 6px; margin-left: 6px; cursor: pointer; color: var(--muted); vertical-align: 1px; }
+.vr-link:hover { color: var(--accent); border-color: var(--accent); }
+#vrRows button.who { border: 0; background: none; padding: 0; font-weight: 600; cursor: pointer; text-align: left; color: var(--fg); }
+#vrRows button.who:hover { color: var(--accent); text-decoration: underline; }
+#vrRows tr.sel { background: var(--accent-soft); }
+.vr-card { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 14px 16px; margin-bottom: 16px; }
+.vr-card h3 { margin: 0 0 4px; font-size: 18px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.vr-card .sum { color: var(--muted); font-size: 14px; margin-bottom: 10px; }
+.vr-list { list-style: none; margin: 0; padding: 0; }
+.vr-list li { display: grid; grid-template-columns: 88px 70px minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.vr-list .d { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.vr-list .b { font-family: var(--font-mono); font-size: 13px; font-weight: 600; white-space: nowrap; }
+.vr-list .t { min-width: 0; }
+.vr-list .t small { display: block; color: var(--muted); font-size: 12px; }
+.vo { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 2px 7px; border-radius: 4px; white-space: nowrap; background: var(--sunk); color: var(--muted); }
+.vo.yes { background: var(--accent-soft); color: var(--accent); }
+.vo.no { background: var(--warn-bg); color: var(--warn-fg); }
+.vo.split { outline: 2px solid var(--fg); outline-offset: 1px; }
+@media (max-width: 640px) { .vr-list li { grid-template-columns: 70px minmax(0, 1fr) auto; } .vr-list .d { display: none; } }
+
 /* Table */
 .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
 table { width: 100%; border-collapse: collapse; min-width: 760px; }
@@ -367,6 +388,7 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     <button class="tab" role="tab" id="tab-map" data-view="map">District map</button>
     <button class="tab" role="tab" id="tab-power" data-view="power">Budget power map</button>
     <button class="tab" role="tab" id="tab-bills" data-view="bills">Bills &amp; votes</button>
+    <button class="tab" role="tab" id="tab-records" data-view="records">Voting records</button>
     <button class="tab" role="tab" id="tab-calendar" data-view="calendar">Committee calendar</button>
     <button class="tab" role="tab" id="tab-centers" data-view="centers">SBDC centers</button>
     <button class="tab" role="tab" id="tab-updates" data-view="updates">Updates</button>
@@ -455,6 +477,29 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     <p class="section-note">A plain count, with chairs and vice chairs marked. It shows who sits where, not how anyone votes.</p>
     <div class="table-wrap"><table class="narrow"><thead><tr><th>Member</th><th>LD</th><th>Party</th><th>Seats</th><th>Committees</th></tr></thead><tbody id="seatRows"></tbody></table></div>
     <p class="section-note src" id="committeeSources"></p>
+  </section>
+
+  <section id="view-records" role="tabpanel" aria-labelledby="tab-records" hidden>
+    <p class="section-note">How each member voted on the bills SBDC tracks, from the recorded floor votes (final passage in each chamber). It shows the votes, not whether they helped small business: SBDC hasn't taken positions on these bills. "Against party" counts votes where the member split from most of their own party, which can point to members open to a conversation.</p>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Chamber">
+        <button type="button" data-vrch="" aria-pressed="true">Both</button>
+        <button type="button" data-vrch="S" aria-pressed="false">Senate</button>
+        <button type="button" data-vrch="H" aria-pressed="false">House</button>
+      </div>
+      <select id="vrCat" aria-label="Bill category"><option value="">All tracked bills</option></select>
+      <select id="vrMember" aria-label="Member"><option value="">Choose a member…</option></select>
+      <span class="count" id="vrCount"></span>
+    </div>
+    <div id="vrDetail"></div>
+    <div class="table-wrap"><table class="narrow" id="vrTable"><thead><tr>
+      <th data-vsort="name">Member</th><th data-vsort="district">LD</th><th data-vsort="party">Party</th>
+      <th data-vsort="cast" title="Floor votes on tracked bills where the member voted yes or no">Votes</th>
+      <th data-vsort="yes">Yes</th><th data-vsort="no">No</th><th data-vsort="nv" title="Not voting or excused">NV</th>
+      <th data-vsort="broke" title="Yes/no votes against the majority of the member's own party">Against party</th>
+      <th data-vsort="sponsored" title="Tracked bills the member sponsored or co-sponsored">Sponsored</th>
+    </tr></thead><tbody id="vrRows"></tbody></table></div>
+    <p class="section-note src" id="vrSource"></p>
   </section>
 
   <section id="view-bills" role="tabpanel" aria-labelledby="tab-bills" hidden>
@@ -637,7 +682,7 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     $("count").textContent = `${list.length} of ${active().length} members`;
     $("rows").innerHTML = list.length ? list.map((m) => `
       <tr>
-        <td class="name"><a href="${esc(m.profile_url)}" target="_blank" rel="noopener">${esc(m.name)}</a>${m.leadership_title ? `<span class="title">${esc(m.leadership_title)}</span>` : ""}</td>
+        <td class="name"><a href="${esc(m.profile_url)}" target="_blank" rel="noopener">${esc(m.name)}</a>${state.vr?.byMember[m.id]?.records.length ? `<button class="vr-link" data-vr="${m.id}" title="Votes on tracked bills">Votes</button>` : ""}${m.leadership_title ? `<span class="title">${esc(m.leadership_title)}</span>` : ""}</td>
         <td>${esc(m.chamber_name)}</td>
         <td class="ld">${m.district}</td>
         <td><span class="chip ${esc(m.party)}" title="${PARTY[m.party] || m.party}">${esc(m.party)}</span></td>
@@ -1062,7 +1107,101 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     }).join("") || `<tr><td colspan="4" class="empty">Run scraper/update_sources.py to list data sources.</td></tr>`;
   }
 
-  const VIEWS = ["members", "districts", "map", "power", "bills", "calendar", "centers", "updates", "leadership"];
+  // ---------------------------------------------------------------- voting records
+  const normName = (n) => String(n || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/,?\s+(sr|jr|ii|iii|iv)\.?$/, "").replace(/[^a-z ]/g, "").replace(/\s+/g, " ").trim();
+  function buildVotingRecords() {
+    const members = state.data.members, bills = state.bills?.bills || [];
+    const byIdM = Object.fromEntries(members.map((m) => [m.id, m]));
+    const byName = {};
+    members.forEach((m) => { byName[m.chamber + "|" + normName(m.name)] = m; });
+    const tri = Object.fromEntries((state.triage?.bills || []).map((t) => [t.identifier, t]));
+    const byMember = {};
+    const rec = (id) => (byMember[id] ||= { records: [], sponsored: [] });
+    let rollCalls = 0;
+    bills.forEach((b) => {
+      const t = tri[b.identifier] || {};
+      (b.sponsors || []).forEach((s) => { if (s.member_id && byIdM[s.member_id]) rec(s.member_id).sponsored.push(b.identifier); });
+      (b.roll_calls || []).forEach((r) => {
+        if (!r.votes?.length) return;
+        rollCalls++;
+        const voters = r.votes.map((v) => ({ v, m: (v.member_id && byIdM[v.member_id]) || byName[r.chamber + "|" + normName(v.name)] }));
+        const tally = {};
+        voters.forEach(({ v, m }) => {
+          if (!m || (v.option !== "yes" && v.option !== "no")) return;
+          (tally[m.party] ||= { yes: 0, no: 0 })[v.option]++;
+        });
+        const partyLine = (p) => { const x = tally[p]; return !x || x.yes === x.no ? null : x.yes > x.no ? "yes" : "no"; };
+        voters.forEach(({ v, m }) => {
+          if (!m) return;
+          const line = partyLine(m.party);
+          rec(m.id).records.push({
+            bill: b.identifier, title: b.title, category: t.category || "", outcome: t.status || "",
+            date: r.date, chamber: r.chamber, motion: r.motion, result: r.result, counts: r.counts,
+            option: v.option, broke: (v.option === "yes" || v.option === "no") && line && v.option !== line,
+          });
+        });
+      });
+    });
+    Object.values(byMember).forEach((x) => x.records.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : a.bill.localeCompare(b.bill))));
+    return { byMember, rollCalls, bills: bills.filter((b) => (b.roll_calls || []).some((r) => r.votes?.length)).length };
+  }
+  const vr = { ch: "", cat: "", member: "", sort: "broke", dir: -1 };
+  function vrStats(id) {
+    const x = state.vr.byMember[id] || { records: [], sponsored: [] };
+    const recs = x.records.filter((r) => !vr.cat || r.category === vr.cat);
+    const n = (o) => recs.filter((r) => r.option === o).length;
+    const tri = Object.fromEntries((state.triage?.bills || []).map((t) => [t.identifier, t]));
+    const spons = [...new Set(x.sponsored)].filter((b) => !vr.cat || tri[b]?.category === vr.cat);
+    return { recs, yes: n("yes"), no: n("no"), nv: recs.length - n("yes") - n("no"), cast: n("yes") + n("no"),
+      broke: recs.filter((r) => r.broke).length, sponsored: spons.length, sponsoredList: spons };
+  }
+  function fillVrFilters() {
+    const cats = [...new Set((state.triage?.bills || []).filter((t) => t.tracked).map((t) => t.category).filter(Boolean))].sort();
+    $("vrCat").innerHTML = `<option value="">All tracked bills</option>` + cats.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+    const ms = active().slice().sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));
+    $("vrMember").innerHTML = `<option value="">Choose a member…</option>` + ms.map((m) =>
+      `<option value="${m.id}">${esc(m.name)} (${m.party}-LD${m.district}, ${m.chamber === "S" ? "Senate" : "House"})</option>`).join("");
+  }
+  const VOTE_LABEL = { yes: "Yes", no: "No", "not voting": "NV", excused: "Excused" };
+  function renderVrDetail() {
+    const m = state.data.members.find((x) => String(x.id) === String(vr.member));
+    if (!m) { $("vrDetail").innerHTML = ""; return; }
+    const st = vrStats(m.id);
+    const list = st.recs.length ? `<ul class="vr-list">${st.recs.map((r) => `<li>
+        <span class="d">${esc(r.date)}</span><span class="b">${esc(r.bill)}</span>
+        <span class="t">${esc(r.title)}<small>${esc([r.category, `${r.chamber === "S" ? "Senate" : "House"} ${r.result === "pass" ? "passed" : "failed"} ${r.counts?.yes ?? ""}–${r.counts?.no ?? ""}`, r.outcome ? "final: " + r.outcome : ""].filter(Boolean).join(" · "))}${r.broke ? " · <strong>against own party</strong>" : ""}</small></span>
+        <span class="vo ${r.option === "yes" || r.option === "no" ? esc(r.option) : ""}${r.broke ? " split" : ""}">${esc(VOTE_LABEL[r.option] || r.option)}</span></li>`).join("")}</ul>`
+      : `<p class="section-note" style="margin:0">No recorded floor votes on ${vr.cat ? "tracked bills in this category" : "tracked bills"}.</p>`;
+    $("vrDetail").innerHTML = `<article class="vr-card">
+      <h3>${esc(m.name)} <span class="chip ${esc(m.party)}">${esc(m.party)}</span><span class="mono" style="font-size:13px;color:var(--muted)">LD${m.district} · ${m.chamber === "S" ? "Senate" : "House"}</span></h3>
+      <div class="sum">${st.yes} yes · ${st.no} no · ${st.nv} not voting · ${st.broke} against own party${st.sponsored ? ` · sponsored ${st.sponsoredList.map(esc).join(", ")}` : ""}</div>
+      ${list}</article>`;
+  }
+  function renderRecords() {
+    if (!state.vr) return;
+    const rows = active().filter((m) => !vr.ch || m.chamber === vr.ch).map((m) => ({ m, ...vrStats(m.id) }));
+    const key = { name: (r) => lastName(r.m.name), district: (r) => r.m.district, party: (r) => r.m.party };
+    const get = key[vr.sort] || ((r) => r[vr.sort]);
+    rows.sort((a, b) => { const x = get(a), y = get(b); return (x < y ? -1 : x > y ? 1 : 0) * vr.dir || lastName(a.m.name).localeCompare(lastName(b.m.name)); });
+    $("vrCount").textContent = `${rows.length} members · ${state.vr.rollCalls} floor votes on ${state.vr.bills} tracked bills`;
+    $("vrRows").innerHTML = rows.map((r) => `<tr${String(r.m.id) === String(vr.member) ? ' class="sel"' : ""}>
+      <td><button class="who" data-vrpick="${r.m.id}">${esc(r.m.name)}</button>${r.m.leadership_title ? `<span class="title">${esc(r.m.leadership_title)}</span>` : ""}</td>
+      <td class="ld">${r.m.district}</td><td><span class="chip ${esc(r.m.party)}">${esc(r.m.party)}</span></td>
+      <td class="mono">${r.cast}</td><td class="mono">${r.yes}</td><td class="mono">${r.no}</td><td class="mono">${r.nv}</td>
+      <td class="mono">${r.broke || "—"}</td><td class="mono">${r.sponsored || "—"}</td></tr>`).join("");
+    document.querySelectorAll("#vrTable th[data-vsort]").forEach((th) =>
+      th.setAttribute("aria-sort", th.dataset.vsort === vr.sort ? (vr.dir === 1 ? "ascending" : "descending") : "none"));
+    $("vrSource").textContent = state.bills?.retrieved ? `Votes from Open States, retrieved ${state.bills.retrieved}. Members who left office mid-session aren't listed but their votes count toward their party's majority.` : "";
+    renderVrDetail();
+  }
+  function pickMember(id) {
+    vr.member = String(id || ""); $("vrMember").value = vr.member;
+    renderRecords();
+    if (vr.member) $("vrDetail").scrollIntoView({ block: "start", behavior: "smooth" });
+  }
+
+  const VIEWS = ["members", "districts", "map", "power", "bills", "records", "calendar", "centers", "updates", "leadership"];
   function showView() {
     const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "members";
     VIEWS.forEach((name) => {
@@ -1095,7 +1234,21 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     }));
     $("rows").addEventListener("click", (e) => {
       const b = e.target.closest("[data-copy]"); if (b) copy(b.dataset.copy, "Copied " + b.dataset.copy);
+      const v = e.target.closest("[data-vr]");
+      if (v) { location.hash = "records"; showView(); pickMember(v.dataset.vr); }
     });
+    document.querySelectorAll("[data-vrch]").forEach((b) => b.addEventListener("click", () => {
+      vr.ch = b.dataset.vrch;
+      document.querySelectorAll("[data-vrch]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      renderRecords();
+    }));
+    $("vrCat").addEventListener("change", (e) => { vr.cat = e.target.value; renderRecords(); });
+    $("vrMember").addEventListener("change", (e) => pickMember(e.target.value));
+    $("vrRows").addEventListener("click", (e) => { const b = e.target.closest("[data-vrpick]"); if (b) pickMember(b.dataset.vrpick); });
+    document.querySelectorAll("#vrTable th[data-vsort]").forEach((th) => th.addEventListener("click", () => {
+      vr.dir = vr.sort === th.dataset.vsort ? -vr.dir : (["name", "district", "party"].includes(th.dataset.vsort) ? 1 : -1);
+      vr.sort = th.dataset.vsort; renderRecords();
+    }));
     $("centerGrid").addEventListener("click", (e) => { const b = e.target.closest("[data-ld]"); if (b) goDistrict(b.dataset.ld); });
     $("copyEmails").addEventListener("click", () => {
       const emails = filtered().map((m) => m.email).filter(Boolean);
@@ -1143,6 +1296,10 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     $("sourceLine").innerHTML = `Source: <a href="${esc(data.source_url)}" target="_blank" rel="noopener">azleg.gov member roster</a>, retrieved ${esc(data.retrieved)}`;
     $("district").innerHTML += Array.from({ length: 30 }, (_, i) => `<option value="${i + 1}">LD ${i + 1}</option>`).join("");
     fillCommitteeSelect();
+    state.vr = state.bills ? buildVotingRecords() : null;
+    if (state.vr) fillVrFilters();
+    else $("vrRows").innerHTML = `<tr><td colspan="9" class="empty">No vote data yet. It appears after the bills refresh runs.</td></tr>`;
+    renderRecords();
     renderComposition(); renderTable(); renderFormer(); renderDistricts(); renderPower(); renderCenters(); renderCalendar(); renderUpdates(); renderCapitol(); renderMap(); fillBillFilters(); renderBills(); renderSources(); renderLeadership();
     wire(); showView();
   }
