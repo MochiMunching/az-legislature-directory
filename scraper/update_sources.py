@@ -1,14 +1,18 @@
 """
 Write data/sources.json: when each public data source was last refreshed.
 Runs at the end of every scheduled refresh; the site shows it on the Updates tab.
+Also rebuilds data/updates_feed.json (scraper/capitol_updates.py) for the
+"Latest from the Capitol" section, so the workflow file doesn't need a new step.
 
     python scraper/update_sources.py
 """
 import json
+import sys
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 DATA = ROOT / "data"
 
 
@@ -17,7 +21,18 @@ def load(name):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
 
 
+def refresh_updates_feed():
+    """Rebuild data/updates_feed.json. Never stops the rest of the refresh."""
+    try:
+        import capitol_updates
+        capitol_updates.main()
+    except Exception as e:  # one bad source can't break the site build
+        print(f"Capitol updates feed skipped: {type(e).__name__}: {e}")
+
+
 def main():
+    refresh_updates_feed()
+    feed = load("updates_feed.json")
     leg, sch, cen, chg = load("legislators.json"), load("schedule.json"), load("centers.json"), load("changes.json")
     bills, esop, elect, impact = load("bills.json"), load("esop_watch.json"), load("members_elect.json"), load("district_impact.json")
     src = [
@@ -37,6 +52,8 @@ def main():
          "refresh": "Automatic when an Open States key is set", "url": "https://open.pluralpolicy.com"},
         {"source": "ESOP watch", "what": "Bills mentioning employee ownership", "as_of": esop and esop.get("retrieved"),
          "refresh": "Automatic when an Open States key is set", "url": None},
+        {"source": "Capitol updates feed", "what": "Governor bill actions, budget reports, Capitol news, tracked bill actions",
+         "as_of": feed and feed.get("updated"), "refresh": "Automatic with each scheduled refresh", "url": None},
         {"source": "SBDC centers", "what": "Locations, counties served, district matches", "as_of": cen and cen.get("retrieved"),
          "refresh": "Manual if centers change", "url": "https://www.arizonasbdc.com/locations/"},
         {"source": "District boundaries", "what": "Official 2022 legislative map and 2020 population", "as_of": "2022 maps",

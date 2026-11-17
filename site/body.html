@@ -295,6 +295,17 @@ table.narrow { min-width: 620px; }
 .kind { justify-self: start; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; padding: 1px 6px; border-radius: 4px; background: var(--sunk); color: var(--muted); }
 .kind.left { background: var(--warn-bg); color: var(--warn-fg); }
 .kind.joined, .kind.new { background: var(--accent-soft); color: var(--accent); }
+.feed .src { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.feed .ttl { font-weight: 600; overflow-wrap: anywhere; }
+.feed .ttl a { color: inherit; }
+.feed .bl { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.feed .bc { font-family: var(--font-mono); font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--sunk); color: var(--muted); white-space: nowrap; }
+.feed .bc.t { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.feed .act { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.feed .act b { color: var(--fg); font-weight: 600; }
+.watch { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 10px 14px; font-size: 14px; }
+.watch summary { cursor: pointer; font-weight: 600; }
+.watch ul { margin: 8px 0 2px; padding-left: 18px; color: var(--muted); display: grid; gap: 4px; }
 .empty-card { border: 1px dashed var(--line); border-radius: 8px; padding: 16px; color: var(--muted); font-size: 14px; display: grid; gap: 8px; background: var(--surface); }
 .empty-card code { font-family: var(--font-mono); font-size: 12px; background: var(--sunk); padding: 1px 4px; border-radius: 3px; color: var(--fg); }
 .elect { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
@@ -469,7 +480,32 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
   </section>
 
   <section id="view-updates" role="tabpanel" aria-labelledby="tab-updates" hidden>
-    <div class="updates">
+    <h3 class="sub">Latest from the Capitol</h3>
+    <p class="section-note">Gathered automatically from the Governor's Office, the Arizona Mirror, Chamber Business News, the JLBC budget office and the tracked bills. Covers the last 60 days. News items appear only when they mention the Legislature, bills, budget or business.</p>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Show updates from">
+        <button type="button" data-upd="" aria-pressed="true">All</button>
+        <button type="button" data-upd="governor" aria-pressed="false">Governor</button>
+        <button type="button" data-upd="bills" aria-pressed="false">Tracked bills</button>
+        <button type="button" data-upd="news" aria-pressed="false">News</button>
+        <button type="button" data-upd="budget" aria-pressed="false">Budget</button>
+      </div>
+      <span class="count" id="capCount"></span>
+    </div>
+    <p class="section-note" id="capStatus"></p>
+    <ol class="changes feed" id="capFeed"></ol>
+    <details class="watch">
+      <summary>More places to watch (not automated)</summary>
+      <ul>
+        <li><a href="https://grrc.az.gov/" target="_blank" rel="noopener">Governor's Regulatory Review Council</a>: agency rules up for approval at each monthly meeting. The site blocks automated readers.</li>
+        <li><a href="https://azsos.gov/rules/arizona-administrative-register" target="_blank" rel="noopener">Arizona Administrative Register</a>: weekly notices of proposed and final agency rules.</li>
+        <li><a href="https://apps.azleg.gov/BillStatus/BillOverview" target="_blank" rel="noopener">Legislature bill status</a>: sign up for email alerts on individual bills.</li>
+        <li><a href="https://www.nfib.com/arizona/" target="_blank" rel="noopener">NFIB Arizona</a>: small business lobbying positions and key votes.</li>
+        <li><a href="https://azcapitoltimes.com/" target="_blank" rel="noopener">Arizona Capitol Times</a>: in-depth Capitol coverage (mostly behind a paywall).</li>
+        <li><a href="https://www.azchamber.com/" target="_blank" rel="noopener">Arizona Chamber of Commerce</a>: business priority bills and legislative scorecards.</li>
+      </ul>
+    </details>
+    <div class="updates" style="margin-top:28px">
       <div>
         <h3 class="sub">Incoming members</h3>
         <div id="incoming"></div>
@@ -747,6 +783,33 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
   }
 
   const KIND = { left: "Left office", joined: "Joined", updated: "Updated", committee: "Committee", baseline: "Baseline", new_legislature: "New legislature" };
+  const UPD_GROUP = { governor: "governor", bills: "bills", azmirror: "news", chamber: "news", jlbc: "budget" };
+  let updFilter = "";
+  function renderCapitol() {
+    const F = state.feed;
+    if (!F) {
+      $("capFeed").innerHTML = `<li><span class="when"></span><span class="det">The feed hasn't been built yet. It appears after the next scheduled refresh (or run <code>python scraper/capitol_updates.py</code>).</span></li>`;
+      $("capStatus").textContent = ""; $("capCount").textContent = "";
+      return;
+    }
+    const chips = (list) => (list || []).map((b) => `<span class="bc${b.tracked ? " t" : ""}" title="${b.tracked ? "Tracked bill" : ""}">${esc(b.bill)}</span>`).join("");
+    const hasTracked = (i) => [...(i.bills || []), ...(i.signed || []), ...(i.vetoed || [])].some((b) => b.tracked);
+    const items = (F.items || []).filter((i) => !updFilter || UPD_GROUP[i.feed] === updFilter || (updFilter === "bills" && hasTracked(i)));
+    $("capCount").textContent = `${items.length} item${items.length === 1 ? "" : "s"}`;
+    const bad = (F.sources || []).filter((s) => !s.ok);
+    $("capStatus").innerHTML = `Refreshed ${esc(F.updated || "")}.` + (bad.length
+      ? ` <span style="color:var(--warn-fg)">Couldn't reach ${bad.map((s) => `${esc(s.name)}${s.last_ok ? ` (last read ${esc(s.last_ok)})` : ""}`).join(", ")} this time; earlier items from ${bad.length === 1 ? "it are" : "them are"} kept.</span>` : "");
+    const act = (label, list) => list && list.length ? `<div class="act"><b>${label}:</b> ${list.map((b) =>
+      `<span class="bc${b.tracked ? " t" : ""}">${esc(b.bill)}</span>${b.title ? " " + esc(b.title) : ""}${b.veto_letter ? ` (<a href="${esc(b.veto_letter)}" target="_blank" rel="noopener">veto letter</a>)` : ""}`).join("; ")}</div>` : "";
+    $("capFeed").innerHTML = items.length ? items.map((i) => `<li><span class="when">${esc(i.date || "")}</span>
+      <div class="what"><span class="src">${esc(i.source_name || i.source)}</span>
+        <span class="ttl">${i.url ? `<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</span>
+        ${i.summary ? `<span class="det">${esc(i.summary)}</span>` : ""}
+        ${act("Signed", i.signed)}${act("Vetoed", i.vetoed)}
+        ${i.bills && i.bills.length ? `<div class="bl">${chips(i.bills)}</div>` : ""}</div></li>`).join("")
+      : `<li><span class="when"></span><span class="det">Nothing in this view from the last ${F.keep_days || 60} days.</span></li>`;
+  }
+
   function renderUpdates() {
     const ch = state.changes?.changes || [];
     $("changes").innerHTML = ch.length ? ch.map((c) => `<li>
@@ -763,7 +826,10 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
       return;
     }
     const counts = ["new", "switching", "returning"].map((s) => `${el.filter((e) => e.status === s).length} ${s}`).join(" · ");
-    $("incoming").innerHTML = `<p class="section-note">${counts}</p><div class="elect">${el.map((e) => `<div class="elect-row">
+    const status = state.elect?.results_status;
+    const statusNote = status && status !== "Certified results"
+      ? `<p class="section-note"><strong style="color:var(--fg)">${esc(status)}</strong></p>` : "";
+    $("incoming").innerHTML = `${statusNote}<p class="section-note">${counts}</p><div class="elect">${el.map((e) => `<div class="elect-row">
       <span class="ld">LD ${e.district}</span>
       <span><strong>${esc(e.name)}</strong> <span class="muted">${e.chamber === "S" ? "Senate" : "House"}${e.party ? " · " + esc(e.party) : ""}</span><br><span class="muted" style="font-size:12px">${esc(e.briefing)}</span></span>
       <span class="kind ${esc(e.status)}">${esc(e.status)}</span></div>`).join("")}</div>`;
@@ -1008,6 +1074,11 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     $("party").addEventListener("change", (e) => { state.party = e.target.value; renderTable(); });
     $("district").addEventListener("change", (e) => { state.district = e.target.value; renderTable(); });
     $("committee").addEventListener("change", (e) => { state.committee = e.target.value; renderTable(); });
+    document.querySelectorAll(".seg button[data-upd]").forEach((b) => b.addEventListener("click", () => {
+      updFilter = b.dataset.upd;
+      document.querySelectorAll(".seg button[data-upd]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      renderCapitol();
+    }));
     document.querySelectorAll(".seg button[data-ch]").forEach((b) => b.addEventListener("click", () => {
       state.ch = b.dataset.ch;
       document.querySelectorAll(".seg button[data-ch]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
@@ -1052,9 +1123,9 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
 
   }
 
-  function init([data, committees, centers, districtCenters, schedule, changes, elect, geo, impact, bills, esop, sources, triage]) {
+  function init([data, committees, centers, districtCenters, schedule, changes, elect, geo, impact, bills, esop, sources, triage, feed]) {
     state.sources = sources;
-    state.bills = bills; state.esop = esop; state.triage = triage;
+    state.bills = bills; state.esop = esop; state.triage = triage; state.feed = feed;
     state.geo = geo; state.impact = impact;
     state.pop = Object.fromEntries((geo?.features || []).map((f) => [f.properties.district, f.properties.population]));
     state.schedule = schedule; state.changes = changes; state.elect = elect;
@@ -1066,7 +1137,7 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     $("sourceLine").innerHTML = `Source: <a href="${esc(data.source_url)}" target="_blank" rel="noopener">azleg.gov member roster</a>, retrieved ${esc(data.retrieved)}`;
     $("district").innerHTML += Array.from({ length: 30 }, (_, i) => `<option value="${i + 1}">LD ${i + 1}</option>`).join("");
     fillCommitteeSelect();
-    renderComposition(); renderTable(); renderFormer(); renderDistricts(); renderPower(); renderCenters(); renderCalendar(); renderUpdates(); renderMap(); fillBillFilters(); renderBills(); renderSources(); renderLeadership();
+    renderComposition(); renderTable(); renderFormer(); renderDistricts(); renderPower(); renderCenters(); renderCalendar(); renderUpdates(); renderCapitol(); renderMap(); fillBillFilters(); renderBills(); renderSources(); renderLeadership();
     wire(); showView();
   }
 
@@ -1087,6 +1158,7 @@ footer .wrap { padding-block: 20px 32px; display: flex; flex-wrap: wrap; gap: 8p
     getJSON("data/esop_watch.json", true),
     getJSON("data/sources.json", true),
     getJSON("data/bill_triage.json", true),
+    getJSON("data/updates_feed.json", true),
   ]).then(init).catch(() => {
     $("rows").innerHTML = `<tr><td colspan="8" class="empty">Couldn't load data/legislators.json. Check that the file is in the repo's data folder, then reload.</td></tr>`;
   });
