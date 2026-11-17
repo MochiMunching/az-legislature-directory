@@ -51,6 +51,13 @@
       "url": null
     },
     {
+      "source": "Capitol updates feed",
+      "what": "Governor bill actions, budget reports, Capitol news, tracked bill actions",
+      "as_of": "2026-11-17",
+      "refresh": "Automatic with each scheduled refresh",
+      "url": null
+    },
+    {
       "source": "SBDC centers",
       "what": "Locations, counties served, district matches",
       "as_of": "2026-11-09",

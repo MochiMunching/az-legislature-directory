@@ -1,0 +1,390 @@
+{
+  "updated": "2026-11-17",
+  "keep_days": 60,
+  "sources": [
+    {
+      "id": "governor",
+      "name": "Governor's Office",
+      "url": "https://azgovernor.gov/news-releases",
+      "ok": true,
+      "count": 11,
+      "checked": "2026-11-17",
+      "last_ok": "2026-11-17"
+    },
+    {
+      "id": "azmirror",
+      "name": "Arizona Mirror",
+      "url": "https://azmirror.com",
+      "ok": true,
+      "count": 15,
+      "checked": "2026-11-17",
+      "last_ok": "2026-11-17"
+    },
+    {
+      "id": "chamber",
+      "name": "Chamber Business News",
+      "url": "https://chamberbusinessnews.com",
+      "ok": true,
+      "count": 9,
+      "checked": "2026-11-17",
+      "last_ok": "2026-11-17"
+    },
+    {
+      "id": "jlbc",
+      "name": "JLBC Monthly Fiscal Highlights",
+      "url": "https://www.azjlbc.gov",
+      "ok": true,
+      "count": 1,
+      "checked": "2026-11-17",
+      "last_ok": "2026-11-17"
+    },
+    {
+      "id": "bills",
+      "name": "Tracked bill actions",
+      "url": null,
+      "ok": true,
+      "count": 0,
+      "checked": "2026-11-17",
+      "last_ok": "2026-11-17"
+    }
+  ],
+  "items": [
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-11-16",
+      "title": "Arizona Submits Application to NASA to Host the U.S. Space Academy",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/11/arizona-submits-application-nasa-host-us-space-academy",
+      "feed": "governor"
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-16",
+      "title": "New World screwworm spreading rapidly across Southern states, including Arizona",
+      "url": "https://azmirror.com/2026/11/16/repub/new-world-screwworm-spreading-rapidly-across-southern-states-including-arizona/",
+      "summary": "A deadly flesh-eating parasite that can plague livestock, wildlife and pets continues to spread across the American Southwest. Officials detected the arrival of the New World screwworm in June — the first time in decades the pest had been s",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-16",
+      "title": "Fueled by Democratic gains, women will hold a record number of state legislative seats",
+      "url": "https://azmirror.com/2026/11/16/repub/fueled-by-democratic-gains-women-will-hold-a-record-of-state-legislative-seats/",
+      "summary": "The number of women serving in state legislatures will set a new record following strong Democratic performance in last week’s midterm elections. Though many races remain too close to call, an analysis by the Center for American Women and P",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-13",
+      "title": "Collections are coming for millions of student loans in default",
+      "url": "https://azmirror.com/2026/11/13/repub/collections-are-coming-for-millions-of-student-loans-in-default/",
+      "summary": "A long-postponed reckoning could be coming soon for millions of student loan borrowers who are now faced with garnished wages and seized tax refunds as soon as next year. Since pandemic forbearance finally expired last year, more than 9 mil",
+      "bills": []
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-11-12",
+      "title": "Governor Katie Hobbs Announces Chief Of Staff Transition, Appoints Chief Legal Officer Kori Lorick as Chief of Staff",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/11/governor-katie-hobbs-announces-chief-staff-transition-appoints",
+      "feed": "governor"
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-12",
+      "title": "Hobbs chief of staff to leave administration, former state elections director to replace him",
+      "url": "https://azmirror.com/2026/11/12/hobbs-chief-of-staff-to-leave-administration-former-state-elections-director-to-replace-him/",
+      "summary": "Arizona Gov. Katie Hobbs’ Chief of Staff Chad Campbell announced Thursday that he will resign from the administration at the end of November. Campbell, a one-time Democratic leader of the Arizona House of Representatives, has been Hobbs’ ch",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-11",
+      "title": "Arizona Democrats’ sweep gives them room to govern — and reasons for caution",
+      "url": "https://azmirror.com/2026/11/11/arizona-democrats-sweep-gives-them-room-to-govern-and-reasons-for-caution/",
+      "summary": "At the start of next year, Arizona Democrats will have the kind of power they haven’t seen in the Grand Canyon State since the Baby Boom. In the midterm election, Democrats won majorities in both chambers of the state legislature for the fi",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-11-11",
+      "title": "Veteran-owned defense manufacturer expands Mesa operations to meet growing military power demands",
+      "url": "https://chamberbusinessnews.com/2026/11/11/veteran-owned-defense-manufacturer-expands-mesa-operations-to-meet-growing-military-power-demands/?utm_source=rss&utm_medium=rss&utm_campaign=veteran-owned-defense-manufacturer-expands-mesa-operations-to-meet-growing-military-power-demands",
+      "summary": "An Arizona-based defense technology manufacturer is expanding its operations in Mesa as the U.S. military’s growing reliance on drones, artificial intelligence and other advanced battlefield systems drives demand for reliable, portable powe",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-10",
+      "title": "Arizona’s ‘new chapter’: Katie Hobbs celebrates a Democratic trifecta in Arizona",
+      "url": "https://azmirror.com/2026/11/10/arizonas-new-chapter-katie-hobbs-celebrates-a-democratic-trifecta-in-arizona/",
+      "summary": "Flanked by signs reading “trifecta together” and “the people’s majority,” Gov. Katie Hobbs vowed to deliver results for Arizonans now that voters have awarded her party control of state government. During a Tuesday morning news conference, ",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-10",
+      "title": "Here’s what we know about Democrats’ election agenda now that they are in power",
+      "url": "https://azmirror.com/2026/11/10/heres-what-we-know-about-democrats-election-agenda-now-that-they-are-in-power/",
+      "summary": "For decades, Arizona’s election and voting policies have been shaped largely by Republicans. After Democrats’ earth-shattering wins in the 2026 election, that’s about to change. Democrats have flipped the Arizona Legislature, with control o",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-10",
+      "title": "Commentary: Trump’s mass deportation has a hidden price tag for Arizona’s economy",
+      "url": "https://azmirror.com/2026/11/10/trumps-mass-deportation-has-a-hidden-price-tag-for-arizonas-economy/",
+      "summary": "A sharp increase in federal immigration arrests may have cost the U.S. hundreds of thousands of jobs last year, including jobs held by U.S.-born workers. New research from the Brookings Institution estimates that increased Immigration and C",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-09",
+      "title": "After being swept from power after 60 years, Arizona Republicans pick their leaders",
+      "url": "https://azmirror.com/2026/11/09/after-being-swept-from-power-after-60-years-arizona-republicans-pick-their-leaders/",
+      "summary": "Arizona’s severely diminished legislative Republican caucus has decided who will lead when its members become the minority party in January. On Monday, Arizona Senate Republicans elected longtime legislator Sen. John Kavanagh as minority le",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-07",
+      "title": "Sundareshan to be next Arizona Senate president",
+      "url": "https://azmirror.com/2026/11/06/sundareshan-to-be-next-arizona-senate-president/",
+      "summary": "On the heels of their historic win across the state, Democratic lawmakers announced Friday that Sen. Priya Sundareshan, D-Tucson, will be the president of the Arizona Senate where Democratic lawmakers will hold the majority for the first ti",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-06",
+      "title": "De Los Santos named Arizona’s first Democratic house speaker in 60 years",
+      "url": "https://azmirror.com/2026/11/06/de-los-santos-named-arizonas-first-democratic-house-speaker-in-60-years/",
+      "summary": "Democrats will soon control the Arizona legislature for the first time in 60 years and have chosen Rep. Oscar De Los Santos to lead them at the Arizona House of Representatives come January. De Los Santos, D-Phoenix, was elected by the Hous",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-06",
+      "title": "Democrats romped in state elections. What will they do with their newfound power?",
+      "url": "https://azmirror.com/2026/11/06/repub/democrats-romped-in-state-elections-what-will-they-do-with-their-newfound-power/",
+      "summary": "The blue wave that swept across Tuesday’s midterm election will deliver Democrats new power over state government, giving them the opportunity to advance long-sought policy changes. Democrats flipped hundreds of seats, won control of severa",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-05",
+      "title": "Shah triumphs over Feely in Arizona’s first congressional district",
+      "url": "https://azmirror.com/2026/11/05/shah-triumphs-over-feely-in-arizonas-first-congressional-district/",
+      "summary": "The Associated Press called the race for one of Arizona’s most competitive congressional seats for former state lawmaker and ER physician Amish Shah, upending years of Republican control in his second bid for Congress. As of Thursday aftern",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-05",
+      "title": "‘It’s a daunting task’: Democrats prep to lead Arizona legislature for first time in 60 years",
+      "url": "https://azmirror.com/2026/11/04/its-a-daunting-task-democrats-prep-to-lead-arizona-legislature-for-first-time-in-60-years/",
+      "summary": "For the first time in six decades, Democrats control the Arizona legislature and will be able to turn their policy priorities into state law. But doing so without ostracizing the Republican and independent voters who helped elect them may p",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-04",
+      "title": "Mixed results on the 8 ballot measures Republicans put before voters",
+      "url": "https://azmirror.com/2026/11/04/mixed-results-on-the-8-ballot-measures-republicans-put-before-voters/",
+      "summary": "Arizona voters weighed in on multiple ballot measures on Tuesday that were sent to the ballot by GOP lawmakers, and they overwhelmingly agreed with Republicans that taxes on groceries should be prohibited, but appear to have rejected other ",
+      "bills": []
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-11-02",
+      "title": "Governor Katie Hobbs Declares Statewide State of Emergency",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/11/governor-katie-hobbs-declares-statewide-state-emergency",
+      "feed": "governor"
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-30",
+      "title": "Governor Katie Hobbs visits Heber-Overgaard, Declares State of Emergency for Navajo, Coconino Counties Due to Extreme Weather Events",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/governor-katie-hobbs-visits-heber-overgaard-declares-state",
+      "feed": "governor"
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-29",
+      "title": "Phoenix leaders highlight innovation, collaboration as keys to sustaining economic growth",
+      "url": "https://chamberbusinessnews.com/2026/10/29/phoenix-leaders-highlight-innovation-collaboration-as-keys-to-sustaining-economic-growth/?utm_source=rss&utm_medium=rss&utm_campaign=phoenix-leaders-highlight-innovation-collaboration-as-keys-to-sustaining-economic-growth",
+      "summary": "Phoenix has emerged as a national leader in advanced manufacturing and technology investment, but sustaining that momentum will require more than attracting new companies and creating jobs. That was a central message from business, governme",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-27",
+      "title": "Boeing honored for commitment to Arizona education, workforce development",
+      "url": "https://chamberbusinessnews.com/2026/10/27/boeing-honored-for-commitment-to-arizona-education-workforce-development/?utm_source=rss&utm_medium=rss&utm_campaign=boeing-honored-for-commitment-to-arizona-education-workforce-development",
+      "summary": "The Boeing Company’s efforts to strengthen Arizona’s talent pipeline and prepare students for careers in aerospace and advanced manufacturing earned the company statewide recognition last week from Education Forward Arizona. Boeing received",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-26",
+      "title": "Intel advances Chandler chip factory, targets operations by end of 2028",
+      "url": "https://chamberbusinessnews.com/2026/10/26/intel-advances-chandler-chip-factory-targets-operations-by-end-of-2028/?utm_source=rss&utm_medium=rss&utm_campaign=intel-advances-chandler-chip-factory-targets-operations-by-end-of-2028",
+      "summary": "Intel says construction and equipment installation are underway at its Fab 62 facility in Chandler, with operations expected to begin by the end of 2028, another expansion of Arizona’s role in American semiconductor manufacturing. The facto",
+      "bills": []
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-23",
+      "title": "Governor Katie Hobbs Invests $16 Million to Address Homelessness through Expanded Shelter and Services",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/governor-katie-hobbs-invests-16-million-address-homelessness",
+      "feed": "governor"
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-20",
+      "title": "Governor Katie Hobbs Delivers Utility Assistance to Nearly 30,000 Arizona Families",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/governor-katie-hobbs-delivers-utility-assistance-nearly-30000",
+      "feed": "governor"
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-16",
+      "title": "Governor Katie Hobbs and ADWR Join Nevada in Colorado River Lawsuit to Block Federal Cuts to Lower Basin Water Supplies",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/governor-katie-hobbs-and-adwr-join-nevada-colorado-river",
+      "feed": "governor"
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-15",
+      "title": "Applications Open for Upcoming Vacancy on the Yuma County Superior Court",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/applications-open-upcoming-vacancy-yuma-county-superior-court",
+      "feed": "governor"
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-15",
+      "title": "Governor Katie Hobbs Announces Appointment of Dawn R. Walton and Nicole P. Savel to Pima County Superior Court",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/governor-katie-hobbs-announces-appointment-dawn-r-walton-and",
+      "feed": "governor"
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-14",
+      "title": "NEW: Governor Hobbs’ Prescription Drug Discount Program AZRx Saves Arizonans Average of $249 Per Prescription",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/new-governor-hobbs-prescription-drug-discount-program-azrx",
+      "feed": "governor"
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-10-13",
+      "title": "Governor Katie Hobbs Announces Appointment of Sheena S. Chiang and Alexander W. Samuels to Arizona Court of Appeals, Division One",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/governor-katie-hobbs-announces-appointment-sheena-s-chiang-and",
+      "feed": "governor"
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-12",
+      "title": "Spotlight AZ: Sundt",
+      "url": "https://chamberbusinessnews.com/2026/10/12/spotlight-az-sundt/?utm_source=rss&utm_medium=rss&utm_campaign=spotlight-az-sundt",
+      "summary": "From transportation and water infrastructure to advanced manufacturing facilities, Sundt Construction has helped build Arizona’s economy since 1929. Headquartered in Tempe, the 100% employee-owned company is investing in new facilities, wor",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-07",
+      "title": "Zeldin announces EPA proposal to support cleaner air and business growth in Arizona",
+      "url": "https://chamberbusinessnews.com/2026/10/07/zeldin-announces-epa-proposal-to-support-cleaner-air-and-business-growth-in-arizona/?utm_source=rss&utm_medium=rss&utm_campaign=zeldin-announces-epa-proposal-to-support-cleaner-air-and-business-growth-in-arizona",
+      "summary": "EPA Administrator Lee Zeldin visited Arizona Tuesday to announce proposed approval of Maricopa County Rule 204, an emissions-reduction program intended to help businesses invest and expand while improving air quality. The announcement follo",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-05",
+      "title": "Arizona’s National Civics Bee representative heads to Washington with preparation, persistence and state pride",
+      "url": "https://chamberbusinessnews.com/2026/10/05/arizonas-national-civics-bee-representative-heads-to-washington-with-preparation-persistence-and-state-pride/?utm_source=rss&utm_medium=rss&utm_campaign=arizonas-national-civics-bee-representative-heads-to-washington-with-preparation-persistence-and-state-pride",
+      "summary": "Arizona has a champion headed to Washington, D.C., and he’s bringing three years of preparation, a passion for civics and a few ideas about making housing more affordable. Shaurya Arora, Arizona’s state Civics Bee champion, will represent t",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-02",
+      "title": "Resolution Copper project on track after Ninth Circuit decision",
+      "url": "https://chamberbusinessnews.com/2026/10/02/resolution-copper-project-on-track-after-ninth-circuit-decision/?utm_source=rss&utm_medium=rss&utm_campaign=resolution-copper-project-on-track-after-ninth-circuit-decision",
+      "summary": "A federal appeals court has left in place a ruling allowing the land exchange tied to the Resolution Copper project to move forward, rejecting a request to reconsider the case. The Sept. 29 decision means the Ninth Circuit will not rehear t",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Chamber Business News",
+      "feed": "chamber",
+      "date": "2026-10-01",
+      "title": "Arizona appeals court upholds rejection of Marana data center referenda",
+      "url": "https://chamberbusinessnews.com/2026/10/01/arizona-appeals-court-upholds-rejection-of-marana-data-center-referenda/?utm_source=rss&utm_medium=rss&utm_campaign=arizona-appeals-court-upholds-rejection-of-marana-data-center-referenda",
+      "summary": "The Arizona Court of Appeals, Division Two has upheld the rejection of two referendum petitions challenging zoning approvals for a proposed Marana data center project, ruling that the petitions failed to meet Arizona’s strict legal requirem",
+      "bills": []
+    },
+    {
+      "source": "budget",
+      "source_name": "JLBC",
+      "date": "2026-10-01",
+      "title": "Monthly Fiscal Highlights, October 2026",
+      "url": "https://www.azjlbc.gov/mfh/mfh-oct-26.pdf",
+      "summary": "Nonpartisan budget staff report: state revenue against the budget forecast, plus agency reports.",
+      "feed": "jlbc"
+    }
+  ]
+}
