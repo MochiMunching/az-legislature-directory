@@ -1,7 +1,7 @@
 {
   "source": "data/bill_list.csv (Open States search + scraper/triage_bills.py)",
   "session": "57th-2nd-regular",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "bills": [
     {
       "identifier": "HB 2289",
