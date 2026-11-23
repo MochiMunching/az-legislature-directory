@@ -1,11 +1,10 @@
 name: Refresh public data
 
-# Roster daily on weekdays during session (Januaryâ€“June), weekly on Mondays otherwise.
+# Runs every day, all year.
 # Times are 6:17 AM Arizona time (13:17 UTC; Arizona doesn't observe daylight saving).
 on:
   schedule:
-    - cron: "17 13 * 1-6 1-5"
-    - cron: "17 13 * 7-12 1"
+    - cron: "17 13 * * *"
   workflow_dispatch:
     inputs:
       committees:
