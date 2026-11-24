@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-24",
  "bills": [
   {
    "bill": "HB 2289",
@@ -126,7 +126,7 @@
    "bill": "HB 2254",
    "title": "special plate; small business advocate",
    "latest_action": "2026-01-20",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },
@@ -204,7 +204,7 @@
    "bill": "HB 2747",
    "title": "income tax; subtraction; small businesses",
    "latest_action": "2026-01-22",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },
@@ -256,7 +256,7 @@
    "bill": "HB 2768",
    "title": "interchange fees; payment card transactions",
    "latest_action": "2026-01-26",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },
@@ -326,7 +326,7 @@
    "bill": "HB 2988",
    "title": "municipal tax increment financing; infrastructure",
    "latest_action": "2026-02-09",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },
@@ -334,7 +334,7 @@
    "bill": "HB 4007",
    "title": "municipal tax increment financing",
    "latest_action": "2026-02-09",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },
@@ -373,7 +373,7 @@
    "bill": "SB 1301",
    "title": "business relocation; notice; penalty",
    "latest_action": "2026-01-26",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },
@@ -381,7 +381,7 @@
    "bill": "SB 1371",
    "title": "commerce authority; qualified facility; definition",
    "latest_action": "2026-02-03",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },
@@ -425,7 +425,7 @@
    "bill": "SB 1799",
    "title": "commerce authority; tax incentives; certification",
    "latest_action": "2026-02-09",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-24",
    "docs": [],
    "error": "no summary or fact sheet found"
   },

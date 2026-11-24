@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-24",
   "keep_days": 60,
   "sources": [
     {
@@ -8,8 +8,8 @@
       "url": "https://azgovernor.gov/news-releases",
       "ok": true,
       "count": 11,
-      "checked": "2026-11-17",
-      "last_ok": "2026-11-17"
+      "checked": "2026-11-24",
+      "last_ok": "2026-11-24"
     },
     {
       "id": "azmirror",
@@ -17,8 +17,8 @@
       "url": "https://azmirror.com",
       "ok": true,
       "count": 15,
-      "checked": "2026-11-17",
-      "last_ok": "2026-11-17"
+      "checked": "2026-11-24",
+      "last_ok": "2026-11-24"
     },
     {
       "id": "chamber",
@@ -26,8 +26,8 @@
       "url": "https://chamberbusinessnews.com",
       "ok": true,
       "count": 9,
-      "checked": "2026-11-17",
-      "last_ok": "2026-11-17"
+      "checked": "2026-11-24",
+      "last_ok": "2026-11-24"
     },
     {
       "id": "jlbc",
@@ -35,8 +35,8 @@
       "url": "https://www.azjlbc.gov",
       "ok": true,
       "count": 1,
-      "checked": "2026-11-17",
-      "last_ok": "2026-11-17"
+      "checked": "2026-11-24",
+      "last_ok": "2026-11-24"
     },
     {
       "id": "bills",
@@ -44,11 +44,59 @@
       "url": null,
       "ok": true,
       "count": 0,
-      "checked": "2026-11-17",
-      "last_ok": "2026-11-17"
+      "checked": "2026-11-24",
+      "last_ok": "2026-11-24"
     }
   ],
   "items": [
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-24",
+      "title": "Democratic Senate majority looks to restore permanent early voter list, nix school funding cap",
+      "url": "https://azmirror.com/2026/11/23/democratic-senate-majority-looks-to-restore-permanent-early-voter-list-nix-school-funding-cap/",
+      "summary": "The first bills Democrats in the Arizona Senate proposed after winning a legislative majority earlier this month are aimed at making voting more accessible and would remove a decades-old barrier that has in recent years made it more difficu",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-23",
+      "title": "22 states sue feds over rule stripping housing aid from mixed-status immigrant families",
+      "url": "https://azmirror.com/2026/11/23/repub/22-states-sue-feds-over-rule-stripping-housing-aid-from-mixed-status-immigrant-families/",
+      "summary": "A coalition of 22 states is suing to block a federal rule change that would strip housing assistance from “mixed-status” families — those including U.S. citizens and people without legal immigration status. Under the U.S. Department of Hous",
+      "bills": []
+    },
+    {
+      "source": "governor",
+      "source_name": "Governor's Office",
+      "date": "2026-11-20",
+      "title": "Governor Katie Hobbs Announces Funding for Infrastructure Projects in 15 Arizona Communities",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/11/governor-katie-hobbs-announces-funding-infrastructure-projects",
+      "feed": "governor"
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-19",
+      "title": "Incoming Democratic leader promises a more respectful Arizona Legislature",
+      "url": "https://azmirror.com/2026/11/18/incoming-democratic-leader-promises-more-a-more-respectful-arizona-legislature/",
+      "summary": "It will be a whole new world in the coming year with Democrats at the helm of the Arizona Legislature, and one of the favorite punching bags for Republicans at Capitol is hopeful that will mean a shift toward collegiality. “By God, I hope i",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-17",
+      "title": "Women-powered midterm wins could lower energy bills and fight data centers",
+      "url": "https://azmirror.com/2026/11/17/women-powered-midterm-wins-could-lower-energy-bills-and-fight-data-centers/",
+      "summary": "Last November, two gubernatorial elections foreshadowed just how fed up Americans were becoming with rising electricity costs and the proliferation of data centers. Virginians elected Abigail Spanberger, a Democrat who flipped the seat blue",
+      "bills": []
+    },
     {
       "source": "governor",
       "source_name": "Governor's Office",
@@ -186,52 +234,21 @@
       "bills": []
     },
     {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-06",
-      "title": "Democrats romped in state elections. What will they do with their newfound power?",
-      "url": "https://azmirror.com/2026/11/06/repub/democrats-romped-in-state-elections-what-will-they-do-with-their-newfound-power/",
-      "summary": "The blue wave that swept across Tuesday’s midterm election will deliver Democrats new power over state government, giving them the opportunity to advance long-sought policy changes. Democrats flipped hundreds of seats, won control of severa",
-      "bills": []
-    },
-    {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-05",
-      "title": "Shah triumphs over Feely in Arizona’s first congressional district",
-      "url": "https://azmirror.com/2026/11/05/shah-triumphs-over-feely-in-arizonas-first-congressional-district/",
-      "summary": "The Associated Press called the race for one of Arizona’s most competitive congressional seats for former state lawmaker and ER physician Amish Shah, upending years of Republican control in his second bid for Congress. As of Thursday aftern",
-      "bills": []
-    },
-    {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-05",
-      "title": "‘It’s a daunting task’: Democrats prep to lead Arizona legislature for first time in 60 years",
-      "url": "https://azmirror.com/2026/11/04/its-a-daunting-task-democrats-prep-to-lead-arizona-legislature-for-first-time-in-60-years/",
-      "summary": "For the first time in six decades, Democrats control the Arizona legislature and will be able to turn their policy priorities into state law. But doing so without ostracizing the Republican and independent voters who helped elect them may p",
-      "bills": []
-    },
-    {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-04",
-      "title": "Mixed results on the 8 ballot measures Republicans put before voters",
-      "url": "https://azmirror.com/2026/11/04/mixed-results-on-the-8-ballot-measures-republicans-put-before-voters/",
-      "summary": "Arizona voters weighed in on multiple ballot measures on Tuesday that were sent to the ballot by GOP lawmakers, and they overwhelmingly agreed with Republicans that taxes on groceries should be prohibited, but appear to have rejected other ",
-      "bills": []
-    },
-    {
       "source": "governor",
       "source_name": "Governor's Office",
       "date": "2026-11-02",
       "title": "Governor Katie Hobbs Declares Statewide State of Emergency",
       "url": "https://azgovernor.gov/office-arizona-governor/news/2026/11/governor-katie-hobbs-declares-statewide-state-emergency",
       "feed": "governor"
+    },
+    {
+      "source": "budget",
+      "source_name": "JLBC",
+      "date": "2026-11-01",
+      "title": "Monthly Fiscal Highlights, November 2026",
+      "url": "https://www.azjlbc.gov/mfh/mfh-nov-26.pdf",
+      "summary": "Nonpartisan budget staff report: state revenue against the budget forecast, plus agency reports.",
+      "feed": "jlbc"
     },
     {
       "source": "governor",
@@ -320,14 +337,6 @@
       "feed": "governor"
     },
     {
-      "source": "governor",
-      "source_name": "Governor's Office",
-      "date": "2026-10-13",
-      "title": "Governor Katie Hobbs Announces Appointment of Sheena S. Chiang and Alexander W. Samuels to Arizona Court of Appeals, Division One",
-      "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/governor-katie-hobbs-announces-appointment-sheena-s-chiang-and",
-      "feed": "governor"
-    },
-    {
       "source": "news",
       "source_name": "Chamber Business News",
       "feed": "chamber",
@@ -376,15 +385,6 @@
       "url": "https://chamberbusinessnews.com/2026/10/01/arizona-appeals-court-upholds-rejection-of-marana-data-center-referenda/?utm_source=rss&utm_medium=rss&utm_campaign=arizona-appeals-court-upholds-rejection-of-marana-data-center-referenda",
       "summary": "The Arizona Court of Appeals, Division Two has upheld the rejection of two referendum petitions challenging zoning approvals for a proposed Marana data center project, ruling that the petitions failed to meet Arizona’s strict legal requirem",
       "bills": []
-    },
-    {
-      "source": "budget",
-      "source_name": "JLBC",
-      "date": "2026-10-01",
-      "title": "Monthly Fiscal Highlights, October 2026",
-      "url": "https://www.azjlbc.gov/mfh/mfh-oct-26.pdf",
-      "summary": "Nonpartisan budget staff report: state revenue against the budget forecast, plus agency reports.",
-      "feed": "jlbc"
     }
   ]
 }
