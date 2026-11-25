@@ -1,6 +1,16 @@
 {
   "changes": [
     {
+      "date": "2026-11-25",
+      "kind": "left",
+      "member_id": 2338,
+      "name": "Stephanie Stahl Hamilton",
+      "chamber": "H",
+      "district": 21,
+      "party": "D",
+      "detail": "Resigned on 11/28/26 with no reason given"
+    },
+    {
       "date": "2026-11-09",
       "kind": "baseline",
       "member_id": null,

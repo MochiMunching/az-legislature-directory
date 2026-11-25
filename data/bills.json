@@ -1,6 +1,6 @@
 {
   "source": "Open States API v3",
-  "retrieved": "2026-11-24",
+  "retrieved": "2026-11-25",
   "session": "58th-1st-regular",
   "bills": [
     {
@@ -379,7 +379,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -1099,7 +1099,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -1797,7 +1797,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -2125,7 +2125,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -2715,7 +2715,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -3598,7 +3598,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -4138,7 +4138,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -4999,7 +4999,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -5754,7 +5754,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -6255,7 +6255,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -6756,7 +6756,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -7253,7 +7253,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -7981,7 +7981,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -8536,7 +8536,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -9052,7 +9052,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -9629,7 +9629,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -10125,7 +10125,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -10924,7 +10924,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -11567,7 +11567,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -12250,7 +12250,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "not voting",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -12648,7 +12648,7 @@
           "name": "Stephanie Stahl Hamilton",
           "primary": false,
           "classification": "cosponsor",
-          "member_id": 2338
+          "member_id": null
         }
       ],
       "roll_calls": [],
@@ -13027,7 +13027,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -13567,7 +13567,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -14594,7 +14594,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -15862,7 +15862,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -16362,7 +16362,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -16998,7 +16998,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -17665,7 +17665,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -18317,7 +18317,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -18677,7 +18677,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -19201,7 +19201,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -19671,7 +19671,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -20162,7 +20162,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -20707,7 +20707,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -21051,7 +21051,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -21551,7 +21551,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -22205,7 +22205,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -22705,7 +22705,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -23537,7 +23537,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -24227,7 +24227,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -25134,7 +25134,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -26106,7 +26106,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -27789,7 +27789,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -28531,7 +28531,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -29887,7 +29887,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "no",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",
@@ -30410,7 +30410,7 @@
             {
               "name": "Stephanie Stahl Hamilton",
               "option": "yes",
-              "member_id": 2338
+              "member_id": null
             },
             {
               "name": "James Taylor",

@@ -2,7 +2,7 @@
   "legislature": 57,
   "session_id": 130,
   "session_label": "",
-  "retrieved": "2026-11-24",
+  "retrieved": "2026-11-25",
   "source_url": "https://www.azleg.gov/memberroster/",
   "members": [
     {
@@ -1810,11 +1810,11 @@
       "district": 21,
       "party": "D",
       "leadership_title": null,
-      "email": "sstahlhamilton@azleg.gov",
-      "room": "Room 333",
-      "phone": "(602) 926-3279",
-      "status": "active",
-      "status_note": null,
+      "email": null,
+      "room": null,
+      "phone": null,
+      "status": "resigned",
+      "status_note": "Resigned on 11/28/26 with no reason given",
       "committees": [
         {
           "name": "Appropriations",

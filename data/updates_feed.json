@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "keep_days": 60,
   "sources": [
     {
@@ -8,8 +8,8 @@
       "url": "https://azgovernor.gov/news-releases",
       "ok": true,
       "count": 11,
-      "checked": "2026-11-24",
-      "last_ok": "2026-11-24"
+      "checked": "2026-11-25",
+      "last_ok": "2026-11-25"
     },
     {
       "id": "azmirror",
@@ -17,8 +17,8 @@
       "url": "https://azmirror.com",
       "ok": true,
       "count": 15,
-      "checked": "2026-11-24",
-      "last_ok": "2026-11-24"
+      "checked": "2026-11-25",
+      "last_ok": "2026-11-25"
     },
     {
       "id": "chamber",
@@ -26,8 +26,8 @@
       "url": "https://chamberbusinessnews.com",
       "ok": true,
       "count": 9,
-      "checked": "2026-11-24",
-      "last_ok": "2026-11-24"
+      "checked": "2026-11-25",
+      "last_ok": "2026-11-25"
     },
     {
       "id": "jlbc",
@@ -35,8 +35,8 @@
       "url": "https://www.azjlbc.gov",
       "ok": true,
       "count": 1,
-      "checked": "2026-11-24",
-      "last_ok": "2026-11-24"
+      "checked": "2026-11-25",
+      "last_ok": "2026-11-25"
     },
     {
       "id": "bills",
@@ -44,11 +44,51 @@
       "url": null,
       "ok": true,
       "count": 0,
-      "checked": "2026-11-24",
-      "last_ok": "2026-11-24"
+      "checked": "2026-11-25",
+      "last_ok": "2026-11-25"
     }
   ],
   "items": [
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-25",
+      "title": "GOP state senator asks federal court to quash Clean Elections subpoena in campaign finance probe",
+      "url": "https://azmirror.com/2026/11/25/jake-hoffman-asks-federal-court-to-quash-clean-elections-subpoena-in-campaign-finance-probe/",
+      "summary": "Republican state Sen. Jake Hoffman says the regulators who oversee Arizona’s public campaign finance system are unconstitutionally asking him to disclose information on his political clients, and he wants a federal judge to quash a subpoena",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-25",
+      "title": "US economy heats up on AI investment, consumer spending",
+      "url": "https://azmirror.com/2026/11/25/repub/us-economy-heats-up-on-ai-investment-consumer-spending/",
+      "summary": "The U.S. economy grew at an unexpectedly high annual rate of 4.3% in the third quarter, the biggest bump in three years, federal data released Wednesday shows. It raises the likelihood of interest rate hikes that make borrowing for homes an",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-25",
+      "title": "Sponsored Commentary: Immigrant talent powers the American economy",
+      "url": "https://azmirror.com/2026/11/25/immigrant-talent-powers-the-american-economy/",
+      "summary": "At 1 a.m., logistics workers in Kentucky start the night shift at a fulfillment center, packing and loading boxes for morning deliveries. (Photo by Getty / Me 3645 Studio) At 4 a.m., farm workers in Iowa walk their cows to the milking parlo",
+      "bills": []
+    },
+    {
+      "source": "news",
+      "source_name": "Arizona Mirror",
+      "feed": "azmirror",
+      "date": "2026-11-24",
+      "title": "Anti-abortion groups ask to defend abortion restrictions in place of Republican legislative leaders",
+      "url": "https://azmirror.com/2026/11/24/anti-abortion-groups-ask-to-defend-abortion-restrictions-in-place-of-republican-legislative-leaders/",
+      "summary": "Anti-abortion groups are petitioning the state appellate court to let them defend a series of Arizona laws that make it harder for women to obtain an abortion, in the hopes of keeping the case alive even when Republican lawmakers lose contr",
+      "bills": []
+    },
     {
       "source": "news",
       "source_name": "Arizona Mirror",
@@ -191,46 +231,6 @@
       "title": "Here’s what we know about Democrats’ election agenda now that they are in power",
       "url": "https://azmirror.com/2026/11/10/heres-what-we-know-about-democrats-election-agenda-now-that-they-are-in-power/",
       "summary": "For decades, Arizona’s election and voting policies have been shaped largely by Republicans. After Democrats’ earth-shattering wins in the 2026 election, that’s about to change. Democrats have flipped the Arizona Legislature, with control o",
-      "bills": []
-    },
-    {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-10",
-      "title": "Commentary: Trump’s mass deportation has a hidden price tag for Arizona’s economy",
-      "url": "https://azmirror.com/2026/11/10/trumps-mass-deportation-has-a-hidden-price-tag-for-arizonas-economy/",
-      "summary": "A sharp increase in federal immigration arrests may have cost the U.S. hundreds of thousands of jobs last year, including jobs held by U.S.-born workers. New research from the Brookings Institution estimates that increased Immigration and C",
-      "bills": []
-    },
-    {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-09",
-      "title": "After being swept from power after 60 years, Arizona Republicans pick their leaders",
-      "url": "https://azmirror.com/2026/11/09/after-being-swept-from-power-after-60-years-arizona-republicans-pick-their-leaders/",
-      "summary": "Arizona’s severely diminished legislative Republican caucus has decided who will lead when its members become the minority party in January. On Monday, Arizona Senate Republicans elected longtime legislator Sen. John Kavanagh as minority le",
-      "bills": []
-    },
-    {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-07",
-      "title": "Sundareshan to be next Arizona Senate president",
-      "url": "https://azmirror.com/2026/11/06/sundareshan-to-be-next-arizona-senate-president/",
-      "summary": "On the heels of their historic win across the state, Democratic lawmakers announced Friday that Sen. Priya Sundareshan, D-Tucson, will be the president of the Arizona Senate where Democratic lawmakers will hold the majority for the first ti",
-      "bills": []
-    },
-    {
-      "source": "news",
-      "source_name": "Arizona Mirror",
-      "feed": "azmirror",
-      "date": "2026-11-06",
-      "title": "De Los Santos named Arizona’s first Democratic house speaker in 60 years",
-      "url": "https://azmirror.com/2026/11/06/de-los-santos-named-arizonas-first-democratic-house-speaker-in-60-years/",
-      "summary": "Democrats will soon control the Arizona legislature for the first time in 60 years and have chosen Rep. Oscar De Los Santos to lead them at the Arizona House of Representatives come January. De Los Santos, D-Phoenix, was elected by the Hous",
       "bills": []
     },
     {
