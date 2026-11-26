@@ -1,6 +1,6 @@
 {
   "election": "2026-11-03 general election",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "source": "data/members_elect.csv (from Secretary of State results)",
   "results_status": "Unofficial results from the Arizona Secretary of State as of Nov 13, 2026, 6:49 PM. The state canvass (certification) is due Nov 23, 2026; this list will be replaced with certified results then.",
   "members_elect": [
