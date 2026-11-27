@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "sources": [
     {
       "source": "Member roster",
       "what": "Names, districts, contact details, leadership",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "refresh": "Automatic: weekdays January\u2013June, Mondays otherwise",
       "url": "https://www.azleg.gov/memberroster/"
     },
@@ -32,28 +32,28 @@
     {
       "source": "Members-elect",
       "what": "November 3 winners, new or returning",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "refresh": "Manual from certified results",
       "url": null
     },
     {
       "source": "Bills and votes",
       "what": "Tracked bills, sponsors, roll calls",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "refresh": "Automatic when an Open States key is set",
       "url": "https://open.pluralpolicy.com"
     },
     {
       "source": "ESOP watch",
       "what": "Bills mentioning employee ownership",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "refresh": "Automatic when an Open States key is set",
       "url": null
     },
     {
       "source": "Capitol updates feed",
       "what": "Governor bill actions, budget reports, Capitol news, tracked bill actions",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-27",
       "refresh": "Automatic with each scheduled refresh",
       "url": null
     },

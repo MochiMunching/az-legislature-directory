@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "keep_days": 60,
   "sources": [
     {
@@ -8,8 +8,8 @@
       "url": "https://azgovernor.gov/news-releases",
       "ok": true,
       "count": 11,
-      "checked": "2026-11-26",
-      "last_ok": "2026-11-26"
+      "checked": "2026-11-27",
+      "last_ok": "2026-11-27"
     },
     {
       "id": "azmirror",
@@ -17,8 +17,8 @@
       "url": "https://azmirror.com",
       "ok": true,
       "count": 15,
-      "checked": "2026-11-26",
-      "last_ok": "2026-11-26"
+      "checked": "2026-11-27",
+      "last_ok": "2026-11-27"
     },
     {
       "id": "chamber",
@@ -26,8 +26,8 @@
       "url": "https://chamberbusinessnews.com",
       "ok": true,
       "count": 9,
-      "checked": "2026-11-26",
-      "last_ok": "2026-11-26"
+      "checked": "2026-11-27",
+      "last_ok": "2026-11-27"
     },
     {
       "id": "jlbc",
@@ -35,8 +35,8 @@
       "url": "https://www.azjlbc.gov",
       "ok": true,
       "count": 1,
-      "checked": "2026-11-26",
-      "last_ok": "2026-11-26"
+      "checked": "2026-11-27",
+      "last_ok": "2026-11-27"
     },
     {
       "id": "bills",
@@ -44,8 +44,8 @@
       "url": null,
       "ok": true,
       "count": 0,
-      "checked": "2026-11-26",
-      "last_ok": "2026-11-26"
+      "checked": "2026-11-27",
+      "last_ok": "2026-11-27"
     }
   ],
   "items": [
